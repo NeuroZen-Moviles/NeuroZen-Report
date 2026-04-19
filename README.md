@@ -85,29 +85,11 @@ A continuación, se presentan las evidencias de participación y colaboración d
 
 ### Contribuciones por integrante  
 
-<div align="center">
-  <img src="assets/md-images/Insights.png" alt="Contribuciones de los integrantes" width="700px"/>
-</div>  
-
-<p align="center"><b>Figura 0.1.</b> Contribuciones por integrante en el repositorio.</p>
-
-En esta vista se observa la cantidad de commits realizados, junto con el balance de líneas añadidas y eliminadas.  
+ACA VA OTRA COSA 
 
 ### Historial de actividad del repositorio  
 
-<div align="center">
-  <img src="assets/md-images/activity1.png" alt="Actividad reciente del repositorio" width="700px"/>
-</div>  
-
-<p align="center"><b>Figura 0.2.</b> Actividad reciente del repositorio.</p>
-<div align="center">
-  <img src="assets/md-images/activity2.png" alt="Actividad extendida del repositorio" width="700px"/>
-</div>  
-
-<p align="center"><b>Figura 0.3.</b> Actividad extendida del repositorio.</p>
----
-
-En conjunto, las capturas reflejan el cumplimiento de los objetivos de colaboración: **participación activa de todos los integrantes**, registro claro de los aportes, y una evolución continua y transparente del informe del proyecto.  
+INSERTE IMAGEN 
 
 
 # Contenido
