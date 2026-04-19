@@ -589,6 +589,33 @@ Resumen de los puntos clave en la entrevista:
 - Le gustaría que la aplicación contase con coaching emocional, seguimiento de estrés y una
   comunidad de apoyo.
 
+  Entrevista N°3
+
+● Nombre: Valentina Flores.
+
+● Sexo: Femenino.
+
+● Edad: 24 años.
+
+● Estado Civil: Soltera.
+
+● Labor: Analista de Recursos Humanos.
+
+Detalles de la entrevista:
+
+● Duración: 02:25
+
+[● Link: https://drive.google.com/file/d/10gpZrHKXRZATb-VCJ6RAm-Zu81CONRbT/view?usp=sharing](https://drive.google.com/file/d/10gpZrHKXRZATb-VCJ6RAm-Zu81CONRbT/view?usp=sharing)
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista con Valentina Flores (24 años), analista de Recursos Humanos, evidencia cómo las
+jornadas extensas y la alta carga laboral generan estrés, insomnio y agotamiento emocional.
+El estrés afecta su concentración, estado de ánimo y vida personal. Aunque intenta aliviarlo con
+pausas o caminatas, la falta de tiempo y apoyo institucional limita sus esfuerzos. Valentina
+considera útil una app con ejercicios guiados, recordatorios y seguimiento emocional, que le
+ayude a equilibrar su bienestar en el entorno laboral.
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
