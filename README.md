@@ -1,4 +1,4 @@
-# Informe del Trabajo Final
+# Informe del Trabajo Parcial
 
 <div>
   <p align="center"><img src="assets/md-images/upc-logo.png" alt="Logo UPC" width="150px" /></p>
