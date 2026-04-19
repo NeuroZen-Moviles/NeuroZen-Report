@@ -561,6 +561,34 @@ más allá de charlas esporádicas. Enzo valora herramientas simples y accesible
 recordatorios para pausas, ejercicios rápidos y la opción de contactar a un profesional desde
 la misma app.
 
+Entrevista N°2
+
+● Nombre: Andrés Luján Carrión
+
+● Sexo: Masculino
+
+● Edad: 40
+
+● Estado Civil: Soltero
+
+● Labor: Rector(USL)
+
+Detalles de la entrevista:
+
+● Duración: 4min11seg
+
+[● Link: https://drive.google.com/file/d/1aePzhaW86rM-1leKeeb1c65SbWk9Y0yZ/view?usp=sharing](https://drive.google.com/file/d/1aePzhaW86rM-1leKeeb1c65SbWk9Y0yZ/view?usp=sharing)
+
+Resumen de los puntos clave en la entrevista:
+
+- El entrevistado trabaja entre 10 y 12 horas diarias.
+- Su principal fuente de estrés son la necesidad de resultados rápidos frente a cambios que
+  requieren tiempo.
+- Ha notado fatiga mental, insomnio y tensión muscular.
+- Le parecerían útiles herramientas como coaching personalizado y plataformas digitales.
+- Le gustaría que la aplicación contase con coaching emocional, seguimiento de estrés y una
+  comunidad de apoyo.
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
