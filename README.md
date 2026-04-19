@@ -94,8 +94,6 @@ INSERTE IMAGEN
 
 # Contenido
 
-# Contenido
-
 1. [Capítulo I: Presentación](#capítulo-i-presentación)  
    1.1. [Startup Profile](#11-startup-profile)  
       1.1.1. [Descripción de la Startup](#111-descripción-de-la-startup)  
