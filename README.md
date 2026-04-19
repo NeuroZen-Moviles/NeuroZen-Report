@@ -811,6 +811,11 @@ Empathy Mapping y As-Is Scenario Mapping.
 <div>
   <p align="center"><img src="assets/md-images/journey-map/Journey-2.png" alt="Journey mapping part 2" width="700px" /></p>
 </div>
+<div>
+  <p align="center"><img src="assets/md-images/journey-map/Journey-3.png" alt="Journey mapping part 3" width="700px" /></p>
+</div>
+
+
 
 ### 2.3.4. Empathy Mapping
 
