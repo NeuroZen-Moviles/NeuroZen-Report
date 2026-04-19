@@ -529,6 +529,38 @@ Preguntas:
 
 ### 2.2.2. Registro de entrevistas
 
+**Segmento 1: Personas activas en el ámbito laboral con jornadas extendidas**
+
+Entrevista N°1
+
+● Nombre: Enzo Joaquín Alatrista Amaya.
+
+● Sexo: Masculino.
+
+● Edad: 25.
+
+● Estado Civil: Soltero.
+
+● Labor: Ingeniero de Sistemas.
+
+Detalles de la entrevista:
+
+● Duración: 03:26
+
+[● Link: https://drive.google.com/file/d/13V0bp8f4mNgHBX6nU5c74mhhuCYzXYmT/view?usp=sharing](https://drive.google.com/file/d/13V0bp8f4mNgHBX6nU5c74mhhuCYzXYmT/view?usp=sharing)
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista con Enzo, ingeniero de sistemas de 25 años, revela el alto nivel de presión en el
+sector tecnológico. Sus jornadas laborales de hasta 11 horas, sumadas a la disponibilidad
+constante y los cambios de último minuto, han afectado su salud con insomnio, dolores de
+cabeza e irritabilidad. Esto impacta su productividad y vida personal, generando agotamiento
+emocional. Aunque intenta manejar el estrés con caminatas y ejercicios de respiración, su
+rutina no le permite ser constante. Su empresa no ofrece apoyo real para el manejo del estrés,
+más allá de charlas esporádicas. Enzo valora herramientas simples y accesibles, con
+recordatorios para pausas, ejercicios rápidos y la opción de contactar a un profesional desde
+la misma app.
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
