@@ -712,8 +712,40 @@ Resumen de los puntos clave en la entrevista:
 
 La entrevista con José Feliciano, un trabajador independiente en software de 56 años, muestra las dificultades de mantener equilibrio entre la vida laboral y personal cuando se trabaja por cuenta propia. Su rutina varía constantemente, sin horarios fijos, lo que le genera complicaciones para desconectarse del trabajo. José comenta que su celular y laptop son herramientas esenciales pero también fuentes de distracción y presión constante. Entre los principales factores de estrés menciona los plazos ajustados, los cambios imprevistos y la falta de pausas reales durante el día. Describe su nivel de estrés como medio, con aumentos en épocas de alta carga laboral. Este estilo de trabajo flexible le otorga libertad, pero también incrementa su dificultad para descansar y cuidar su salud, notando síntomas como dolores de cabeza y cansancio. Para manejar el estrés recurre a caminatas, música y pausas cortas, además de apoyarse en herramientas digitales como Google Calendar y Notion. Considera que los mejores momentos para relajarse son las noches o las mañanas antes de empezar la jornada.
 
-
 ### 2.2.3. Análisis de entrevistas
+
+**Segmento 1: Personas activas en el ámbito laboral con jornadas extendidas**
+
+Hallazgos:
+
+● Los profesionales experimentan jornadas laborales extendidas de 10-12 horas diarias,
+sin límites claros entre vida laboral y personal.
+
+● Enfrentan presión constante por resultados inmediatos ante cambios que requieren
+tiempo.
+
+● Presentan síntomas físicos y emocionales similares: fatiga mental, insomnio, tensión
+muscular, irritabilidad y dolores de cabeza.
+
+● Las empresas ofrecen poco o nulo apoyo real para el manejo del estrés laboral.
+
+● Aunque intentan implementar técnicas de manejo del estrés, la carga laboral impide
+ser constantes.
+
+● Valoran soluciones digitales accesibles, rápidas y adaptables a sus horarios saturados.
+
+Conclusión:
+
+Los profesionales con jornadas extendidas constituyen un segmento vulnerable al estrés
+crónico debido a la combinación de largas horas de trabajo, disponibilidad permanente y
+presión por resultados inmediatos. Sus intentos individuales de manejar el estrés mediante
+técnicas convencionales resultan insuficientes ante la falta de límites laborales claros y apoyo
+institucional. Este grupo necesita soluciones tecnológicas personalizadas que se integren
+fácilmente a su rutina, ofrezcan intervenciones breves pero efectivas, y proporcionen tanto
+seguimiento automatizado como acceso a apoyo profesional cuando sea necesario. La
+aplicación debe enfocarse en crear micro hábitos de bienestar que puedan sostenerse incluso
+en entornos laborales exigentes, permitiéndoles recuperar el equilibrio sin comprometer su
+desempeño profesional.
 
 ## 2.3. Needfinding
 
