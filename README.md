@@ -657,6 +657,40 @@ no emplea herramientas específicas para el manejo del estrés, pero le gustarí
 alguna. Identifica la mañana y la noche como los momentos más adecuados para realizar
 actividades relajantes, aunque muchas veces depende del flujo de trabajo diario.
 
+Entrevista N°5
+
+● Nombre: Laura Méndez
+
+● Sexo: Mujer
+
+● Edad: 24 años
+
+● Estado Civil: Soltera
+
+● Labor: Freelancer diseñadora gráfica y fotógrafa de eventos
+
+Detalles de la entrevista:
+
+● Duración: 8 minutos con 39 segundos
+
+[● Link: https://drive.google.com/file/d/1qmh7C8VD0SDWj4DvPe7hUj3HFCdga7o5/view?usp=sharing](https://drive.google.com/file/d/1qmh7C8VD0SDWj4DvPe7hUj3HFCdga7o5/view?usp=sharing)
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista con Laura Méndez, una diseñadora gráfica freelance y fotógrafa de 24 años,
+revela los desafíos únicos que enfrenta como trabajadora con horarios irregulares. Su
+situación laboral se caracteriza por la ausencia de límites entre vida personal y profesional,
+con un teléfono que funciona como "oficina móvil" y clientes que esperan disponibilidad
+constante. Los principales factores de estrés identificados incluyen la inestabilidad económica
+que la lleva a sobrecargarse de trabajo, las expectativas poco realistas de los clientes, y la
+imposibilidad de desconectar completamente, resultando en un nivel de estrés medio-alto con
+picos que afectan su salud física y creatividad. Aunque intenta implementar estrategias como
+yoga o ejercicio, estas prácticas son inconsistentes debido a su carga laboral, por lo que
+necesita soluciones flexibles que se adapten a su ritmo caótico: herramientas rápidas
+accesibles desde el móvil, técnicas para establecer límites sin perder clientes y métodos
+efectivos para "apagar" su mente al finalizar la jornada.
+
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
