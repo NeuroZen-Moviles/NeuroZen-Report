@@ -5,14 +5,14 @@
   <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
   <p align="center">Facultad de Ingeniería</p>
   <p align="center">Carrera: Ingeniería de Software</p>
-  <p align="center"><b>Perido: 202520 </b></p>
-  <p align="center">Codigo del curso: 1ASI0729 </p>
-    <p align="center">Nombre del curso: Desarrollo de Aplicaciones Open Source</p>
-  <p align="center">NRC: 7351</p>
-  <p align="center">Nombre del profesor: Rafael Oswaldo Castro Veramendi</p>
-  <p align="center"><b>Informe de Trabajo Final</b></p>
-  <p align="center">Nombre del startup: NeuroDora</p>
-  <p align="center">Nombre del producto: MinDora</p>
+  <p align="center"><b>Perido: 202610 </b></p>
+  <p align="center">Codigo del curso: 1ACC0238 </p>
+    <p align="center">Nombre del curso: Desarrollo de Aplicaciones Móviles</p>
+  <p align="center">NRC: 3646</p>
+  <p align="center">Nombre del profesor: Mayta Guillermo Jorge Luis</p>
+  <p align="center"><b>Informe de Trabajo Parcial</b></p>
+  <p align="center">Nombre del startup: NeuroZen</p>
+  <p align="center">Nombre del producto: NeuroZen</p>
 </div>
 
 ---
@@ -58,7 +58,7 @@
 
 <div>
   
-  <p align="center"><b>Diciembre, 2025</b></p>
+  <p align="center"><b>Abril, 2026</b></p>
 </div>
 
 ---
