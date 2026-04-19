@@ -792,6 +792,8 @@ Empathy Mapping y As-Is Scenario Mapping.
 ### 2.3.1. User Personas
 
 <img src="assets/md-images/user-persona/andres.png" alt="User Persona Andres"><br>
+
+<img src="assets/md-images/user-persona/laura.png" alt="User Persona Laura"><br>
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
