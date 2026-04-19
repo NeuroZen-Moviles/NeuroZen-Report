@@ -616,6 +616,47 @@ pausas o caminatas, la falta de tiempo y apoyo institucional limita sus esfuerzo
 considera útil una app con ejercicios guiados, recordatorios y seguimiento emocional, que le
 ayude a equilibrar su bienestar en el entorno laboral.
 
+**Segmento 2: Adultos entre 20 y 50 años con trabajo informal o sin horarios definidos**
+
+Entrevista N°4
+
+● Nombre: Cristofer Pablo Paucar
+
+● Sexo: Masculino
+
+● Edad: 21
+
+● Estado Civil: Soltero
+
+● Labor: Repartidor
+
+Detalles de la entrevista:
+
+● Duración: 6:27
+
+[● Link: https://drive.google.com/file/d/1SRe3Ilrde37SMS8YGALvpk9OqU4jpwh0/view?usp=sharing](https://drive.google.com/file/d/1SRe3Ilrde37SMS8YGALvpk9OqU4jpwh0/view?usp=sharing)
+
+Resumen de los puntos clave en la entrevista:
+
+La entrevista con Cristofer Paucar, un repartidor delivery de 21 años que trabaja sin un
+horario fijo. Organiza su jornada en función de la demanda y necesidades económicas, lo que
+implica horarios variables que a menudo se extienden hasta la noche. Reconoce que tiene
+dificultades para establecer límites entre su vida personal y laboral, ya que su trabajo "lo
+sigue a todas partes" debido a la constante atención al celular.
+Los principales factores de estrés que enfrenta son la inestabilidad laboral, la incertidumbre
+económica, fallas en las aplicaciones de reparto, el tráfico, clientes exigentes y el desgaste
+físico. Califica su nivel de estrés como medio, aunque se eleva en situaciones específicas
+como fines de mes o días lluviosos.
+
+Cristofer considera que la falta de un horario fijo agrava el estrés al dificultar la separación
+entre el trabajo y la vida personal. Ha notado efectos negativos en su salud física y mental,
+incluyendo dolores corporales, cansancio, insomnio e irritabilidad. Para manejar el estrés,
+intenta desconectarse ocasionalmente, escuchar música o realizar actividades recreativas,
+aunque no siempre lo logra. Si bien usa aplicaciones básicas para organizar su vida personal,
+no emplea herramientas específicas para el manejo del estrés, pero le gustaría explorar
+alguna. Identifica la mañana y la noche como los momentos más adecuados para realizar
+actividades relajantes, aunque muchas veces depende del flujo de trabajo diario.
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
