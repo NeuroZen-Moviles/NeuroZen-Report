@@ -11,7 +11,7 @@
   <p align="center">NRC: 3646</p>
   <p align="center">Nombre del profesor: Mayta Guillermo Jorge Luis</p>
   <p align="center"><b>Informe de Trabajo Parcial</b></p>
-  <p align="center">Nombre del startup: NeuroZen</p>
+  <p align="center">Nombre del startup: NeuroDraw</p>
   <p align="center">Nombre del producto: NeuroZen</p>
 </div>
 
