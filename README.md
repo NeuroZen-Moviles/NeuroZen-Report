@@ -235,23 +235,155 @@ INSERTE IMAGEN
 
 ### 1.1.1. Descripción de la Startup
 
+Nuestro startup llamado NeuroDraw está enfocado en una rápida detección del estrés en el ámbito
+laboral de personas entre 20 a 50 años de edad. Abarcando temas como salud mental, presión laboral
+y servicios, el software facilita el tratamiento del estrés laboral.
+Los usuarios pueden realizar un test que recabará información de salud, comportamiento, actitudes y
+patrones en la persona. La plataforma permite el contacto con un psicólogo. Además, fomenta
+diversas actividades para complementar el tratamiento contra el estrés.
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+| Foto                                           | Nombres y Apellidos               | Carrera                | Descripción                                                                                                                                                                                                                                                 |
+| ---------------------------------------------- | --------------------------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Joao](assets/members/joao-castro.jpeg)       | Manuel Fernando Joao Castro Picón | Ingeniería de Software | Tengo 19 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. Me gusta entrenar calistenia, escuchar música y jugar fútbol. Me considero responsable, adaptable al trabajo en equipo y con metas claras para ser un gran profesional. |
+| ![Valentino](assets/members/trevor.jpeg)       | Santiago Valentino Solis Chang    | Ingeniería de Software | Tengo 20 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. En mi tiempo libre disfruto jugar videojuegos, practicar tenis y aprender sobre programación web. Soy responsable, comprometido y capaz de trabajar en equipo.          |
+| ![Miguel](assets/members/miguel-vila.jpeg)     | Miguel Angel Vila Guillen         | Ingeniería de Software | Tengo 19 años y estudio el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. Me gusta jugar videojuegos, tocar la guitarra y el fútbol. Me considero capaz de trabajar en equipo y aspiro a ser un profesional competente.                         |
+| ![Diego](assets/members/diego-requena.jpeg)    | Diego Gabriel Requena Gutiérrez   | Ingeniería de Software | Tengo 19 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida con mis objetivos, busco optimizar mi rendimiento y mantener un equilibrio entre la excelencia y una vida saludable.                       |
+| ![JuanCarlos](assets/members/juan-angulo.jpeg) | Juan Carlos Abud Angulo           | Ingeniería de Software | Tengo 23 años; Estoy cursando la carrera de ingeniería de software en quinto ciclo. Soy una persona orientada a objetivos y con una meta clara, quiero poder crear soluciones disrruptivas que revolucionen el mercado.                                     |
 
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
 
+El proyecto Neuro Zen consiste en desarrollar un sistema de identificación y gestión del estrés laboral
+dirigido específicamente a adultos entre 20 y 50 años, mediante la observación y registro de señales
+corporales visibles como postura corporal, tensión muscular facial, cambios en la respiración,
+sudoración visible, temblores, rojeces en la piel y otros indicadores físicos detectables a simple vista,
+integrando estos datos en una aplicación que permita a los usuarios auto-evaluar sus niveles de estrés
+en el entorno laboral, recibir recomendaciones personalizadas y estrategias prácticas para la gestión
+del estrés, mejorando así el bienestar de los trabajadores y la productividad organizacional, mientras
+se previenen problemas de salud asociados al estrés crónico en la población económicamente activa.
+
+
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
+Nuestra app permite a los usuarios identificar y gestionar su estrés laboral mediante un
+test de autoevaluación y la observación de señales físicas visibles como la postura, la
+respiración y la tensión facial. Además, brinda acceso a psicólogos y actividades
+prácticas para mejorar el bienestar.
+Hemos observado que muchos adultos entre 20 y 50 años sufren niveles elevados de
+estrés en el trabajo, pero no cuentan con herramientas simples, accesibles y efectivas
+para reconocer estos niveles a tiempo ni saber cómo actuar al respecto.
+¿Cómo pueden los trabajadores detectar y manejar su estrés de forma temprana y
+efectiva en su entorno laboral, usando una herramienta accesible, fácil de usar e
+integrada en su rutina diaria?
+
 #### 1.2.2.2. Lean UX Assumptions
+
+**Feature:** Sistema de identificación y gestión del estrés laboral en NeuroZen
+
+**Registro Bio-métrico y Perfil del Usuario:**
+Creemos que nuestros usuarios (adultos de 20 a 50 años en el ámbito laboral) necesitan una forma sencilla y segura de registrar sus parámetros bio-métricos (por medio de la cámara o sensores de sus dispositivos móviles) junto con información de salud y comportamiento. Esto permitirá personalizar el seguimiento y el manejo del estrés en función de las características individuales.
+
+**Detección Temprana de Estrés mediante Patrones Físicos:**
+Creemos que la identificación de señales bio-métricas observables (postura, tensión muscular, patrones de respiración y sudoración) permitirá detectar de forma temprana niveles de estrés. Esto facilitará la intervención oportuna antes de que se agraven los síntomas, impactando positivamente en la salud mental y física de los usuarios.
+
+**Integración de Evaluaciones Psicológicas y Recomendaciones Personalizadas:**
+Creemos que los usuarios se beneficiarán al combinar la autoevaluación bio-métrica con tests emocionales y recomendaciones personalizadas (ejercicios de respiración, pausas activas, contacto con especialistas). Esta integración permitirá al usuario conocer su estado en tiempo real y acceder a soluciones prácticas y adaptadas a su contexto.
+
+**Seguimiento y Análisis de Datos de Estrés:**
+Creemos que disponer de un registro histórico del nivel de estrés y obtener estadísticas personalizadas ayudará al usuario a identificar patrones y cambios en su salud, promoviendo acciones preventivas y
+mejoras en su entorno laboral y personal.
+
+**Business Outcomes (Resultados del negocio)**
+
+- Se aumentará la productividad laboral y se reducirá el ausentismo, ya que los trabajadores podrán identificar y gestionar su estrés de manera proactiva.
+
+- Se generarán ingresos a través de planes de suscripción individuales y acuerdos corporativos con empresas interesadas en el bienestar de sus empleados.
+
+- NeuroZen se posicionará como una herramienta innovadora y confiable para la salud mental en el ámbito laboral, ampliando su alcance en el mercado latinoamericano.
+
+**Users (Usuarios)**
+
+- Profesionales y empleados de 20 a 50 años que desarrollan sus actividades en ambientes laborales exigentes y de alta presión.
+
+- Personas que desean mejorar sus niveles de bienestar integral mediante el monitoreo de señales físicas y emocionales.
+
+- Usuarios que utilizan dispositivos móviles y buscan soluciones digitales para la autogestión de su salud mental.
+
+**User Outcomes (Beneficios para el usuario)**
+
+- Identificar sus niveles de estrés de manera temprana y objetiva, mediante el análisis de patrones bio-métricos.
+
+- Acceder a recomendaciones personalizadas que les ayuden a manejar y reducir los síntomas de estrés.
+
+- Visualizar estadísticas y tendencias de su bienestar, facilitando el seguimiento a lo largo del tiempo.
+
+- Mejorar su calidad de vida laboral y personal gracias a estrategias adaptadas a sus necesidades específicas.
+
+**Features (Características)**
+
+- **Registro de Datos Biométricos:** Herramienta de captura de señales físicas a través de la cámara y sensores del móvil.
+
+- **Autoevaluación Integral:** Tests combinados que evalúan tanto aspectos emocionales como físicos del estrés.
+
+- **Recomendaciones Personalizadas:** Sugerencias de ejercicios, pausas activas y consejos de salud mental basados en el perfil del usuario.
+
+- **Historial y Seguimiento:** Dashboard interactivo que muestra evolución, tendencias y alertas de niveles de estrés.
+
+- **Integración con Profesionales:** Opción de contactar con psicólogos o especialistas en bienestar para intervenciones personalizadas.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+Hypothesis Statement 01
+
+**Creemos** que la implementación de un sistema de registro biométrico y autoevaluación permitirá a los usuarios identificar tempranamente sus niveles de estrés laboral.
+
+**Sabemos** la hipótesis se confirma cuando se observe una correlación significativa entre los datos bio-métricos capturados y las autoevaluaciones realizadas por los usuarios.
+
+**Cuando** al menos el 65% de los usuarios completen de forma regular la evaluación en la plataforma y se detecten cambios relevantes en sus patrones bio-métricos.
+
+Hypothesis Statement 02
+
+**Creemos** que al ofrecer recomendaciones personalizadas basadas en el análisis del estrés, los usuarios
+adoptarán prácticas de autogestión más efectivas para reducir sus síntomas.
+
+**Sabemos** que la hipótesis es correcta cuando los usuarios reporten mejoras en su bienestar y se
+registre una disminución en los indicadores de estrés en los seguimientos mensuales.
+
+**Cuando** se logre una reducción del 20% en la frecuencia e intensidad de síntomas reportados durante
+los primeros seis meses de uso.
+
+Hypothesis Statement 03
+
+**Creemos** que la visualización de un historial interactivo y tendencias de estrés motivará a los usuarios a llevar un control continuo de su salud mental.
+
+**Sabemos** que esto es cierto cuando se registre un aumento en la interacción con el dashboard y una mayor adherencia a las recomendaciones sugeridas
+
+**Cuando** el uso constante de las herramientas de seguimiento genere datos que indiquen una mayor
+consciencia y manejo proactivo del estrés en el entorno laboral.
+
 #### 1.2.2.4. Lean UX Canvas
 
+Lean UX Canvas es una de las herramientas que hemos utilizado para comprender a nuestros posibles usuarios y sus necesidades. Esta es usada en el campo del diseño centrado en el usuario y la metodología Lean con la intención de desarrollar productos de forma eficientes y práctica para los usuarios. A su vez, esta puede ser utilizada por equipos multidisciplinarios para que colaboración de forma ordenada dentro un marco estructurado.
+
+<div>
+  <p align="center"><img src="assets/md-images/ux_canvas.png" alt="Canvas" width="700px" /></p>
+</div>
+
 ## 1.3. Segmentos objetivo
+
+#### Segmento objetivo #1: Personas activas en el ámbito laboral:
+
+Este segmento está compuesto por personas con horario de trabajo extensos, de más de 8 horas laborales. Estos ciudadanos suelen experimentar una presión psicológica alta en sus trabajos lo cuál termina en generar un cuadro de estrés que puede perjudicar su rendimiento y su calidad de vida. Según estudios realizados en distintos campos laborales, un 70% del personal presenta un estrés
+agudo en sus actividades personales y laborales (Estudio LATAM, 2020). Este grupo ves clave para el éxito de la plataforma, ya que son los principales beneficiarios de las capacidades que propone este startup
+
+#### Segmento objetivo #2: Adultos entre 20 y 50 años de edad:
+
+Este segmento incluye personas que no necesariamente sean trabajadores formales. A menudo, son las que más experimentan grados de estrés, ya que no se rigen a un horario de trabajo, sino que su trabajo está presente a todas horas del día. Según un estudio realizado a 250 trabajadores informales se expresa que el 56% de ellos muestran nivel medio de estrés, mientras que el 33.3% está en un nivel bajo y solo el 10.6% está en un nivel alto (Porcayo, 2022). Este grupo obtendrá los mismos beneficios que el otro segmento objetivo, pero este tiene más potencial de expandir el tema del estrés laboral y por consecuencia el uso de esta plataforma.
 
 ---
 
