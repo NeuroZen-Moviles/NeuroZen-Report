@@ -74,7 +74,7 @@ aca va tabla
 ## Project Report Collaboration Insights  
 
 El equipo ha trabajado de manera colaborativa en el repositorio de GitHub, registrando avances constantes en la construcción del informe.  
-Repositorio del informe: https://github.com/UPC-1ASI0729-2520-7351-Mindora/project-report
+Repositorio del informe: 
 
 A continuación, se presentan las evidencias de participación y colaboración de los integrantes:  
 
