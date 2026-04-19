@@ -747,6 +747,42 @@ aplicación debe enfocarse en crear micro hábitos de bienestar que puedan soste
 en entornos laborales exigentes, permitiéndoles recuperar el equilibrio sin comprometer su
 desempeño profesional.
 
+**Segmento 2: Adultos entre 20 y 50 años con trabajo informal o sin horarios definidos**
+
+Hallazgos:
+
+● Ausencia de límites trabajo-vida personal: Ambos experimentan una fusión entre su
+vida laboral y personal, con el teléfono móvil como vínculo constante al trabajo.
+
+● Horarios irregulares: Ninguno tiene un horario fijo, organizándose según demanda y
+necesidades económicas.
+
+● Principales factores de estrés: Comparten preocupaciones por la inestabilidad
+económica, las expectativas de disponibilidad constante y la dificultad para
+desconectar.
+
+● Impacto en la salud: Ambos reportan efectos negativos como dolores físicos,
+cansancio e irritabilidad.
+
+● Estrategias de afrontamiento inconsistentes: Aunque intentan aplicar métodos para
+manejar el estrés (música, ejercicio, yoga), no logran mantenerlos de forma regular.
+
+● Necesidad de herramientas adaptables: Los dos expresan interés en explorar
+soluciones que se ajusten a sus horarios variables.
+
+Conclusión:
+
+Los testimonios de Cristofer y Laura revelan una realidad laboral cada vez más común:
+trabajadores con horarios flexibles que enfrentan una constante disponibilidad laboral
+mediada por dispositivos móviles, generando una difuminación de límites entre trabajo y vida
+personal que impacta negativamente su bienestar. Esta situación crea un ciclo donde la
+inestabilidad económica los impulsa a aceptar más trabajo, intensificando el estrés y
+deteriorando su salud física y mental. Sus casos evidencian la necesidad urgente de
+desarrollar herramientas y estrategias específicamente diseñadas para trabajadores con
+horarios irregulares, que sean accesibles desde dispositivos móviles, requieran poco tiempo
+de implementación y ayuden efectivamente a establecer límites saludables sin comprometer
+su sustento económico.
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
