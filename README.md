@@ -820,6 +820,11 @@ Empathy Mapping y As-Is Scenario Mapping.
 
 
 ### 2.3.4. Empathy Mapping
+<div>
+  <p align="center"><img src="assets/md-images/empathy-map/Empathy-1.png" alt="Empathy mapping part 1" width="700px" /></p>
+</div>
+
+
 
 ### 2.3.5. Big Picture EventStorming
 
