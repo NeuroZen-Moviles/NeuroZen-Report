@@ -1409,6 +1409,12 @@ En el flujo inverso, cuando se completa una consulta o se publica una reseña pr
 
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 
+En esta sección se presenta el diagrama de contexto del sistema NeuroZen, el cual permite visualizar de manera general la interacción entre la plataforma y los diferentes actores externos que participan en su funcionamiento. Este tipo de diagrama es fundamental dentro de la arquitectura de software, ya que delimita el alcance del sistema y muestra sus relaciones con usuarios y servicios externos, sin entrar en detalles internos de implementación.
+
+El sistema NeuroZen se representa como un único bloque central, actuando como una plataforma digital enfocada en la detección temprana, monitoreo continuo y gestión del estrés laboral. A través de la integración de tecnologías de análisis biométrico, evaluaciones psicológicas y herramientas de bienestar, el sistema busca mejorar la calidad de vida de los usuarios en entornos laborales exigentes.
+<img src="assets/md-images/software-architecture/SoftwareArchitectureContextLevelDiagrams.png" alt="Software Architecture Context Level Diagram" style="width:100%;">
+
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
