@@ -178,23 +178,165 @@ A continuación, se presentan las evidencias de participación y colaboración d
 
 ### Contribuciones por integrante
 
-| Integrante                             | Tareas Asignadas                                                                                                                                                                                                                                                                                                                                                                            |
-| :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
-| **Castro Picón, Manuel Fernando Joao** | **Capítulo I – Presentación**<br>1.1 Startup Profile<br>1.1.1 Descripción de la Startup<br>1.1.2 Perfiles de integrantes del equipo<br>1.2 Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process<br>1.2.2.1 Lean UX Problem Statements<br>1.2.2.2 Lean UX Assumptions<br>1.2.2.3 Lean UX Hypothesis Statements<br>1.2.2.4 Lean UX Canvas<br>1.3 Segmentos objetivo |
-| **Requena Gutiérrez, Diego Gabriel**   | **Capítulo II**<br>2.1 Competidores<br>2.1.1 Análisis competitivo<br>2.1.2 Estrategias y tácticas frente a competidores<br>2.2 Entrevistas<br>2.2.1 Diseño de entrevistas<br>2.2.2 Registro de entrevistas<br>2.2.3 Análisis de entrevistas                                                                                                                                                 |
-| **Huaman De La Cruz, Jean Pool**       | **2.3 Needfinding**<br>2.3.1 User Personas<br>2.3.2 User Task Matrix<br>2.3.3 User Journey Mapping<br>2.3.4 Empathy Mapping<br>2.3.5 Big Picture EventStorming<br>2.3.6 Ubiquitous Language                                                                                                                                                                                                 |
-| **Solis Chang, Santiago Valentino**    | **2.4 Requirements Specification**<br>2.4.1 User Stories<br>2.4.2 Impact Mapping<br>2.4.3 Product Backlog                                                                                                                                                                                                                                                                                   |
-| **Vila Guillen, Miguel Angel**         | **2.5.1 EventStorming**<br>2.5.1.1 Candidate Context Discovery<br>2.5.1.2 Domain Message Flows Modeling<br>2.5.1.3 Bounded Context Canvases                                                                                                                                                                                                                                                 |
-| **Castro Picón, Manuel Fernando Joao** | **2.5.2 Context Mapping**                                                                                                                                                                                                                                                                                                                                                                   |
-| **Solis Chang, Santiago Valentino**    | **2.5.3 Software Architecture**<br>2.5.3.1 Context Level Diagrams<br>2.5.3.2 Container Level Diagrams<br>2.5.3.3 Deployment Diagrams                                                                                                                                                                                                                                                        |
-| **Requena Gutiérrez, Diego Gabriel**   | **2.6.1 Bounded Context: IAM**<br>2.6.1.1 Domain Layer<br>2.6.1.2 Interface Layer<br>2.6.1.3 Application Layer<br>2.6.1.4 Infrastructure Layer<br>2.6.1.5 Component Level Diagrams<br>2.6.1.6 Code Level Diagrams<br>2.6.1.6.1 Class Diagram<br>2.6.1.6.2 Database Diagram                                                                                                                  |
-| **Requena Gutiérrez, Diego Gabriel**   | **2.6.2 Bounded Context: Assessments**<br>2.6.2.1 Domain Layer<br>2.6.2.2 Interface Layer<br>2.6.2.3 Application Layer<br>2.6.2.4 Infrastructure Layer<br>2.6.2.5 Component Level Diagrams<br>2.6.2.6 Code Level Diagrams<br>2.6.2.6.1 Class Diagram<br>2.6.2.6.2 Database Diagram                                                                                                          |
-| **Castro Picón, Manuel Fernando Joao** | **2.6.3 Bounded Context: Recommendations & Activities**<br>2.6.3.1 Domain Layer<br>2.6.3.2 Interface Layer<br>2.6.3.3 Application Layer<br>2.6.3.4 Infrastructure Layer<br>2.6.3.5 Component Level Diagrams<br>2.6.3.6 Code Level Diagrams<br>2.6.3.6.1 Class Diagram<br>2.6.3.6.2 Database Diagram                                                                                         |
-| **Solis Chang, Santiago Valentino**    | **2.6.4 Bounded Context: Health Tracking & Dashboard**<br>2.6.4.1 Domain Layer<br>2.6.4.2 Interface Layer<br>2.6.4.3 Application Layer<br>2.6.4.4 Infrastructure Layer<br>2.6.4.5 Component Level Diagrams<br>2.6.4.6 Code Level Diagrams<br>2.6.4.6.1 Class Diagram<br>2.6.4.6.2 Database Diagram                                                                                          |
-| **Vila Guillen, Miguel Angel**         | **2.6.5 Bounded Context: Professionals & Appointments**<br>2.6.5.1 Domain Layer<br>2.6.5.2 Interface Layer<br>2.6.5.3 Application Layer<br>2.6.5.4 Infrastructure Layer<br>2.6.5.5 Component Level Diagrams<br>2.6.5.6 Code Level Diagrams<br>2.6.5.6.1 Class Diagram<br>2.6.5.6.2 Database Diagram                                                                                         |
-| **Vila Guillen, Miguel Angel**         | **2.6.6 Bounded Context: Community & Resources**<br>2.6.6.1 Domain Layer<br>2.6.6.2 Interface Layer<br>2.6.6.3 Application Layer<br>2.6.6.4 Infrastructure Layer<br>2.6.6.5 Component Level Diagrams<br>2.6.6.6 Code Level Diagrams<br>2.6.6.6.1 Class Diagram<br>2.6.6.6.2 Database Diagram                                                                                                |
-| **Huaman De La Cruz, Jean Pool**       | **2.6.7 Bounded Context: Notification**<br>2.6.7.1 Domain Layer<br>2.6.7.2 Interface Layer<br>2.6.7.3 Application Layer<br>2.6.7.4 Infrastructure Layer<br>2.6.7.5 Component Level Diagrams<br>2.6.7.6 Code Level Diagrams<br>2.6.7.6.1 Class Diagram<br>2.6.7.6.2 Database Diagram                                                                                                         |
-|                                        |                                                                                                                                                                                                                                                                                                                                                                                             |     |
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Integrante</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Tareas Asignadas</td>
+  </tr>
+
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Castro Picón, Manuel Fernando Joao</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>Capítulo I – Presentación</li>
+        <li>
+          1.1 Startup Profile<br>1.1.1 Descripción de la Startup<br>1.1.2 Perfiles de integrantes del equipo<br>1.2 Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process<br>1.2.2.1 Lean UX Problem Statements<br>1.2.2.2 Lean UX Assumptions<br>1.2.2.3 Lean UX Hypothesis Statements<br>1.2.2.4 Lean UX Canvas<br>1.3 Segmentos objetivo
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Requena Gutiérrez, Diego Gabriel</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>Capítulo II</li>
+        <li>
+          2.1 Competidores<br>2.1.1 Análisis competitivo<br>2.1.2 Estrategias y tácticas frente a competidores<br>2.2 Entrevistas<br>2.2.1 Diseño de entrevistas<br>2.2.2 Registro de entrevistas<br>2.2.3 Análisis de entrevistas
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Huaman De La Cruz, Jean Pool</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>2.3 Needfinding</li>
+        <li>
+          2.3.1 User Personas<br>2.3.2 User Task Matrix<br>2.3.3 User Journey Mapping<br>2.3.4 Empathy Mapping<br>2.3.5 Big Picture EventStorming<br>2.3.6 Ubiquitous Language
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Solis Chang, Santiago Valentino</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>2.4 Requirements Specification</li>
+        <li>
+          2.4.1 User Stories<br>2.4.2 Impact Mapping<br>2.4.3 Product Backlog
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Vila Guillen, Miguel Angel</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>2.5.1 EventStorming</li>
+        <li>
+          2.5.1.1 Candidate Context Discovery<br>2.5.1.2 Domain Message Flows Modeling<br>2.5.1.3 Bounded Context Canvases
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Castro Picón, Manuel Fernando Joao</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>2.5.2 Context Mapping</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Solis Chang, Santiago Valentino</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>2.5.3 Software Architecture</li>
+        <li>
+          2.5.3.1 Context Level Diagrams<br>2.5.3.2 Container Level Diagrams<br>2.5.3.3 Deployment Diagrams
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Requena Gutiérrez, Diego Gabriel</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>2.6.1 Bounded Context: IAM</li>
+        <li>
+          2.6.1.1 Domain Layer<br>2.6.1.2 Interface Layer<br>2.6.1.3 Application Layer<br>2.6.1.4 Infrastructure Layer<br>2.6.1.5 Component Level Diagrams<br>2.6.1.6 Code Level Diagrams<br>2.6.1.6.1 Class Diagram<br>2.6.1.6.2 Database Diagram
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Requena Gutiérrez, Diego Gabriel</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>2.6.2 Bounded Context: Assessments</li>
+        <li>
+          2.6.2.1 Domain Layer<br>2.6.2.2 Interface Layer<br>2.6.2.3 Application Layer<br>2.6.2.4 Infrastructure Layer<br>2.6.2.5 Component Level Diagrams<br>2.6.2.6 Code Level Diagrams<br>2.6.2.6.1 Class Diagram<br>2.6.2.6.2 Database Diagram
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Castro Picón, Manuel Fernando Joao</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>2.6.3 Bounded Context: Recommendations & Activities</li>
+        <li>
+          2.6.3.1 Domain Layer<br>2.6.3.2 Interface Layer<br>2.6.3.3 Application Layer<br>2.6.3.4 Infrastructure Layer<br>2.6.3.5 Component Level Diagrams<br>2.6.3.6 Code Level Diagrams<br>2.6.3.6.1 Class Diagram<br>2.6.3.6.2 Database Diagram
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Solis Chang, Santiago Valentino</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>2.6.4 Bounded Context: Health Tracking & Dashboard</li>
+        <li>
+          2.6.4.1 Domain Layer<br>2.6.4.2 Interface Layer<br>2.6.4.3 Application Layer<br>2.6.4.4 Infrastructure Layer<br>2.6.4.5 Component Level Diagrams<br>2.6.4.6 Code Level Diagrams<br>2.6.4.6.1 Class Diagram<br>2.6.4.6.2 Database Diagram
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Vila Guillen, Miguel Angel</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>2.6.5 Bounded Context: Professionals & Appointments</li>
+        <li>
+          2.6.5.1 Domain Layer<br>2.6.5.2 Interface Layer<br>2.6.5.3 Application Layer<br>2.6.5.4 Infrastructure Layer<br>2.6.5.5 Component Level Diagrams<br>2.6.5.6 Code Level Diagrams<br>2.6.5.6.1 Class Diagram<br>2.6.5.6.2 Database Diagram
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Vila Guillen, Miguel Angel</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>2.6.6 Bounded Context: Community & Resources</li>
+        <li>
+          2.6.6.1 Domain Layer<br>2.6.6.2 Interface Layer<br>2.6.6.3 Application Layer<br>2.6.6.4 Infrastructure Layer<br>2.6.6.5 Component Level Diagrams<br>2.6.6.6 Code Level Diagrams<br>2.6.6.6.1 Class Diagram<br>2.6.6.6.2 Database Diagram
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">Huaman De La Cruz, Jean Pool</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>2.6.7 Bounded Context: Notification</li>
+        <li>
+          2.6.7.1 Domain Layer<br>2.6.7.2 Interface Layer<br>2.6.7.3 Application Layer<br>2.6.7.4 Infrastructure Layer<br>2.6.7.5 Component Level Diagrams<br>2.6.7.6 Code Level Diagrams<br>2.6.7.6.1 Class Diagram<br>2.6.7.6.2 Database Diagram
+        </li>
+      </ul>
+    </td>
+  </tr>
+
+</table>
 
 # Contenido
 
