@@ -974,8 +974,6 @@ La sesión de EventStorming se llevó a cabo considerando los principales flujos
 
 #### 2.5.1.1. Candidate Context Discovery
 
-#### 2.5.1.1. Candidate Context Discovery
-
 **Objetivo:** Identificar y delimitar los contextos acotados (*bounded contexts*) que estructurarán el sistema NeuroZen, asegurando que cada contexto posea un propósito claro, un vocabulario ubicuo específico y reglas de negocio bien delimitadas.
 
 **Proceso Realizado:**
@@ -1060,15 +1058,14 @@ Estos eventos sirvieron como puntos de corte naturales para separar contextos.
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
-#### 2.5.1.2. Domain Message Flows Modeling
-
 **Objetivo:** Visualizar cómo colaboran los bounded contexts para resolver los casos de negocio de NeuroZen, asegurando trazabilidad en el flujo de información y claridad en las responsabilidades.
 
 **Técnica Aplicada:** Se utilizó Domain Storytelling para modelar las interacciones entre actores, contextos y eventos principales. Esta técnica permite describir narrativamente cómo fluye la información entre contextos y qué eventos desencadenan acciones en otros dominios.
 
 **Flujos de Mensajes Modelados:**
-
+```text
 **1. Flujo: Usuario se Registra y Configura su Perfil Inicial**
+
 Usuario Trabajador (Actor)
      ↓
 [Identity & Access Management Context] - Recibe comando "RegistrarUsuario"
@@ -1084,7 +1081,7 @@ Usuario Trabajador (Actor)
      ├─ Solicita configuración de datos biométricos
      ├─ Calibra señales físicas base (rostro, postura)
      └─ Genera evento "PerfilBiometricoConfigurado"
-
+```
 **Responsabilidades:**
 * **Identity & Access Management Context:** Creación y seguridad de la cuenta.
 * **Assessments Context:** Recopilación de información de salud inicial.
@@ -1093,6 +1090,7 @@ Usuario Trabajador (Actor)
 ---
 
 **2. Flujo: Detección de Estrés y Generación de Recomendaciones**
+```text
 Usuario Trabajador (Actor)
      ↓
 [Biometrics & Analysis Context] / [Assessments Context]
@@ -1109,7 +1107,7 @@ Usuario Trabajador (Actor)
 [Notification Context] y [Health Tracking & Dashboard Context]
      ├─ [Notification] Envía alerta/sugerencia al usuario
      └─ [Health Tracking] Registra el evento de estrés en el historial
-
+```
 **Responsabilidades:**
 * **Biometrics & Analysis / Assessments Context:** Diagnóstico preciso del estado del usuario.
 * **Recommendations & Activities Context:** Selección de intervenciones personalizadas.
@@ -1119,6 +1117,7 @@ Usuario Trabajador (Actor)
 ---
 
 **3. Flujo: Ejecución de Pausa Activa y Actualización de Progreso**
+```text
 Usuario Trabajador (Actor)
      ↓
 [Recommendations & Activities Context]
@@ -1134,7 +1133,7 @@ Usuario Trabajador (Actor)
           ↓
 [Notification Context] (Opcional)
      └─ Envía refuerzo positivo o programa próximo recordatorio
-
+```
 **Responsabilidades:**
 * **Recommendations & Activities Context:** Gestión y ejecución de la intervención.
 * **Health Tracking & Dashboard Context:** Reflejo del esfuerzo en las métricas de progreso a largo plazo.
@@ -1143,6 +1142,7 @@ Usuario Trabajador (Actor)
 ---
 
 **4. Flujo: Reserva de Cita y Compartición de Informes con Especialista**
+```text
 Usuario Trabajador (Actor)
      ↓
 [Professionals & Appointments Context]
@@ -1158,13 +1158,11 @@ Usuario Trabajador (Actor)
 [Notification Context]
      ├─ Notifica al Especialista (Psicólogo) sobre la nueva cita y el informe
      └─ Envía confirmación al Usuario Trabajador
-
+```
 **Responsabilidades:**
 * **Professionals & Appointments Context:** Coordinación de agendas y enlace clínico.
 * **Health Tracking & Dashboard Context:** Proveer contexto médico/emocional basado en datos al especialista.
 * **Notification Context:** Confirmaciones y recordatorios a ambas partes.
-
-#### 2.5.1.3. Bounded Context Canvases
 
 #### 2.5.1.3. Bounded Context Canvases
 
