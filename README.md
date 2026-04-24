@@ -136,8 +136,8 @@ INSERTE IMAGEN
          2.5.3.1. [Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)  
          2.5.3.2. [Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)  
          2.5.3.3. [Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)  
-   2.6. [Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
-      2.6.1. Bounded Context: IAM
+   2.6. [Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)  
+      2.6.1. Bounded Context: IAM  
        2.6.1.1. [Domain Layer](#2611-domain-layer)  
        2.6.1.2. [Interface Layer](#2612-interface-layer)  
        2.6.1.3. [Application Layer](#2613-application-layer)  
@@ -145,8 +145,8 @@ INSERTE IMAGEN
        2.6.1.5. [Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)  
        2.6.1.6. [Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)  
         2.6.1.6.1. [Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)  
-        2.6.1.6.2. [Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)
-      2.6.2. Bounded Context: Assessments
+        2.6.1.6.2. [Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagram)  
+      2.6.2. Bounded Context: Assessments  
        2.6.2.1. [Domain Layer](#2621-domain-layer)  
        2.6.2.2. [Interface Layer](#2622-interface-layer)  
        2.6.2.3. [Application Layer](#2623-application-layer)  
@@ -154,8 +154,8 @@ INSERTE IMAGEN
        2.6.2.5. [Bounded Context Software Architecture Component Level Diagrams](#2625-bounded-context-software-architecture-component-level-diagrams)  
        2.6.2.6. [Bounded Context Software Architecture Code Level Diagrams](#2626-bounded-context-software-architecture-code-level-diagrams)  
         2.6.2.6.1. [Bounded Context Domain Layer Class Diagrams](#26261-bounded-context-domain-layer-class-diagrams)  
-        2.6.2.6.2. [Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)
-     2.6.3. Bounded Context: Recommendations & Activities
+        2.6.2.6.2. [Bounded Context Database Design Diagram](#26262-bounded-context-database-design-diagram)  
+     2.6.3. Bounded Context: Recommendations & Activities  
        2.6.3.1. [Domain Layer](#2631-domain-layer)  
        2.6.3.2. [Interface Layer](#2632-interface-layer)  
        2.6.3.3. [Application Layer](#2633-application-layer)  
@@ -163,8 +163,8 @@ INSERTE IMAGEN
        2.6.3.5. [Bounded Context Software Architecture Component Level Diagrams](#2635-bounded-context-software-architecture-component-level-diagrams)  
        2.6.3.6. [Bounded Context Software Architecture Code Level Diagrams](#2636-bounded-context-software-architecture-code-level-diagrams)  
         2.6.3.6.1. [Bounded Context Domain Layer Class Diagrams](#26361-bounded-context-domain-layer-class-diagrams)  
-        2.6.3.6.2. [Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)
-     2.6.4. Bounded Context: Health Tracking & Dashboard
+        2.6.3.6.2. [Bounded Context Database Design Diagram](#26362-bounded-context-database-design-diagram)  
+     2.6.4. Bounded Context: Health Tracking & Dashboard  
        2.6.4.1. [Domain Layer](#2641-domain-layer)  
        2.6.4.2. [Interface Layer](#2642-interface-layer)  
        2.6.4.3. [Application Layer](#2643-application-layer)  
@@ -172,8 +172,8 @@ INSERTE IMAGEN
        2.6.4.5. [Bounded Context Software Architecture Component Level Diagrams](#2645-bounded-context-software-architecture-component-level-diagrams)  
        2.6.4.6. [Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)  
         2.6.4.6.1. [Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)  
-        2.6.4.6.2. [Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)
-     2.6.5. Bounded Context: Professionals & Appointments
+        2.6.4.6.2. [Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagram)  
+     2.6.5. Bounded Context: Professionals & Appointments  
        2.6.5.1. [Domain Layer](#2651-domain-layer)  
        2.6.5.2. [Interface Layer](#2652-interface-layer)  
        2.6.5.3. [Application Layer](#2653-application-layer)  
