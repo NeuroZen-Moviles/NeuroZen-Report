@@ -1426,6 +1426,39 @@ El sistema se compone de una aplicación móvil como cliente principal, un backe
 <img src="assets/md-images/software-architecture/SoftwareArchitectureContainerLevelDiagrams.png" alt="Software Architecture Container Level Diagram" style="width:100%;">
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+#### 2.5.3.3. Software Architecture Deployment Diagrams
+
+En esta sección se detallan los diagramas de despliegue y componentes que especifican la distribución física y lógica de los servicios que componen el ecosistema de NeuroZen.
+
+##### Identity & Access Management (IAM) Context
+Para la seguridad, roles y cuentas de usuario.
+<img src="assets/md-images/software-architecture/1-IAM.png" alt="IAM Diagram" style="width:100%;">
+
+##### Assessments Context
+Para los tests psicológicos y cuestionarios.
+<img src="assets/md-images/software-architecture/2-AssessmentsContext.png" alt="Assessments Diagram" style="width:100%;">
+
+##### Recommendations & Activities Context
+Para las pausas activas y ejercicios de respiración.
+<img src="assets/md-images/software-architecture/3-Recommendations.png" alt="Recommendations Diagram" style="width:100%;">
+
+##### Health Tracking & Dashboard Context
+Para el historial, estadísticas y reportes.
+<img src="assets/md-images/software-architecture/4-Health Tracking.png" alt="Health Tracking Diagram" style="width:100%;">
+
+##### Professionals & Appointments Context
+Para el directorio de psicólogos y gestión de citas.
+<img src="assets/md-images/software-architecture/5-Professionals.png" alt="Professionals Diagram" style="width:100%;">
+
+##### Community & Resources Context
+Para los foros de apoyo y artículos de bienestar.
+<img src="assets/md-images/software-architecture/6-Community.png" alt="Community Diagram" style="width:100%;">
+
+##### Notification Context
+Para las alertas, recordatorios y correos.
+<img src="assets/md-images/software-architecture/7-Notification.png" alt="Notification Diagram" style="width:100%;">
+
+
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
