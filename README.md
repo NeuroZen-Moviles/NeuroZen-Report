@@ -1387,129 +1387,317 @@ Usuario Trabajador (Actor)
 
 ### 2.6.1. Bounded Context: IAM
 
+El bounded context IAM representa la capacidad del sistema encargada de gestionar la seguridad, la autenticación y la identidad de los usuarios (Trabajadores, Especialistas y Administradores). Su propósito es validar credenciales, emitir tokens de sesión y mantener los datos básicos de la cuenta. La entidad principal es `UserAccount`, la cual concentra las credenciales y roles.
+Este contexto se relaciona como proveedor (Upstream) para todos los demás bounded contexts del sistema, ya que los demás dominios consumen el identificador del usuario autenticado para asociar historiales, tests y citas.
+
 #### 2.6.1.1. Domain Layer
+
+La capa de dominio contiene el núcleo de la seguridad.
+* **Aggregate Root:** `UserAccount` (Atributos: id, email, passwordHash, role, isActive).
+* **Value Objects:** `EmailAddress`, `Password`, `Role` (Enum: WORKER, SPECIALIST, ADMIN).
+* **Commands:** `RegisterUserCommand`, `AuthenticateUserCommand`, `ChangePasswordCommand`.
+* **Queries:** `GetUserByIdQuery`, `GetUserByEmailQuery`.
+* **Domain Events:** `UserRegisteredEvent`, `UserAuthenticatedEvent`.
+* **Reglas de negocio:** El email debe ser único; la contraseña debe estar encriptada; un usuario inactivo no puede autenticarse.
+
 
 #### 2.6.1.2. Interface Layer
 
+Contiene los controladores que exponen los servicios de autenticación al frontend.
+* **REST Controllers:** `AuthController`, `UsersController`.
+* **Endpoints:** `POST /api/v1/auth/register`, `POST /api/v1/auth/login`.
+* **DTOs:** `RegisterUserResource`, `LoginResource`, `AuthTokenResource`.
+* **Assemblers:** Transforman los recursos HTTP en comandos del dominio (ej. `RegisterUserCommandFromResourceAssembler`).
+
 #### 2.6.1.3. Application Layer
+
+Coordina los flujos de registro y login.
+* **Command Services:** `UserAccountCommandServiceImpl` (Valida unicidad de email, hashea la contraseña, guarda la entidad y emite el token).
+* **Query Services:** `UserAccountQueryServiceImpl`.
+* **Flujo principal:** El usuario envía credenciales, el Command Service las verifica contra la base de datos, y si son correctas, delega la generación del JWT a la infraestructura.
+
 
 #### 2.6.1.4. Infrastructure Layer
 
+Gestiona la persistencia y la criptografía.
+* **Repositories:** `UserAccountRepository` (extiende JpaRepository).
+* **Adapters:** `JwtTokenProvider` (genera y valida tokens), `PasswordEncoderAdapter` (BCrypt).
+* **Persistencia:** Tabla `user_accounts` con restricciones `UNIQUE` para el campo email.
+
+
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+*Descripción:*
+El diagrama de componentes de IAM ilustrará la interacción entre el `Auth REST API Component`, el `IAM Command Processing Component` y el `Security & Persistence Component`. Mostrará cómo las peticiones de login ingresan, se validan, acceden a la base de datos y retornan un JWT.
+*[Aquí se insertará el diagrama de componentes del contexto IAM]*
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+*Descripción:*
+Presentará la clase `UserAccount`, su relación estricta con el Enum `Role`, y las interfaces `UserAccountCommandService` y `UserAccountRepository`.
+*[Aquí se insertará el diagrama de clases del dominio IAM]*
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
+*Descripción:*
+Mostrará la tabla `user_accounts` con sus campos `id`, `email`, `password_hash`, `role` y `created_at`, destacando el `id` como Primary Key.
+*[Aquí se insertará el ERD de IAM]*
 
+---
 ### 2.6.2. Bounded Context: Assessments
 
+El bounded context Assessments gestiona las evaluaciones psicológicas y cuestionarios de salud. Su propósito es capturar las respuestas subjetivas del usuario para diagnosticar su estrés percibido. La entidad principal es `Assessment` o `TestResult`.
+
 #### 2.6.2.1. Domain Layer
+* **Aggregate Root:** `Assessment` (Atributos: id, userId, score, stressLevel, takenAt).
+* **Entities:** `Question`, `Answer`.
+* **Value Objects:** `StressLevel` (Enum: LOW, MEDIUM, HIGH).
+* **Commands:** `SubmitAssessmentCommand`, `CreateQuestionCommand`.
+* **Queries:** `GetAssessmentsByUserIdQuery`.
+* **Domain Events:** `TestCompletedEvent`.
 
 #### 2.6.2.2. Interface Layer
+* **REST Controllers:** `AssessmentsController`.
+* **Endpoints:** `POST /api/v1/assessments`, `GET /api/v1/assessments/user/{userId}`.
+* **DTOs:** `SubmitAssessmentResource`, `AssessmentResultResource`.
 
 #### 2.6.2.3. Application Layer
+* **Command Services:** `AssessmentCommandServiceImpl` (Recibe las respuestas, calcula el puntaje total, determina el `StressLevel`, persiste el resultado y dispara el `TestCompletedEvent`).
+* **Query Services:** `AssessmentQueryServiceImpl` (Recupera el historial de tests).
 
 #### 2.6.2.4. Infrastructure Layer
+* **Repositories:** `AssessmentRepository`, `QuestionRepository`.
+* **Persistencia:** Tablas `assessments`, `questions`, y `answers`. Llaves foráneas apuntando hacia `user_accounts` (conceptualmente, a través del userId).
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+*Descripción:*
+Este diagrama mostrará cómo el `Assessments API` recibe las respuestas, las pasa al `Scoring Component` (Application Layer) para calcular el nivel de estrés, lo persiste, y se comunica mediante eventos hacia el contexto de Health Tracking.
+*[Aquí se insertará el diagrama de componentes de Assessments]*
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+*Descripción:*
+Mostrará la relación One-to-Many entre `Assessment` y `Answer`, y las dependencias de los servicios de dominio encargados del cálculo de puntajes.
+*[Aquí se insertará el diagrama de clases de Assessments]*
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
+*Descripción:*
+Diagrama relacional conectando `assessments` con `answers`, donde cada respuesta está vinculada al test correspondiente y al usuario.
+*[Aquí se insertará el ERD de Assessments]*
+
+---
 
 ### 2.6.3. Bounded Context: Recommendations & Activities
 
+Este contexto se encarga de proveer pausas activas, ejercicios de respiración e intervenciones personalizadas basadas en el nivel de estrés del usuario. Su agregado principal es `ActivityPlan` o `Intervention`.
+
 #### 2.6.3.1. Domain Layer
+* **Aggregate Root:** `ActivityPlan` (Atributos: id, userId, recommendedActivities, status).
+* **Entities:** `Activity` (ej. Ejercicio de respiración, estiramiento).
+* **Commands:** `GenerateActivityPlanCommand`, `MarkActivityAsCompletedCommand`.
+* **Domain Events:** `ActivityCompletedEvent`, `PlanGeneratedEvent`.
+* **Reglas de negocio:** Los planes se generan dinámicamente basados en el `StressLevel`. Una actividad completada no puede volverse a marcar.
 
 #### 2.6.3.2. Interface Layer
+* **REST Controllers:** `ActivitiesController`, `PlansController`.
+* **Endpoints:** `GET /api/v1/plans/current`, `POST /api/v1/activities/{id}/complete`.
+* **DTOs:** `ActivityPlanResource`, `CompleteActivityResource`.
 
 #### 2.6.3.3. Application Layer
+* **Command Services:** `ActivityCommandServiceImpl` (Genera el plan evaluando el estrés, marca ejercicios como hechos y notifica al sistema).
+* **Event Handlers:** Escucha el `TestCompletedEvent` (desde Assessments) para auto-generar un nuevo plan de actividades.
 
 #### 2.6.3.4. Infrastructure Layer
+* **Repositories:** `ActivityPlanRepository`, `ActivityCatalogueRepository`.
+* **Persistencia:** Tablas para el catálogo de actividades (`activities_catalogue`) y el seguimiento de los planes asignados a los usuarios (`user_activity_plans`).
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+*Descripción:*
+Representará el flujo donde el motor de recomendaciones recibe el perfil del usuario, consulta el catálogo de actividades en la base de datos y genera un plan estructurado, exponiéndolo mediante el API REST.
+*[Aquí se insertará el diagrama de componentes de Recommendations]*
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+*Descripción:*
+Diagrama UML destacando `ActivityPlan`, la lista asociada de `Activity`, y el servicio de dominio generador de planes.
+*[Aquí se insertará el diagrama de clases de Recommendations]*
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
+*Descripción:*
+Modelado de las tablas catálogo contra las tablas transaccionales de planes de usuario.
+*[Aquí se insertará el ERD de Recommendations]*
+
+---
 
 ### 2.6.4. Bounded Context: Health Tracking & Dashboard
 
+El contexto encargado de consolidar todo el progreso del usuario. Consume eventos de evaluaciones y actividades para construir un historial clínico/estadístico. Su agregado raíz es `HealthRecord`.
+
 #### 2.6.4.1. Domain Layer
+* **Aggregate Root:** `HealthRecord` (Atributos: id, userId, globalStressScore, date).
+* **Entities:** `Symptom`, `Trigger` (Desencadenante).
+* **Commands:** `UpdateHealthRecordCommand`, `LogSymptomCommand`.
+* **Queries:** `GetDashboardMetricsQuery`, `GenerateProgressReportQuery`.
+* **Domain Events:** `HealthTrendUpdatedEvent`.
 
 #### 2.6.4.2. Interface Layer
+* **REST Controllers:** `DashboardController`, `HealthRecordsController`.
+* **Endpoints:** `GET /api/v1/dashboard/{userId}`, `POST /api/v1/health-records/symptoms`.
+* **DTOs:** `DashboardMetricsResource`, `SymptomResource`.
 
 #### 2.6.4.3. Application Layer
+* **Event Handlers:** `OnTestCompletedEventHandler`, `OnActivityCompletedEventHandler` (Actualizan el historial en background).
+* **Query Services:** Agrupa métricas de los últimos 7, 15 o 30 días para enviar información procesada al frontend.
 
 #### 2.6.4.4. Infrastructure Layer
+* **Repositories:** `HealthRecordRepository`, `SymptomRepository`.
+* **Adapters:** Generador de reportes PDF para exportar la historia clínica del usuario.
+* **Persistencia:** Tablas diseñadas para lectura rápida (Read-Model) y agregación de métricas.
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+*Descripción:*
+Mostrará la arquitectura orientada a eventos de este contexto: cómo sus `Event Listeners` reaccionan a los mensajes de la plataforma, actualizan la base de datos de métricas y cómo el `Dashboard Query Component` sirve los datos al móvil.
+*[Aquí se insertará el diagrama de componentes de Health Tracking]*
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+*Descripción:*
+Estructura de `HealthRecord` agrupando métricas de estrés, síntomas reportados manualmente y tendencias.
+*[Aquí se insertará el diagrama de clases de Health Tracking]*
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
+*Descripción:*
+Esquema de base de datos optimizado para consultas de series de tiempo (Time-Series) del estrés diario del usuario.
+*[Aquí se insertará el ERD de Health Tracking]*
+
+---
 
 ### 2.6.5. Bounded Context: Professionals & Appointments
 
+Gestiona el directorio de especialistas en salud mental y el ciclo de vida de las reservas de citas. El agregado raíz es `Appointment`.
+
 #### 2.6.5.1. Domain Layer
+* **Aggregate Root:** `Appointment` (Atributos: id, patientId, specialistId, scheduledAt, status).
+* **Value Objects:** `AppointmentStatus` (SCHEDULED, CANCELLED, COMPLETED).
+* **Commands:** `BookAppointmentCommand`, `CancelAppointmentCommand`.
+* **Domain Events:** `AppointmentBookedEvent`, `AppointmentCancelledEvent`.
+* **Reglas de negocio:** Validar que el especialista tenga disponibilidad en el horario; un paciente no puede reservar dos citas a la misma hora.
 
 #### 2.6.5.2. Interface Layer
+* **REST Controllers:** `AppointmentsController`, `SpecialistsController`.
+* **Endpoints:** `POST /api/v1/appointments`, `GET /api/v1/specialists`.
+* **DTOs:** `CreateAppointmentResource`, `SpecialistProfileResource`.
 
 #### 2.6.5.3. Application Layer
+* **Command Services:** `AppointmentCommandServiceImpl` (Valida horarios, cruza la disponibilidad, crea la reserva).
+* **Query Services:** Búsqueda y filtrado de psicólogos por especialidad o rating.
 
 #### 2.6.5.4. Infrastructure Layer
+* **Repositories:** `AppointmentRepository`, `SpecialistProfileRepository`.
+* **Adapters:** Posible integración con una pasarela de pago externa en caso de citas de pago.
+* **Persistencia:** Tablas `appointments` y `specialist_profiles`.
 
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams
+*Descripción:*
+Ilustrará cómo interactúan el componente de reservas con el catálogo de especialistas, validando disponibilidades antes de persistir la cita y emitiendo el evento hacia el Notification Context.
+*[Aquí se insertará el diagrama de componentes de Appointments]*
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+*Descripción:*
+Mostrará la relación entre `Appointment`, `SpecialistProfile` y el paciente (identificado por su ID de IAM).
+*[Aquí se insertará el diagrama de clases de Appointments]*
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
+*Descripción:*
+Esquema de reservas con sus respectivas llaves foráneas apuntando a la tabla de perfiles de especialistas y estado de la cita.
+*[Aquí se insertará el ERD de Appointments]*
+
+---
 
 ### 2.6.6. Bounded Context: Community & Resources
 
+Este contexto abarca el contenido educativo y el soporte social. Su enfoque es más de gestión de contenido (CMS) e interacción social. Agregados principales: `Resource` (Artículos/Videos) y `ForumGroup`.
+
 #### 2.6.6.1. Domain Layer
+* **Aggregate Roots:** `EducationalResource`, `SupportGroup`.
+* **Entities:** `GroupMessage`.
+* **Commands:** `PublishMessageCommand`, `JoinGroupCommand`.
+* **Queries:** `GetAllResourcesQuery`, `GetGroupMessagesQuery`.
 
 #### 2.6.6.2. Interface Layer
+* **REST Controllers:** `ResourcesController`, `GroupsController`.
+* **Endpoints:** `GET /api/v1/resources`, `POST /api/v1/groups/{id}/messages`.
+* **DTOs:** `ResourceDTO`, `GroupMessageDTO`.
 
 #### 2.6.6.3. Application Layer
+* **Command/Query Services:** Sirve el contenido multimedia y gestiona la lógica de participación en los foros de apoyo, aplicando filtros básicos de contenido.
 
 #### 2.6.6.4. Infrastructure Layer
+* **Repositories:** `ResourceRepository`, `SupportGroupRepository`.
+* **Persistencia:** Almacenamiento de URLs multimedia y metadatos de los artículos, junto con el registro de mensajes de chat grupales.
 
 #### 2.6.6.5. Bounded Context Software Architecture Component Level Diagrams
+*Descripción:*
+Representará el subsistema de entrega de contenido (Content Delivery Component) y el motor de foros, mostrando cómo se sirve información estática e interactiva al usuario.
+*[Aquí se insertará el diagrama de componentes de Community]*
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.6.6.1. Bounded Context Domain Layer Class Diagrams
+*Descripción:*
+UML simple de las clases de recursos educativos y foros comunitarios.
+*[Aquí se insertará el diagrama de clases de Community]*
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
+*Descripción:*
+Tablas relacionales de grupos, mensajes y catálogo de recursos de bienestar.
+*[Aquí se insertará el ERD de Community]*
+
+---
 
 ### 2.6.7. Bounded Context: Notification
 
+Es un contexto técnico transversal. No interactúa directamente a través de un CRUD tradicional, sino que reacciona a los Domain Events del sistema para notificar a los usuarios. Su agregado raíz es `Notification`.
+
 #### 2.6.7.1. Domain Layer
+* **Aggregate Root:** `Notification` (Atributos: id, recipientId, message, type, sentAt, isRead).
+* **Value Objects:** `NotificationType` (EMAIL, PUSH, IN_APP).
+* **Commands:** `SendNotificationCommand`, `MarkAsReadCommand`.
+* **Reglas de negocio:** Registrar todo envío en un log de notificaciones; no enviar mensajes push si el usuario configuró el modo "No Molestar".
 
 #### 2.6.7.2. Interface Layer
+* **REST Controllers:** `NotificationsController` (Para que el usuario vea sus alertas in-app o las marque como leídas).
+* **Endpoints:** `GET /api/v1/notifications`, `PUT /api/v1/notifications/{id}/read`.
 
 #### 2.6.7.3. Application Layer
+* **Event Handlers:** La capa más crítica. Escucha eventos como `AppointmentBookedEvent`, `TestCompletedEvent`, o `PlanGeneratedEvent` para orquestar la creación de comandos de notificación.
+* **Command Services:** `NotificationCommandServiceImpl`.
 
 #### 2.6.7.4. Infrastructure Layer
+* **Adapters:** `SendGridEmailAdapter` (envío de correos), `FirebasePushNotificationAdapter` (envío a móviles).
+* **Repositories:** `NotificationRepository`.
+* **Persistencia:** Tabla de log de notificaciones para histórico y estado de lectura.
 
 #### 2.6.7.5. Bounded Context Software Architecture Component Level Diagrams
+*Descripción:*
+Mostrará un Event Bus conectando el Notification Context con los demás contextos. Ilustrará cómo los adaptadores externos (FCM, SMTP) envían los mensajes físicos al dispositivo del usuario.
+*[Aquí se insertará el diagrama de componentes de Notification]*
 
 #### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.7.6.1. Bounded Context Domain Layer Class Diagrams
+*Descripción:*
+Modelará la clase `Notification` y las interfaces de los adaptadores de mensajería (Ports).
+*[Aquí se insertará el diagrama de clases de Notification]*
 
 ##### 2.6.7.6.2. Bounded Context Database Design Diagram
+*Descripción:*
+Tabla simple para almacenar el histórico de notificaciones (`id`, `recipient_id`, `message`, `is_read`, `created_at`).
+*[Aquí se insertará el ERD de Notification]*
 
 ---
 
