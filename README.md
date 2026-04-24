@@ -966,11 +966,360 @@ _Orden de User Stories y Technical Stories_
 
 ### 2.5.1. EventStorming
 
+### Introducción
+
+EventStorming es una técnica colaborativa de modelado del dominio que permite al equipo visualizar y comprender los procesos de negocio a través de eventos que ocurren en el sistema. Para el proyecto NeuroZen, se realizó una sesión de EventStorming con el objetivo de identificar los eventos clave, los actores principales y los *bounded contexts* del dominio de detección y gestión del estrés laboral. Esta sesión facilitó la comunicación entre los miembros del equipo, permitiendo alinear una visión común del sistema y establecer una base sólida para el diseño de la arquitectura.
+
+La sesión de EventStorming se llevó a cabo considerando los principales flujos de negocio: registro y configuración de perfiles biométricos, realización de autoevaluaciones, análisis de señales de estrés, programación de recomendaciones o pausas activas, y la conexión con especialistas en salud mental. El resultado fue un modelo visual que refleja las interacciones entre los actores principales (Usuarios trabajadores, Psicólogos o Especialistas, y el Sistema) en el contexto del bienestar y la salud mental en el entorno laboral.
+
 #### 2.5.1.1. Candidate Context Discovery
+
+#### 2.5.1.1. Candidate Context Discovery
+
+**Objetivo:** Identificar y delimitar los contextos acotados (*bounded contexts*) que estructurarán el sistema NeuroZen, asegurando que cada contexto posea un propósito claro, un vocabulario ubicuo específico y reglas de negocio bien delimitadas.
+
+**Proceso Realizado:**
+La sesión de Candidate Context Discovery se llevó a cabo aplicando las técnicas recomendadas en Domain-Driven Design (DDD), que permitieron descomponer el dominio de detección y gestión del estrés laboral en áreas funcionales coherentes y manejables.
+
+**Start-with-Value (Comenzar por el Valor):**
+Se identificaron las áreas de mayor valor de negocio en NeuroZen:
+* Detección temprana del estrés laboral mediante biometría y autoevaluaciones.
+* Generación de recomendaciones personalizadas, ejercicios de respiración y pausas activas.
+* Conexión directa entre usuarios y especialistas en salud mental (psicólogos).
+* Monitoreo del progreso a través de un dashboard interactivo y análisis de carga laboral.
+
+**Start-with-Simple (Comenzar con lo Simple):**
+Se organizó el timeline del proceso en pasos secuenciales y lógicos:
+* **Registro y Configuración:** Usuario se registra y configura su perfil de salud y datos biométricos base.
+* **Evaluación:** Usuario realiza tests de autoevaluación o es escaneado para detectar señales físicas de estrés.
+* **Intervención:** El sistema procesa los datos y entrega recomendaciones; el usuario ejecuta actividades para reducir la tensión.
+* **Seguimiento:** El usuario revisa su historial, registra desencadenantes y visualiza su progreso.
+* **Asistencia Profesional:** Si es necesario, el usuario busca un especialista, agenda una cita y comparte sus informes.
+
+Este enfoque permitió agrupar eventos en bloques naturales de negocio.
+
+**Look-for-Pivotal-Events (Buscar Eventos Clave):**
+Se detectaron eventos pivotales que marcan cambios de estado críticos:
+* "Perfil Biométrico Configurado" -> Habilita el análisis automatizado personalizado.
+* "Evaluación de Estrés Completada" -> Genera el nivel de estrés actual del usuario.
+* "Nivel de Estrés Calculado" -> Dispara la asignación de recomendaciones personalizadas.
+* "Pausa Activa / Ejercicio Completado" -> Actualiza las estadísticas de progreso del usuario.
+* "Cita con Especialista Confirmada" -> Establece el vínculo clínico y reserva el horario del profesional.
+
+Estos eventos sirvieron como puntos de corte naturales para separar contextos.
+
+**Bounded Contexts Identificados:**
+
+**1. Identity & Access Management (IAM) Context**
+* **Propósito:** Gestionar la seguridad, autenticación y perfiles base de los usuarios.
+* **Responsabilidades:** Registro de usuarios, inicio de sesión, gestión de roles (Usuario trabajador, Especialista, Administrador).
+* **Vocabulario:** Usuario, Credencial, Rol, Perfil, Autenticación.
+* **Justificación:** Base fundamental del sistema que valida y controla el acceso seguro a la plataforma.
+
+**2. Biometrics & Analysis Context**
+* **Propósito:** Capturar y analizar señales físicas observables para la detección de estrés.
+* **Responsabilidades:** Configuración del perfil biométrico, captura de datos por sensores/cámara (postura, tensión facial), cálculo de nivel de estrés físico.
+* **Vocabulario:** Señal biométrica, Postura, Tensión, Respiración, Escaneo, Análisis.
+* **Justificación:** Representa el núcleo tecnológico innovador de NeuroZen para la detección temprana.
+
+**3. Assessments Context**
+* **Propósito:** Gestionar las evaluaciones psicológicas y emocionales del usuario.
+* **Responsabilidades:** Cuestionario inicial de salud, tests de autoevaluación recurrentes, cálculo de puntajes.
+* **Vocabulario:** Test, Cuestionario, Pregunta, Respuesta, Autoevaluación, Resultado.
+* **Justificación:** Permite cruzar la información subjetiva del usuario con los datos biométricos para un diagnóstico preciso.
+
+**4. Recommendations & Activities Context**
+* **Propósito:** Proveer herramientas prácticas para la mitigación inmediata del estrés.
+* **Responsabilidades:** Sugerir intervenciones personalizadas, guiar ejercicios de respiración, gestionar la programación de pausas activas.
+* **Vocabulario:** Recomendación, Ejercicio, Pausa Activa, Plan de Acción, Intervención.
+* **Justificación:** Transforma el diagnóstico en soluciones accionables para mejorar el bienestar del usuario.
+
+**5. Health Tracking & Dashboard Context**
+* **Propósito:** Consolidar, analizar y presentar la evolución del estado de salud del usuario.
+* **Responsabilidades:** Generación del dashboard, creación de reportes de progreso, registro de desencadenantes y síntomas, análisis de carga laboral.
+* **Vocabulario:** Dashboard, Informe, Historial, Desencadenante, Síntoma, Carga Laboral, Progreso.
+* **Justificación:** Mantiene al usuario comprometido y consciente de su evolución a largo plazo.
+
+**6. Professionals & Appointments Context**
+* **Propósito:** Facilitar la conexión con profesionales de la salud mental.
+* **Responsabilidades:** Búsqueda de psicólogos por especialidad, agendamiento de citas, control de disponibilidad, compartición de reportes clínicos.
+* **Vocabulario:** Especialista, Psicólogo, Cita, Horario, Especialidad, Paciente.
+* **Justificación:** Brinda soporte humano avanzado cuando las herramientas de autogestión no son suficientes.
+
+**7. Community & Resources Context**
+* **Propósito:** Fomentar el apoyo social y la educación sobre salud mental.
+* **Responsabilidades:** Gestión de grupos de apoyo, biblioteca de recursos (artículos, videos), administración de desafíos antiestrés.
+* **Vocabulario:** Grupo de apoyo, Recurso, Artículo, Desafío, Comunidad.
+* **Justificación:** Crea un ecosistema integral que acompaña al usuario más allá del entorno estrictamente clínico.
+
+**8. Notification Context**
+* **Propósito:** Gestionar la comunicación proactiva del sistema hacia el usuario.
+* **Responsabilidades:** Envío de recordatorios de ergonomía, alertas de pausas activas, notificaciones de citas próximas.
+* **Vocabulario:** Notificación, Recordatorio, Alerta, Ergonomía.
+* **Justificación:** Asegura la adopción de micro-hábitos saludables durante la jornada laboral del usuario.
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
+#### 2.5.1.2. Domain Message Flows Modeling
+
+**Objetivo:** Visualizar cómo colaboran los bounded contexts para resolver los casos de negocio de NeuroZen, asegurando trazabilidad en el flujo de información y claridad en las responsabilidades.
+
+**Técnica Aplicada:** Se utilizó Domain Storytelling para modelar las interacciones entre actores, contextos y eventos principales. Esta técnica permite describir narrativamente cómo fluye la información entre contextos y qué eventos desencadenan acciones en otros dominios.
+
+**Flujos de Mensajes Modelados:**
+
+**1. Flujo: Usuario se Registra y Configura su Perfil Inicial**
+Usuario Trabajador (Actor)
+     ↓
+[Identity & Access Management Context] - Recibe comando "RegistrarUsuario"
+     ├─ Valida credenciales y crea cuenta
+     └─ Genera evento "UsuarioRegistrado"
+          ↓
+[Assessments Context]
+     ├─ Solicita completar cuestionario de salud
+     ├─ Recibe respuestas base
+     └─ Genera evento "CuestionarioInicialCompletado"
+          ↓
+[Biometrics & Analysis Context]
+     ├─ Solicita configuración de datos biométricos
+     ├─ Calibra señales físicas base (rostro, postura)
+     └─ Genera evento "PerfilBiometricoConfigurado"
+
+**Responsabilidades:**
+* **Identity & Access Management Context:** Creación y seguridad de la cuenta.
+* **Assessments Context:** Recopilación de información de salud inicial.
+* **Biometrics & Analysis Context:** Establecimiento de la línea base física del usuario.
+
+---
+
+**2. Flujo: Detección de Estrés y Generación de Recomendaciones**
+Usuario Trabajador (Actor)
+     ↓
+[Biometrics & Analysis Context] / [Assessments Context]
+     ├─ Recibe comando "AnalizarSeñales" o "RealizarTest"
+     ├─ Procesa datos físicos y respuestas subjetivas
+     ├─ Calcula el nivel de estrés actual
+     └─ Genera evento "NivelEstresCalculado"
+          ↓
+[Recommendations & Activities Context]
+     ├─ Recibe el nivel de estrés
+     ├─ Selecciona ejercicios y pausas activas adecuadas
+     └─ Genera evento "RecomendacionesGeneradas"
+          ↓
+[Notification Context] y [Health Tracking & Dashboard Context]
+     ├─ [Notification] Envía alerta/sugerencia al usuario
+     └─ [Health Tracking] Registra el evento de estrés en el historial
+
+**Responsabilidades:**
+* **Biometrics & Analysis / Assessments Context:** Diagnóstico preciso del estado del usuario.
+* **Recommendations & Activities Context:** Selección de intervenciones personalizadas.
+* **Notification Context:** Comunicación oportuna para la acción preventiva.
+* **Health Tracking & Dashboard Context:** Almacenamiento de la métrica para el historial.
+
+---
+
+**3. Flujo: Ejecución de Pausa Activa y Actualización de Progreso**
+Usuario Trabajador (Actor)
+     ↓
+[Recommendations & Activities Context]
+     ├─ Inicia ejercicio guiado o pausa activa
+     ├─ Finaliza la actividad
+     └─ Genera evento "ActividadCompletada"
+          ↓
+[Health Tracking & Dashboard Context]
+     ├─ Recibe confirmación de actividad
+     ├─ Actualiza métricas de adherencia y reducción de estrés
+     ├─ Recalcula estadísticas del dashboard
+     └─ Genera evento "DashboardActualizado"
+          ↓
+[Notification Context] (Opcional)
+     └─ Envía refuerzo positivo o programa próximo recordatorio
+
+**Responsabilidades:**
+* **Recommendations & Activities Context:** Gestión y ejecución de la intervención.
+* **Health Tracking & Dashboard Context:** Reflejo del esfuerzo en las métricas de progreso a largo plazo.
+* **Notification Context:** Refuerzo de hábitos saludables.
+
+---
+
+**4. Flujo: Reserva de Cita y Compartición de Informes con Especialista**
+Usuario Trabajador (Actor)
+     ↓
+[Professionals & Appointments Context]
+     ├─ Recibe comando "BuscarPsicologo" y "AgendarCita"
+     ├─ Muestra disponibilidad y confirma reserva
+     └─ Genera evento "CitaAgendada"
+          ↓
+[Health Tracking & Dashboard Context]
+     ├─ Recibe autorización del usuario
+     ├─ Empaqueta el reporte de progreso y métricas de estrés
+     └─ Genera evento "InformeCompartido"
+          ↓
+[Notification Context]
+     ├─ Notifica al Especialista (Psicólogo) sobre la nueva cita y el informe
+     └─ Envía confirmación al Usuario Trabajador
+
+**Responsabilidades:**
+* **Professionals & Appointments Context:** Coordinación de agendas y enlace clínico.
+* **Health Tracking & Dashboard Context:** Proveer contexto médico/emocional basado en datos al especialista.
+* **Notification Context:** Confirmaciones y recordatorios a ambas partes.
+
 #### 2.5.1.3. Bounded Context Canvases
+
+#### 2.5.1.3. Bounded Context Canvases
+
+**Objetivo:** Documentar de forma detallada cada bounded context mediante el Bounded Context Canvas, especificando el propósito, las capacidades, las reglas de negocio y las dependencias de cada dominio dentro de la plataforma NeuroZen.
+
+**Proceso de Diseño:** Se siguió un proceso iterativo para cada canvas que incluyó:
+* **Context Overview Definition:** Definición clara del nombre, propósito y alcance.
+* **Business Rules Distillation & Ubiquitous Language Capture:** Extracción de reglas y vocabulario del dominio.
+* **Capability Analysis:** Identificación de capacidades técnicas y de negocio.
+* **Capability Layering:** Organización jerárquica de capacidades.
+* **Dependencies Capture:** Mapeo de dependencias internas y externas.
+* **Design Critique:** Validación con stakeholders.
+
+---
+
+**Canvas 1: Identity & Access Management (IAM) Context**
+
+| Elemento | Descripción |
+| :--- | :--- |
+| **Nombre** | Identity & Access Management (IAM) Context |
+| **Propósito** | Proveer autenticación, autorización y gestión de perfiles de usuario para la plataforma NeuroZen. |
+| **Descripción** | Contexto encargado de validar credenciales, gestionar sesiones seguras y mantener perfiles de usuario con roles diferenciados (Usuario trabajador, Especialista, Administrador). |
+| **Actores Principales** | Usuario Trabajador, Especialista (Psicólogo), Administrador del Sistema. |
+| **Eventos Principales** | UsuarioRegistrado, SesionIniciada, SesionCerrada, PerfilActualizado, RolAsignado. |
+| **Comandos** | RegistrarUsuario, IniciarSesion, CerrarSesion, ActualizarPerfil, AsignarRol. |
+| **Reglas de Negocio** | • Las contraseñas deben cumplir estándares de seguridad altos por tratar datos de salud.<br>• Las sesiones en dispositivos móviles se mantienen con tokens de expiración renovables.<br>• El correo electrónico (o teléfono) debe ser único.<br>• Verificación de identidad estricta para el rol "Especialista". |
+| **Capacidades** | • Registro con validación de datos biométricos/credenciales.<br>• Autenticación (Email/Password, OAuth).<br>• Gestión de JWT y sesiones seguras.<br>• Control de acceso basado en roles (RBAC).<br>• Recuperación de cuentas. |
+| **Dependencias** | → Notification Context (para enviar emails/SMS de verificación). |
+| **Vocabulario Ubicuo** | Usuario, Credencial, Rol, Perfil, Token, Sesión, Autenticación, Autorización. |
+
+---
+
+**Canvas 2: Biometrics & Analysis Context**
+
+| Elemento | Descripción |
+| :--- | :--- |
+| **Nombre** | Biometrics & Analysis Context |
+| **Propósito** | Capturar y analizar señales físicas observables para la detección de estrés. |
+| **Descripción** | Núcleo tecnológico que utiliza los sensores del dispositivo para captar postura, tensión facial y patrones físicos, calculando el nivel de estrés en tiempo real. |
+| **Actores Principales** | Usuario Trabajador, Sistema de Análisis Biométrico. |
+| **Eventos Principales** | PerfilBiometricoConfigurado, EscaneoRealizado, NivelEstresFisicoCalculado, AnomaliaDetectada. |
+| **Comandos** | ConfigurarPerfilBiometrico, IniciarEscaneo, ProcesarSeñales, CalcularNivelEstres. |
+| **Reglas de Negocio** | • Requiere permiso explícito del usuario para usar cámara y sensores.<br>• Los datos biométricos crudos no se almacenan en la nube; se procesan localmente y se envía el resultado.<br>• La calibración inicial es obligatoria para establecer una "línea base". |
+| **Capacidades** | • Captura de señales mediante cámara/sensores.<br>• Análisis de tensión muscular facial y postura.<br>• Cálculo algorítmico de niveles de estrés físico.<br>• Calibración de línea base personal. |
+| **Dependencias** | ← IAM Context (para vincular análisis al usuario).<br>→ Recommendations & Activities Context (para disparar intervenciones). |
+| **Vocabulario Ubicuo** | Perfil biométrico, Análisis biométrico, Señales físicas, Tensión, Postura, Nivel de Estrés Físico, Calibración. |
+
+---
+
+**Canvas 3: Assessments Context**
+
+| Elemento | Descripción |
+| :--- | :--- |
+| **Nombre** | Assessments Context |
+| **Propósito** | Gestionar las evaluaciones psicológicas y emocionales del usuario mediante tests estandarizados. |
+| **Descripción** | Contexto que administra los cuestionarios de salud mental, almacena las respuestas subjetivas y calcula el nivel de estrés percibido. |
+| **Actores Principales** | Usuario Trabajador. |
+| **Eventos Principales** | CuestionarioInicialCompletado, TestIniciado, TestCompletado, NivelEstresPsicologicoCalculado. |
+| **Comandos** | IniciarCuestionario, ResponderPregunta, FinalizarTest, CalcularPuntaje. |
+| **Reglas de Negocio** | • El cuestionario inicial de salud es obligatorio para completar el "onboarding".<br>• Los tests rápidos no deben tomar más de 3 minutos.<br>• Los puntajes se calculan en base a escalas psicológicas validadas.<br>• El test puede ser pausado y retomado más tarde. |
+| **Capacidades** | • Motor de renderizado de cuestionarios dinámicos.<br>• Almacenamiento seguro de respuestas sensibles.<br>• Cálculo de puntajes y niveles de riesgo.<br>• Gestión del estado del test (completado, en progreso). |
+| **Dependencias** | ← IAM Context.<br>→ Health Tracking & Dashboard Context (para historial). |
+| **Vocabulario Ubicuo** | Test de autoevaluación, Cuestionario, Pregunta, Escala, Puntaje, Estrés Percibido. |
+
+---
+
+**Canvas 4: Recommendations & Activities Context**
+
+| Elemento | Descripción |
+| :--- | :--- |
+| **Nombre** | Recommendations & Activities Context |
+| **Propósito** | Proveer herramientas prácticas y guiadas para la mitigación inmediata del estrés. |
+| **Descripción** | Recibe el nivel de estrés del usuario y genera sugerencias personalizadas, gestionando la ejecución de ejercicios de respiración y pausas activas. |
+| **Actores Principales** | Usuario Trabajador, Motor de Recomendaciones. |
+| **Eventos Principales** | RecomendacionesGeneradas, ActividadIniciada, EjercicioCompletado, PausaActivaProgramada. |
+| **Comandos** | GenerarSugerencias, IniciarEjercicio, FinalizarActividad, ProgramarPausa. |
+| **Reglas de Negocio** | • Las recomendaciones de "alto riesgo" siempre incluyen la opción de contactar a un especialista.<br>• Los ejercicios de respiración deben tener control de reproducción (play/pause).<br>• Las pausas activas se adaptan a la disponibilidad horaria del trabajador. |
+| **Capacidades** | • Motor de reglas para seleccionar recomendaciones.<br>• Reproductor multimedia para ejercicios guiados (audio/video).<br>• Gestión y seguimiento de la ejecución de pausas activas. |
+| **Dependencias** | ← Biometrics / Assessments Context (recibe niveles de estrés).<br>→ Health Tracking & Dashboard Context (registra adherencia).<br>→ Notification Context (programa recordatorios). |
+| **Vocabulario Ubicuo** | Recomendaciones personalizadas, Ejercicios de respiración, Pausas activas, Intervención, Adherencia. |
+
+---
+
+**Canvas 5: Health Tracking & Dashboard Context**
+
+| Elemento | Descripción |
+| :--- | :--- |
+| **Nombre** | Health Tracking & Dashboard Context |
+| **Propósito** | Consolidar, analizar y presentar la evolución del estado de salud mental y carga laboral del usuario. |
+| **Descripción** | El repositorio central de progreso. Genera gráficos, mantiene el historial de síntomas/desencadenantes y consolida reportes exportables. |
+| **Actores Principales** | Usuario Trabajador, Especialista (modo lectura compartida). |
+| **Eventos Principales** | DashboardActualizado, InformeGenerado, SintomaRegistrado, DesencadenanteAgregado, CargaLaboralAnalizada. |
+| **Comandos** | VisualizarEstadisticas, ExportarInforme, RegistrarSintoma, RegistrarDesencadenante. |
+| **Reglas de Negocio** | • La privacidad es "opt-in"; los informes solo se comparten si el usuario lo autoriza explícitamente.<br>• Los datos se agregan por día, semana y mes.<br>• Se requiere al menos 3 días de datos para mostrar tendencias de progreso válidas. |
+| **Capacidades** | • Agregación y procesamiento analítico de datos.<br>• Renderizado de gráficos de tendencias de estrés.<br>• Generador de reportes (PDF).<br>• CRUD de registro manual de síntomas físicos y detonantes. |
+| **Dependencias** | ← Todos los contextos de captura (Biometrics, Assessments, Activities).<br>→ Professionals & Appointments Context (adjunta reportes a citas). |
+| **Vocabulario Ubicuo** | Dashboard personal, Informe de progreso, Desencadenante de estrés, Síntoma físico, Tendencia, Carga laboral. |
+
+---
+
+**Canvas 6: Professionals & Appointments Context**
+
+| Elemento | Descripción |
+| :--- | :--- |
+| **Nombre** | Professionals & Appointments Context |
+| **Propósito** | Facilitar la conexión segura y el agendamiento entre usuarios y especialistas en salud mental. |
+| **Descripción** | Directorio de psicólogos que permite búsquedas filtradas, gestión de calendarios, reserva de citas y enlace de historiales clínicos. |
+| **Actores Principales** | Usuario Trabajador, Especialista (Psicólogo). |
+| **Eventos Principales** | EspecialistaBuscado, CitaAgendada, CitaConfirmada, CitaCancelada, InformeClinicoVinculado. |
+| **Comandos** | BuscarEspecialistas, AgendarCita, ConfirmarDisponibilidad, CancelarCita, CompartirHistorial. |
+| **Reglas de Negocio** | • Las cancelaciones por parte del usuario deben realizarse con al menos 12 horas de anticipación.<br>• Las citas no pueden superponerse en el calendario del especialista.<br>• Los especialistas deben estar verificados por el administrador antes de aparecer en búsquedas. |
+| **Capacidades** | • Motor de búsqueda por especialidad y rating.<br>• Gestión de calendario y disponibilidad (slots de tiempo).<br>• Lógica de reservas y cancelaciones.<br>• Puente de acceso temporal a reportes de salud compartidos. |
+| **Dependencias** | ← IAM Context (perfiles de psicólogos).<br>← Health Tracking & Dashboard Context (obtener el PDF/Reporte).<br>→ Notification Context (confirmaciones). |
+| **Vocabulario Ubicuo** | Especialista en salud mental, Psicólogo, Cita, Disponibilidad, Reserva, Paciente. |
+
+---
+
+**Canvas 7: Community & Resources Context**
+
+| Elemento | Descripción |
+| :--- | :--- |
+| **Nombre** | Community & Resources Context |
+| **Propósito** | Fomentar el apoyo social, la educación continua sobre salud mental y la motivación. |
+| **Descripción** | Contexto que agrupa foros/grupos de apoyo moderados, desafíos de bienestar gamificados y una biblioteca de artículos/videos. |
+| **Actores Principales** | Usuario Trabajador, Administrador/Moderador. |
+| **Eventos Principales** | GrupoUnido, MensajeComunidadPublicado, RecursoConsultado, DesafioIniciado. |
+| **Comandos** | UnirseAGrupo, PublicarExperiencia, LeerArticulo, InscribirseDesafio. |
+| **Reglas de Negocio** | • Los foros cuentan con filtros automáticos de palabras sensibles/ofensivas.<br>• Los usuarios pueden optar por participar de forma anónima en los grupos de apoyo.<br>• Todo el contenido de la biblioteca debe estar validado profesionalmente. |
+| **Capacidades** | • CMS (Content Management System) para recursos educativos.<br>• Sistema de foros y mensajería grupal moderada.<br>• Motor de gamificación y tracking de desafíos comunitarios. |
+| **Dependencias** | ← IAM Context (identidad o pseudo-identidad). |
+| **Vocabulario Ubicuo** | Grupo de apoyo, Biblioteca de recursos, Desafío antiestrés, Comunidad, Moderación. |
+
+---
+
+**Canvas 8: Notification Context**
+
+| Elemento | Descripción |
+| :--- | :--- |
+| **Nombre** | Notification Context |
+| **Propósito** | Gestionar y orquestar toda la comunicación proactiva del sistema hacia los usuarios. |
+| **Descripción** | Contexto transversal responsable del envío de push notifications, correos electrónicos y recordatorios (ergonomía, pausas, citas). |
+| **Actores Principales** | Sistema NeuroZen, Usuario Trabajador, Especialista. |
+| **Eventos Principales** | NotificacionPushEnviada, RecordatorioEntregado, EmailConfirmacionEnviado. |
+| **Comandos** | EnviarNotificacion, ProgramarRecordatorio, ActualizarPreferenciasNotificacion. |
+| **Reglas de Negocio** | • Se respeta el horario laboral y preferencias de silencio (No Molestar) del usuario.<br>• Los recordatorios de pausas activas tienen prioridad media; las confirmaciones de citas prioridad alta.<br>• El usuario puede personalizar qué tipo de notificaciones desea recibir. |
+| **Capacidades** | • Envío multicanal (Push, Email).<br>• Colas de tareas programadas (CRON) para recordatorios diferidos.<br>• Gestión de configuraciones de alerta por usuario. |
+| **Dependencias** | ↔ Escucha eventos de todos los demás contextos.<br>→ Integración con proveedores externos (FCM, SendGrid). |
+| **Vocabulario Ubicuo** | Notificación, Recordatorio de ergonomía, Alerta, Horario laboral, Preferencias. |
+
+---
+**Notas Sobre los Canvases:**
+* Cada canvas ha sido diseñado iterativamente considerando las necesidades del usuario trabajador sometido a estrés laboral y los especialistas en salud mental.
+* Las dependencias muestran explícitamente cómo los contextos colaboran para transformar datos crudos (Biometrics, Assessments) en acciones de bienestar y datos históricos valiosos.
+* El vocabulario ubicuo mantiene estricta consistencia con el glosario previamente definido en el proyecto.
+* Los canvases servirán de base técnica fundamental para el diseño arquitectónico de software a nivel de contenedores y componentes en las secciones posteriores.
 
 ### 2.5.2. Context Mapping
 
