@@ -1379,7 +1379,7 @@ Usuario Trabajador (Actor)
 
 **Objetivo:** Establecer las relaciones de integración y el flujo de información entre los distintos Bounded Contexts de NeuroZen, definiendo los patrones de integración estratégicos para asegurar la coherencia del sistema.
 
-
+<p align="center"><img src="assets/md-images/context-mapping.jpeg" alt="Context Mapping" width="700px" /></p>
 
 #### IAM – Perfiles (ACL)
 En esta relación, **IAM** actúa como Upstream, proveyendo la identidad base validada de los usuarios (trabajadores y psicólogos). El contexto de **Perfiles** es Downstream, consumiendo esta identidad para extenderla con datos personales, historial de salud y credenciales profesionales. Se implementa una **Anti-Corruption Layer (ACL)** en Perfiles para evitar que cambios en el sistema de autenticación base afecten el modelo de datos especializado de salud mental.
