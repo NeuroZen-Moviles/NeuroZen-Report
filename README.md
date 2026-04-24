@@ -85,11 +85,29 @@ A continuación, se presentan las evidencias de participación y colaboración d
 
 ### Contribuciones por integrante
 
-ACA VA OTRA COSA
+| Integrante | Tareas Asignadas |
+| :--- | :--- |
+| **Castro Picón, Manuel Fernando Joao** | **Capítulo I – Presentación**<br>1.1 Startup Profile<br>1.1.1 Descripción de la Startup<br>1.1.2 Perfiles de integrantes del equipo<br>1.2 Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process<br>1.2.2.1 Lean UX Problem Statements<br>1.2.2.2 Lean UX Assumptions<br>1.2.2.3 Lean UX Hypothesis Statements<br>1.2.2.4 Lean UX Canvas<br>1.3 Segmentos objetivo |
+| **Requena Gutiérrez, Diego Gabriel** | **Capítulo II**<br>2.1 Competidores<br>2.1.1 Análisis competitivo<br>2.1.2 Estrategias y tácticas frente a competidores<br>2.2 Entrevistas<br>2.2.1 Diseño de entrevistas<br>2.2.2 Registro de entrevistas<br>2.2.3 Análisis de entrevistas |
+| **Huaman De La Cruz, Jean Pool** | **2.3 Needfinding**<br>2.3.1 User Personas<br>2.3.2 User Task Matrix<br>2.3.3 User Journey Mapping<br>2.3.4 Empathy Mapping<br>2.3.5 Big Picture EventStorming<br>2.3.6 Ubiquitous Language |
+| **Solis Chang, Santiago Valentino** | **2.4 Requirements Specification**<br>2.4.1 User Stories<br>2.4.2 Impact Mapping<br>2.4.3 Product Backlog |
+| **Vila Guillen, Miguel Angel** | **2.5.1 EventStorming**<br>2.5.1.1 Candidate Context Discovery<br>2.5.1.2 Domain Message Flows Modeling<br>2.5.1.3 Bounded Context Canvases |
+| **Castro Picón, Manuel Fernando Joao** | **2.5.2 Context Mapping** |
+| **Solis Chang, Santiago Valentino** | **2.5.3 Software Architecture**<br>2.5.3.1 Context Level Diagrams<br>2.5.3.2 Container Level Diagrams<br>2.5.3.3 Deployment Diagrams |
+| **Requena Gutiérrez, Diego Gabriel** | **2.6.1 Bounded Context: Bookings**<br>2.6.1.1 Domain Layer<br>2.6.1.2 Interface Layer<br>2.6.1.3 Application Layer<br>2.6.1.4 Infrastructure Layer<br>2.6.1.5 Component Level Diagrams<br>2.6.1.6 Code Level Diagrams<br>2.6.1.6.1 Class Diagram<br>2.6.1.6.2 Database Diagram |
+| **Huaman De La Cruz, Jean Pool** | **2.6.2 Bounded Context: Payments**<br>2.6.2.1 Domain Layer<br>2.6.2.2 Interface Layer<br>2.6.2.3 Application Layer<br>2.6.2.4 Infrastructure Layer<br>2.6.2.5 Component Level Diagrams<br>2.6.2.6 Code Level Diagrams<br>2.6.2.6.1 Class Diagram<br>2.6.2.6.2 Database Diagram |
+| **Castro Picón, Manuel Fernando Joao** | **2.6.3 Bounded Context: Users**<br>2.6.3.1 Domain Layer<br>2.6.3.2 Interface Layer<br>2.6.3.3 Application Layer<br>2.6.3.4 Infrastructure Layer<br>2.6.3.5 Component Level Diagrams<br>2.6.3.6 Code Level Diagrams<br>2.6.3.6.1 Class Diagram<br>2.6.3.6.2 Database Diagram |
+| **Solis Chang, Santiago Valentino** | **2.6.4 Bounded Context: Coaches**<br>2.6.4.1 Domain Layer<br>2.6.4.2 Interface Layer<br>2.6.4.3 Application Layer<br>2.6.4.4 Infrastructure Layer<br>2.6.4.5 Component Level Diagrams<br>2.6.4.6 Code Level Diagrams<br>2.6.4.6.1 Class Diagram<br>2.6.4.6.2 Database Diagram |
+| **Vila Guillen, Miguel Angel** | **2.6.5 Bounded Context: Courts**<br>2.6.5.1 Domain Layer<br>2.6.5.2 Interface Layer<br>2.6.5.3 Application Layer<br>2.6.5.4 Infrastructure Layer<br>2.6.5.5 Component Level Diagrams<br>2.6.5.6 Code Level Diagrams<br>2.6.5.6.1 Class Diagram<br>2.6.5.6.2 Database Diagram |
+| **Vila Guillen, Miguel Angel** | **2.6.6 Bounded Context: Availabilities**<br>2.6.6.1 Domain Layer<br>2.6.6.2 Interface Layer<br>2.6.6.3 Application Layer<br>2.6.6.4 Infrastructure Layer<br>2.6.6.5 Component Level Diagrams<br>2.6.6.6 Code Level Diagrams<br>2.6.6.6.1 Class Diagram<br>2.6.6.6.2 Database Diagram |
+| **Solis Chang, Santiago Valentino** | **2.6.7 Bounded Context: Reviews**<br>2.6.7.1 Domain Layer<br>2.6.7.2 Interface Layer<br>2.6.7.3 Application Layer<br>2.6.7.4 Infrastructure Layer<br>2.6.7.5 Component Level Diagrams<br>2.6.7.6 Code Level Diagrams<br>2.6.7.6.1 Class Diagram<br>2.6.7.6.2 Database Diagram |
+| **Requena Gutiérrez, Diego Gabriel** | **2.6.8 Bounded Context: Analytics**<br>2.6.8.1 Domain Layer<br>2.6.8.2 Interface Layer<br>2.6.8.3 Application Layer<br>2.6.8.4 Infrastructure Layer<br>2.6.8.5 Component Level Diagrams<br>2.6.8.6 Code Level Diagrams<br>2.6.8.6.1 Class Diagram<br>2.6.8.6.2 Database Diagram |
+| **Huaman De La Cruz, Jean Pool** | **2.6.9 Bounded Context: Matches**<br>2.6.9.1 Domain Layer<br>2.6.9.2 Interface Layer<br>2.6.9.3 Application Layer<br>2.6.9.4 Infrastructure Layer<br>2.6.9.5 Component Level Diagrams<br>2.6.9.6 Code Level Diagrams<br>2.6.9.6.1 Class Diagram<br>2.6.9.6.2 Database Diagram |
+| **Castro Picón, Manuel Fernando Joao** | **2.6.10 Bounded Context: Notifications**<br>2.6.10.1 Domain Layer<br>2.6.10.2 Interface Layer<br>2.6.10.3 Application Layer<br>2.6.10.4 Infrastructure Layer<br>2.6.10.5 Component Level Diagrams<br>2.6.10.6 Code Level Diagrams<br>2.6.10.6.1 Class Diagram<br>2.6.10.6.2 Database Diagram |
+| **Castro Picón, Manuel Fernando Joao** | **2.6.11 Bounded Context: IAM**<br>2.6.11.1 Domain Layer<br>2.6.11.2 Interface Layer<br>2.6.11.3 Application Layer<br>2.6.11.4 Infrastructure Layer<br>2.6.11.5 Component Level Diagrams<br>2.6.11.6 Code Level Diagrams<br>2.6.11.6.1 Class Diagram<br>2.6.11.6.2 Database Diagram |
 
 ### Historial de actividad del repositorio
 
-INSERTE IMAGEN
 
 # Contenido
 
@@ -279,6 +297,15 @@ INSERTE IMAGEN
 7. [Bibliografía](#7-bibliografía)
 
 8. [Anexos](#8-anexos)
+
+---
+
+## Student Outcomes
+
+| Student Outcomes | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Vila Guillen, Miguel Angel**<br>AV1: Durante el desarrollo del AV1, actualizó y aplicó conocimientos avanzados en Domain-Driven Design mediante la elaboración completa del EventStorming, incluyendo Candidate Context Discovery y Domain Message Flows Modeling. Además, diseñó e implementó dos bounded contexts completos (Courts y Availabilities) con todas sus capas (Domain, Interface, Application e Infrastructure), así como diagramas de arquitectura a nivel de componentes y código (Class Diagrams y Database Design Diagrams).<br><br>**Solis Chang, Santiago Valentino**<br>AV1: Durante el desarrollo del AV1, actualizó y aplicó conocimientos en arquitectura de software y Domain-Driven Design mediante la elaboración de User Stories, Impact Mapping y Product Backlog. Además, diseñó los bounded contexts de Coaches y Reviews, así como diagramas de arquitectura (contexto, contenedores y componentes) y diagramas UML del dominio.<br><br>**Requena Gutiérrez, Diego Gabriel**<br>AV1: Durante el desarrollo del AV1, actualizó y aplicó conocimientos en análisis de dominio y arquitectura de software mediante la elaboración del análisis competitivo, estrategias y tácticas frente a competidores, así como el diseño del Context Mapping utilizando Domain-Driven Design. Además, desarrolló los bounded contexts de Bookings y Analytics, incluyendo sus respectivas capas (Domain, Application, Interface e Infrastructure), junto con diagramas de arquitectura (Component Level) y diagramas de código (Class Diagram y Database Design).<br><br>**Huaman De La Cruz, Jean Pool**<br>AV1: Durante el desarrollo del AV1, apliqué y actualicé mis conocimientos en el proceso de creación de elementos needfinding, tales como los User Persona, User Journey Mapping, Empathy Mapping, entre otros. Así como en el proceso de Big Picture EventStorming, e identificación y desarrollo de bounded context relacionados al negocio como payments y matches, a partir de sus respectivas capas, junto con sus diagramas de arquitectura y diagramas de código.<br><br>**Castro Picón, Manuel Fernando Joao**<br>AV1: Durante el desarrollo del AV1, actualizó y aplicó sus conocimientos en arquitectura de software y diseño centrado en el usuario mediante la aplicación de Lean UX, realizando entrevistas, definición de hipótesis y validación de necesidades. Asimismo, participó en la construcción del Context Mapping bajo el enfoque de Domain-Driven Design y en el modelado de los bounded contexts de IAM, Users y Notifications, desarrollando sus capas principales y los diagramas de soporte (componentes, clases y base de datos), lo que permitió una mejor comprensión de la organización y estructura del sistema. | El equipo demostró un efectivo liderazgo conjunto durante el AV1, donde cada miembro asumió responsabilidades compartidas de coordinación y toma de decisiones. Se evidenció una colaboración fluida que abarcó desde aspectos estratégicos y técnicos del proyecto hasta la planificación operativa y distribución de tareas. La comunicación continua, las reuniones regulares y el trabajo colaborativo. El compromiso colectivo por mantener una sana relación de equipo y la capacidad para resolver conflictos de manera conjunta permitieron lograr consensos efectivos y entregar un trabajo cohesivo y de calidad, demostrando que el liderazgo fue verdaderamente compartido y distribuido entre todos los integrantes. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Vila Guillen, Miguel Angel**<br>AV1: Durante el AV1, investigó y aplicó metodologías avanzadas de Domain-Driven Design, incluyendo técnicas de EventStorming para descubrimiento de contextos acotados y modelado de flujos de dominio. Investigó patrones de arquitectura de software (C4 Model, patrones tácticos de DDD) y utilizó herramientas para la elaboración de diagramas UML complejos, diagramas de componentes y diseño de bases de datos relacionales. Esto fortaleció significativamente sus habilidades en modelado de sistemas complejos, separación de responsabilidades y arquitectura orientada al dominio.<br><br>**Solis Chang, Santiago Valentino**<br>AV1: Durante el AV1, investigó y aplicó nuevas herramientas y metodologías como Structurizr para diagramas C4, PlantUML para modelado de clases y Miro para Impact Mapping. Esto permitió mejorar la calidad del diseño arquitectónico y fortalecer sus habilidades en modelado de sistemas y documentación técnica.<br><br>**Requena Gutiérrez, Diego Gabriel**<br>AV1: Durante el AV1, investigó y aplicó conceptos de Domain-Driven Design y modelado arquitectónico, utilizando herramientas para la elaboración de diagramas UML, diagramas de componentes y diseño de bases de datos. Esto le permitió mejorar su capacidad de estructurar bounded contexts, comprender mejor la separación de responsabilidades y fortalecer sus habilidades en documentación técnica y diseño de soluciones de software.<br><br>**Huaman De La Cruz, Jean Pool**<br>AV1: Durante el desarrollo del AV1, comprendí la importancia del constante aprendizaje autodidacta para mi desarrollo profesional en el desarrollo de proyectos de software, tomando en cuenta temas esenciales como Domain Driven Design (DDD) y modelado arquitectónico de diagramas de componentes, clases y bases de datos. Ello me incentivó a seguir expandiendo mis conocimientos para mejorar mi capacidad de estructurar bounded context, su respectiva documentación técnica, entre otras áreas de este tipo de proyectos.<br><br>**Castro Picón, Manuel Fernando Joao**<br>AV1: Durante el desarrollo del AV1, exploró y utilizó herramientas orientadas al modelado y diseño de software como Structurizr, PlantUML y Miro, integrándolas en la elaboración de diagramas C4, modelos de clases y actividades de Impact Mapping. Este proceso le permitió no solo mejorar la representación visual de la arquitectura del sistema, sino también afianzar su capacidad de organizar ideas, estructurar soluciones y documentar de manera más clara los distintos componentes del proyecto. | El equipo logró mantener un entorno colaborativo e inclusivo mediante la distribución clara de responsabilidades, la coordinación constante y la planificación progresiva de actividades durante las entregas. Cada integrante aportó desde su área de trabajo, lo que permitió avanzar de manera ordenada y alineada con los objetivos del proyecto. La organización de tareas, el seguimiento de avances y la comunicación permanente favorecieron el cumplimiento de metas parciales y la construcción de un proceso de trabajo más estructurado y cooperativo. |
 
 ---
 
@@ -1400,8 +1427,6 @@ Usuario Trabajador (Actor)
 
 ### 2.5.2. Context Mapping
 
-### 2.5.2. Context Mapping
-
 **Objetivo:** Establecer las relaciones de integración y el flujo de información entre los distintos Bounded Contexts de NeuroZen, definiendo los patrones de integración estratégicos para asegurar la coherencia del sistema.
 
 <p align="center"><img src="assets/md-images/context-mapping.jpeg" alt="Context Mapping" width="700px" /></p>
@@ -2074,8 +2099,36 @@ Tabla simple para almacenar el histórico de notificaciones (`id`, `recipient_id
 
 ---
 
-# Glosario
-
 # Bibliografía
+
+## Referencias
+
+Brown, T. (2009). _Change by design: How design thinking creates new alternatives for business and society_. Harper Business. https://www.harpercollins.com/products/change-by-design-tim-brown
+
+Cockburn, A. (2001). _Writing effective use cases_. Addison-Wesley. https://www.informit.com/store/writing-effective-use-cases-9780201702255
+
+Creswell, J. W., & Poth, C. N. (2018). _Qualitative inquiry and research design: Choosing among five approaches_ (4th ed.). SAGE Publications. https://us.sagepub.com/en-us/nam/qualitative-inquiry-and-research-design/book246896
+
+Evans, E. (2003). _Domain-driven design: Tackling complexity in the heart of software_. Addison-Wesley. https://www.informit.com/store/domain-driven-design-tackling-complexity-in-the-heart-9780321125217
+
+Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). _Design patterns: Elements of reusable object-oriented software_. Addison-Wesley. https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610
+
+Goodman, E., Kuniavsky, M., & Moed, A. (2012). _Observing the user experience: A practitioner’s guide to user research_ (2nd ed.). Morgan Kaufmann. https://www.elsevier.com/books/observing-the-user-experience/goodman/978-0-12-384869-7
+
+Krug, S. (2014). _Don’t make me think, revisited: A common sense approach to web usability_ (3rd ed.). New Riders. https://www.peachpit.com/store/dont-make-me-think-revisited-a-common-sense-approach-9780321965516
+
+Larman, C. (2004). _Applying UML and patterns: An introduction to object-oriented analysis and design and iterative development_ (3rd ed.). Prentice Hall. https://www.informit.com/store/applying-uml-and-patterns-an-introduction-to-object-9780131489066
+
+Newman, S. (2015). _Building microservices: Designing fine-grained systems_. O’Reilly Media. https://www.oreilly.com/library/view/building-microservices/9781491950340/
+
+Patton, M. Q. (2015). _Qualitative research & evaluation methods: Integrating theory and practice_ (4th ed.). SAGE Publications. https://us.sagepub.com/en-us/nam/qualitative-research-evaluation-methods/book232962
+
+Preece, J., Rogers, Y., & Sharp, H. (2019). _Interaction design: Beyond human-computer interaction_ (5th ed.). Wiley. https://www.wiley.com/en-us/Interaction+Design%3A+Beyond+Human+Computer+Interaction%2C+5th+Edition-p-9781119547259
+
+Richardson, C. (2018). _Microservices patterns: With examples in Java_. Manning. https://www.manning.com/books/microservices-patterns
+
+Stickdorn, M., Hormess, M. E., Lawrence, A., & Schneider, J. (2018). _This is service design doing: Applying service design thinking in the real world_. O’Reilly Media. https://www.thisisservicedesigndoing.com/
+
+Yin, R. K. (2018). _Case study research and applications: Design and methods_ (6th ed.). SAGE Publications. https://us.sagepub.com/en-us/nam/case-study-research-and-applications/book250150
 
 # Anexos
