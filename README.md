@@ -1811,7 +1811,7 @@ _Descripción:_
 Ilustrará cómo interactúan el componente de reservas con el catálogo de especialistas, validando disponibilidades antes de persistir la cita y emitiendo el evento hacia el Notification Context.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Appointments/level_diagrams.jpg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/contexts/Appointments/level_diagrams.png" alt="Canvas" width="700px" /></p>
 </div>
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
