@@ -1417,6 +1417,14 @@ El sistema NeuroZen se representa como un único bloque central, actuando como u
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
+En esta sección se presenta el diagrama de contenedores del sistema NeuroZen, el cual describe la estructura interna de la plataforma y la distribución de responsabilidades entre sus principales componentes.
+
+A diferencia del diagrama de contexto, este nivel permite identificar los contenedores que conforman el sistema, así como las tecnologías utilizadas y la forma en que se comunican entre sí. En este caso, la arquitectura de NeuroZen está orientada principalmente a un entorno mobile-first, donde la interacción del usuario se realiza a través de una aplicación móvil.
+
+El sistema se compone de una aplicación móvil como cliente principal, un backend que centraliza la lógica de negocio, y servicios externos encargados del análisis biométrico, notificaciones, pagos y almacenamiento de datos.
+
+<img src="assets/md-images/software-architecture/SoftwareArchitectureContainerLevelDiagrams.png" alt="Software Architecture Container Level Diagram" style="width:100%;">
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 ## 2.6. Tactical-Level Domain-Driven Design
