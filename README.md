@@ -67,6 +67,99 @@
 
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto.
 
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Versión</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Fecha</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Autores</td>
+    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripción</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">AV1</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">22/04/2026</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>Castro Picón, Manuel Fernando Joao</li>
+      </ul>
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">            
+      <ul>
+        <li>Capítulo II: Punto 2.6.3 Bounded Context: Recommendations & Activities</li>
+        <li>Capítulo II: Punto 2.6.7 Bounded Context: Notifications</li>
+        <li>Capítulo II: Punto 2.6.3.1 Domain Layer</li>
+        <li>Capítulo II: Punto 2.6.3.2 Interface Layer</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">AV1</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">22/04/2026</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>Requena Gutiérrez, Diego Gabriel</li>
+      </ul>
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">            
+      <ul>
+        <li>Capítulo II: Punto 2.1 Competidores</li>
+        <li>Capítulo II: Punto 2.2 Entrevistas</li>
+        <li>Capítulo II: Punto 2.6.1 Bounded Context: IAM</li>
+        <li>Capítulo II: Punto 2.6.2 Bounded Context: Assessments</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">AV1</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">22/04/2026</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>Huaman De La Cruz, Jean Pool</li>
+      </ul>
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">            
+      <ul>
+        <li>Capítulo II: Punto 2.3 Needfinding</li>
+        <li>Capítulo II: Punto 2.3.4 Empathy Mapping</li>
+        <li>Capítulo II: Punto 2.6.3 Bounded Context: Recommendations & Activities</li>
+        <li>Capítulo II: Punto 2.6.3.2 Interface Layer</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">AV1</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">22/04/2026</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>Solis Chang, Santiago Valentino</li>
+      </ul>
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">            
+      <ul>
+        <li>Capítulo II: Punto 2.5.3 Software Architecture</li>
+        <li>Capítulo II: Punto 2.6.4 Bounded Context: Health Tracking & Dashboard</li>
+        <li>Capítulo II: Punto 2.6.4.1 Domain Layer</li>
+        <li>Capítulo II: Punto 2.6.4.2 Interface Layer</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px;">AV1</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">22/04/2026</td>
+    <td style="border: 1px solid #ddd; padding: 8px;">
+      <ul>
+        <li>Vila Guillen, Miguel Angel</li>
+      </ul>
+    </td>
+    <td style="border: 1px solid #ddd; padding: 8px;">            
+      <ul>
+        <li>Capítulo II: Punto 2.6.5 Bounded Context: Professionals & Appointments</li>
+        <li>Capítulo II: Punto 2.6.6 Bounded Context: Community & Resources</li>
+        <li>Capítulo II: Punto 2.6.6.1 Domain Layer</li>
+        <li>Capítulo II: Punto 2.6.6.2 Interface Layer</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ## Project Report Collaboration Insights
 
