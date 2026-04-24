@@ -1784,7 +1784,10 @@ Gestiona el directorio de especialistas en salud mental y el ciclo de vida de la
 
 _Descripción:_
 Ilustrará cómo interactúan el componente de reservas con el catálogo de especialistas, validando disponibilidades antes de persistir la cita y emitiendo el evento hacia el Notification Context.
-_[Aquí se insertará el diagrama de componentes de Appointments]_
+
+<div>
+  <p align="center"><img src="assets/md-images/contexts/Appointments/level_diagrams.jpg" alt="Canvas" width="700px" /></p>
+</div>
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1792,13 +1795,19 @@ _[Aquí se insertará el diagrama de componentes de Appointments]_
 
 _Descripción:_
 Mostrará la relación entre `Appointment`, `SpecialistProfile` y el paciente (identificado por su ID de IAM).
-_[Aquí se insertará el diagrama de clases de Appointments]_
+
+<div>
+  <p align="center"><img src="assets/md-images/contexts/Appointments/class_diagrams.jpg" alt="Canvas" width="700px" /></p>
+</div>
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
 _Descripción:_
 Esquema de reservas con sus respectivas llaves foráneas apuntando a la tabla de perfiles de especialistas y estado de la cita.
-_[Aquí se insertará el ERD de Appointments]_
+
+<div>
+  <p align="center"><img src="assets/md-images/contexts/Appointments/db_diagrams.jpg" alt="Canvas" width="700px" /></p>
+</div>
 
 ---
 
@@ -1832,7 +1841,10 @@ Este contexto abarca el contenido educativo y el soporte social. Su enfoque es m
 
 _Descripción:_
 Representará el subsistema de entrega de contenido (Content Delivery Component) y el motor de foros, mostrando cómo se sirve información estática e interactiva al usuario.
-_[Aquí se insertará el diagrama de componentes de Community]_
+
+<div>
+  <p align="center"><img src="assets/md-images/contexts/Resources/level_diagrams.jpg" alt="Canvas" width="700px" /></p>
+</div>
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1840,13 +1852,19 @@ _[Aquí se insertará el diagrama de componentes de Community]_
 
 _Descripción:_
 UML simple de las clases de recursos educativos y foros comunitarios.
-_[Aquí se insertará el diagrama de clases de Community]_
+
+<div>
+  <p align="center"><img src="assets/md-images/contexts/Resources/class_diagrams.jpg" alt="Canvas" width="700px" /></p>
+</div>
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
 
 _Descripción:_
 Tablas relacionales de grupos, mensajes y catálogo de recursos de bienestar.
-_[Aquí se insertará el ERD de Community]_
+
+<div>
+  <p align="center"><img src="assets/md-images/contexts/Resources/db_diagrams.jpg" alt="Canvas" width="700px" /></p>
+</div>
 
 ---
 
@@ -1881,7 +1899,10 @@ Es un contexto técnico transversal. No interactúa directamente a través de un
 
 _Descripción:_
 Mostrará un Event Bus conectando el Notification Context con los demás contextos. Ilustrará cómo los adaptadores externos (FCM, SMTP) envían los mensajes físicos al dispositivo del usuario.
-_[Aquí se insertará el diagrama de componentes de Notification]_
+
+<div>
+  <p align="center"><img src="assets/md-images/contexts/Notification/level_diagrams.jpg" alt="Canvas" width="700px" /></p>
+</div>
 
 #### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1889,13 +1910,19 @@ _[Aquí se insertará el diagrama de componentes de Notification]_
 
 _Descripción:_
 Modelará la clase `Notification` y las interfaces de los adaptadores de mensajería (Ports).
-_[Aquí se insertará el diagrama de clases de Notification]_
+
+<div>
+  <p align="center"><img src="assets/md-images/contexts/Notification/class_diagrams.jpg" alt="Canvas" width="700px" /></p>
+</div>
 
 ##### 2.6.7.6.2. Bounded Context Database Design Diagram
 
 _Descripción:_
 Tabla simple para almacenar el histórico de notificaciones (`id`, `recipient_id`, `message`, `is_read`, `created_at`).
-_[Aquí se insertará el ERD de Notification]_
+
+<div>
+  <p align="center"><img src="assets/md-images/contexts/Notification/db_diagrams.jpg" alt="Canvas" width="700px" /></p>
+</div>
 
 ---
 
