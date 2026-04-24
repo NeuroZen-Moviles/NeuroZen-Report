@@ -1901,7 +1901,7 @@ _Descripción:_
 Mostrará un Event Bus conectando el Notification Context con los demás contextos. Ilustrará cómo los adaptadores externos (FCM, SMTP) envían los mensajes físicos al dispositivo del usuario.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Notification/level_diagrams.jpg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/contexts/Notification/level_diagrams.png" alt="Canvas" width="700px" /></p>
 </div>
 
 #### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1912,7 +1912,7 @@ _Descripción:_
 Modelará la clase `Notification` y las interfaces de los adaptadores de mensajería (Ports).
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Notification/class_diagrams.jpg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/contexts/Notification/class_diagrams.png" alt="Canvas" width="700px" /></p>
 </div>
 
 ##### 2.6.7.6.2. Bounded Context Database Design Diagram
@@ -1921,7 +1921,7 @@ _Descripción:_
 Tabla simple para almacenar el histórico de notificaciones (`id`, `recipient_id`, `message`, `is_read`, `created_at`).
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Notification/db_diagrams.jpg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/md-images/contexts/Notification/db_diagrams.png" alt="Canvas" width="700px" /></p>
 </div>
 
 ---
