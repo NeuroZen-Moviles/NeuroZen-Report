@@ -1375,6 +1375,36 @@ Usuario Trabajador (Actor)
 
 ### 2.5.2. Context Mapping
 
+### 2.5.2. Context Mapping
+
+**Objetivo:** Establecer las relaciones de integración y el flujo de información entre los distintos Bounded Contexts de NeuroZen, definiendo los patrones de integración estratégicos para asegurar la coherencia del sistema.
+
+
+
+#### IAM – Perfiles (ACL)
+En esta relación, **IAM** actúa como Upstream, proveyendo la identidad base validada de los usuarios (trabajadores y psicólogos). El contexto de **Perfiles** es Downstream, consumiendo esta identidad para extenderla con datos personales, historial de salud y credenciales profesionales. Se implementa una **Anti-Corruption Layer (ACL)** en Perfiles para evitar que cambios en el sistema de autenticación base afecten el modelo de datos especializado de salud mental.
+
+#### Perfiles – Cuestionarios y Tests (Conformist)
+El contexto de **Cuestionarios y Tests** requiere la información de los usuarios para asociar los resultados de las evaluaciones de estrés a un empleado específico. En esta relación, **Perfiles** es Upstream y **Cuestionarios y Tests** es Downstream. La relación es de tipo **Conformist**, ya que el sistema de tests adopta directamente el modelo de identidad definido en Perfiles para mantener la integridad de los registros.
+
+#### Cuestionarios y Tests – Seguimiento de Salud y Dashboard (Customer-Supplier)
+Estos contextos colaboran estrechamente para procesar el bienestar del usuario. **Cuestionarios y Tests** actúa como Upstream (Supplier), suministrando los resultados brutos de las evaluaciones. **Seguimiento de Salud y Dashboard** es el Downstream (Customer), consumiendo estos datos para calcular métricas globales, generar tendencias de estrés y actualizar los indicadores visuales en tiempo real.
+
+#### Seguimiento de Salud y Dashboard – Pausas Activas e Intervenciones (Customer-Supplier)
+Para ofrecer recomendaciones efectivas, el contexto de **Pausas Activas e Intervenciones** debe conocer el estado actual del usuario. **Seguimiento de Salud y Dashboard** actúa como Upstream (Supplier) al proveer la tendencia de estrés procesada. **Pausas Activas e Intervenciones** es el Downstream (Customer), utilizando esta información para disparar planes de relajación y ejercicios personalizados.
+
+#### Seguimiento de Salud y Dashboard – Directorio de Psicólogos y Citas (Customer-Supplier)
+Cuando los niveles de estrés detectados requieren apoyo externo, se habilita la conexión profesional. **Seguimiento de Salud y Dashboard** es Upstream (Supplier) al proveer la alerta de necesidad de apoyo basada en datos. **Directorio de Psicólogos y Citas** es Downstream (Customer), consumiendo esta información para sugerir especialistas adecuados y facilitar el agendamiento.
+
+#### Directorio de Psicólogos y Citas – Suscripciones (Customer-Supplier)
+Para acceder a los servicios de agendamiento con especialistas, el sistema debe validar el estado de pago del usuario. El contexto de **Suscripciones** es Upstream (Supplier), validando la vigencia del plan. **Directorio de Psicólogos y Citas** es Downstream (Customer), pues consume esta validación para permitir o restringir el acceso a las funciones de consulta profesional.
+
+#### Varios Contextos – Notificaciones y Comunicación (Conformist)
+El contexto de **Notificaciones** depende de los eventos generados por múltiples contextos (confirmación de citas en *Citas*, recordatorios en *Intervenciones* o nuevos reportes en *Dashboard*). Actúa como Downstream de dichos contextos bajo un modelo **Conformist**, adoptando directamente la estructura de los payloads de los eventos para distribuirlos por los canales correspondientes.
+
+#### Directorio de Psicólogos y Citas – Perfiles (ACL)
+En el flujo inverso, cuando se completa una consulta o se publica una reseña profesional, el contexto de **Directorio de Psicólogos y Citas** actúa como Upstream. El contexto de **Perfiles** es Downstream, utilizando una **ACL** para recibir y traducir las actualizaciones de reputación y feedback hacia el perfil del psicólogo sin comprometer la lógica de dominio interna del perfil.
+
 ### 2.5.3. Software Architecture
 
 #### 2.5.3.1. Software Architecture Context Level Diagrams
