@@ -173,7 +173,7 @@ A continuación, se presentan las evidencias de participación y colaboración d
 - La evidencia gráfica incluye la vista de contribuciones, así como el historial de actividad donde se observa el detalle de commits y cambios en el repositorio.
 
 <div>
-  <p align="center"><img src="assets/images/Github/commits.png" alt="Team members stats" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap1/Github/commits.png" alt="Team members stats" width="700px" /></p>
 </div>
 
 ### Contribuciones por integrante
@@ -559,7 +559,7 @@ diversas actividades para complementar el tratamiento contra el estrés.
 | ![Valentino](assets/images/cap1/members/trevor.jpeg)    | Santiago Valentino Solis Chang    | Ingeniería de Software | Tengo 20 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. En mi tiempo libre disfruto jugar videojuegos, practicar tenis y aprender sobre programación web. Soy responsable, comprometido y capaz de trabajar en equipo.          |
 | ![Miguel](assets/images/cap1/members/miguel-vila.jpeg)  | Miguel Angel Vila Guillen         | Ingeniería de Software | Tengo 21 años y estudio el 6to ciclo en la Universidad Peruana de Ciencias Aplicadas. Me gusta jugar videojuegos, tocar la guitarra y el fútbol. Me considero capaz de trabajar en equipo y aspiro a ser un profesional competente.                         |
 | ![Diego](assets/images/cap1/members/diego-requena.jpeg) | Diego Gabriel Requena Gutiérrez   | Ingeniería de Software | Tengo 19 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida con mis objetivos, busco optimizar mi rendimiento y mantener un equilibrio entre la excelencia y una vida saludable.                       |
-| ![JeanPool](assets/images/cap1/members/jeanpool.jpg)    | Huaman De La Cruz Jean Pool       | Ingeniería de Software | Tengo 23 años; Estoy cursando la carrera de ingeniería de software en quinto ciclo. Soy una persona orientada a objetivos y con una meta clara, quiero poder crear soluciones disrruptivas que revolucionen el mercado.                                     |
+| ![JeanPool](assets/images/cap1/members/jeanpool.jpg)    | Huaman De La Cruz Jean Pool       | Ingeniería de Software | Tengo 23 años; Estoy cursando la carrera de ingeniería de software en quinto ciclo. Soy una persona orientada a objetivos y con una meta clara, quiero poder crear soluciones disruptivas que revolucionen el mercado.                                      |
 
 ## 1.2. Solution Profile
 
@@ -2186,55 +2186,495 @@ Tabla simple para almacenar el histórico de notificaciones (`id`, `recipient_id
 
 ### 3.1.1. Style Guidelines
 
+NeuroDraw, dedicado a la detección rápida y manejo del estrés laboral, transmite calma, confianza y profesionalismo. Nuestra identidad visual combina tonos azules y verdes para evocar tranquilidad, con tipografía clara y espacios limpios. Comunicamos con un lenguaje accesible pero riguroso, transformando conceptos complejos de neurociencia en soluciones prácticas para el bienestar laboral.
+
 #### 3.1.1.1. General Style Guidelines
+
+Logo: El logo de NeuroZen fusiona elementos neurológicos y serenidad en un diseño significativo. La silueta de perfil humano en Verde Bosque muestra circuitos cerebrales que simbolizan cómo nuestra plataforma conecta ciencia y bienestar mental.
+
+<div>
+  <p align="center"><img src="assets/images/cap3/neurozen-logos/logoneurozen.png" alt="Neurozen's main logo" width="250px" /></p>
+</div>
+
+Tipografía:
+
+La tipografía de la página debe ser fácil de leer, adaptándose al dispositivo en el que se encuentre. Para ello, se emplearán dos fuentes sans-serif (sin remates decorativos) porque son más legibles y claras. Además, el contenido mostrado debe de resaltar.
+
+Color Guide:
+
+1. Verde Bosque (#2D5A4A)
+Representación: El verde bosque simboliza estabilidad, crecimiento y conexión con la naturaleza. En el contexto de NeuroZen, este color representa la base sólida que ofrece la plataforma para ayudar a los usuarios a manejar su estrés. Se utiliza en elementos principales como el logotipo y encabezados, transmitiendo confianza y un ambiente relajante que invita a la calma mental.
+<div>
+  <p align="center"><img src="assets/images/cap3/colors/verdebosque.png" alt="Forest green color" width="450px" /></p>
+</div>
+
+2. Verde Menta (#A2C4B5)
+Representación: El verde menta evoca frescura, renovación y claridad mental. Este color más suave complementa al verde bosque y se utiliza en áreas secundarias de la plataforma. Representa la sensación refrescante que experimentan los usuarios al reducir su estrés mediante las técnicas proporcionadas por NeuroZen, creando un ambiente digital que respira tranquilidad.
+<div>
+  <p align="center"><img src="assets/images/cap3/colors/verdementa.png" alt="Mint green color" width="450px" /></p>
+</div>
+
+3. Beige Cálido (#F1E9D4)
+Representación: El beige cálido transmite neutralidad, confort y serenidad. En NeuroZen, este color se utiliza para fondos y espacios de descanso visual, proporcionando un ambiente acogedor que reduce la fatiga visual durante las sesiones de meditación o ejercicios anti-estrés. El beige crea un entorno digital que se siente como un refugio seguro.
+<div>
+  <p align="center"><img src="assets/images/cap3/colors/beigecalido.png" alt="Warm beige color" width="450px" /></p>
+</div>
+
+4. Turquesa Profundo (#1A6F78)
+Representación: El turquesa profundo simboliza la profundidad emocional, la comunicación y la sabiduría. Este color representa el componente científico y psicológico de NeuroZen, destacando las herramientas basadas en evidencia para el manejo del estrés. Se utiliza en elementos interactivos y botones de acción, invitando a los usuarios a explorar soluciones más profundas.
+<div>
+  <p align="center"><img src="assets/images/cap3/colors/turquesa.png" alt="Deep turquoise color" width="450px" /></p>
+</div>
+
+5. Gris Piedra (#8C9893)
+Representación: El gris piedra evoca neutralidad, equilibrio y estabilidad. En NeuroZen, este color funciona como un ancla visual que equilibra los verdes y turquesas más expresivos. Se utiliza para texto secundario y elementos de interfaz sutiles, aportando sofisticación sin competir con los colores principales que transmiten calma y bienestar.
+<div>
+  <p align="center"><img src="assets/images/cap3/colors/grispiedra.png" alt="Pale gray color" width="450px" /></p>
+</div>
+
+La paleta de colores de NeuroZen combina verdes y turquesas para transmitir naturaleza y tecnología, beige para crear un entorno acogedor y gris piedra para aportar profesionalismo. En conjunto, el diseño busca generar una experiencia visual relajante y coherente con la misión de reducir el estrés del usuario.
+
+Buttons:
+
+La plataforma NeuroZen para control del estrés presenta una interfaz intuitiva con botones fácilmente identificables en toda la experiencia. Los botones principales utilizan Verde Bosque (#2D5A4A) para acciones importantes como iniciar meditaciones, mientras que los secundarios aparecen en Verde Menta (#A2C4B5), creando jerarquía visual. El fondo en Beige Cálido (#F1E9D4) proporciona un ambiente relajante, complementado por elementos interactivos en Turquesa Profundo (#1A6F78) para funciones especiales y Gris Piedra (#8C9893) para textos y detalles sutiles. Todos los botones tienen formas redondeadas y tamaños generosos, facilitando su uso incluso en momentos de estrés, mientras que los estados de hover y feedback ofrecen respuestas visuales claras que refuerzan la sensación de calma y control que define la experiencia de NeuroZen.
+
+Variaciones del logo en diferentes representaciones:
+
+<div>
+  <p align="center"><img src="assets/images/cap3/neurozen-logos/neurozen1.png" alt="Neurozen logo v-2" width="250px" /></p>
+</div>
+-Una opción minimalista, sin muchos detalles y relajante a la vista.
+<div>
+  <p align="center"><img src="assets/images/cap3/neurozen-logos/neurozen2.png" alt="Neurozen logo v-3" width="250px" /></p>
+</div>
+-Una opción con mejor detalle y uso de colores.
+<div>
+  <p align="center"><img src="assets/images/cap3/neurozen-logos/neurozen3.png" alt="Neurozen logo v-4" width="250px" /></p>
+</div>
+-Una representación más abstracta que inspira relajación.
+<div>
+  <p align="center"><img src="assets/images/cap3/neurozen-logos/neurozen4.png" alt="Neurozen logo v-5" width="250px" /></p>
+</div>
+-Una opción que combina las dos primeras ideas.
+
+---
 
 ### 3.1.2. Information Architecture
 
+NeuroZen detecta el estrés laboral combinando datos biométricos (postura, tensión facial, respiración) con autoevaluaciones emocionales para generar un perfil de estrés personalizado. La app ofrece recomendaciones y ejercicios para reducir los síntomas, envía notificaciones en tiempo real ante aumentos de estrés y permite revisar un historial de tendencias para identificar patrones.
+
+A futuro, se integrará con psicólogos y programas de bienestar laboral para empresas, convirtiéndose en una herramienta completa de prevención y gestión del estrés.
+
+---
+
 #### 3.1.2.1. Organization Systems
+
+La información se organiza de forma lógica para que el usuario encuentre rápido lo que necesita:
+
+Estructura basada en módulos claros: inicio, autoevaluación, recomendaciones, profesionales, comunidad y recursos.
+
+Jerarquización de contenidos: lo más usado (tests y recomendaciones) aparece en posiciones destacadas.
+
+---
 
 #### 3.1.2.2. Labelling Systems
 
+El etiquetado debe ser claro, breve y familiar para los usuarios:
+
+Uso de términos simples como: Inicio, Test de Estrés, Recomendaciones, Comunidad, Psicólogos, Recursos.
+
+Evitar tecnicismos clínicos, priorizando un lenguaje cotidiano.
+
+Consistencia en los nombres en toda la app y web.
+
+---
+
 #### 3.1.2.3. SEO Tags and Meta Tags
+
+Meta títulos: deben incluir palabras clave relacionadas con salud mental, estrés laboral y bienestar.
+
+Meta descripciones: claras, con llamado a la acción (ejemplo: “Evalúa tu nivel de estrés y recibe recomendaciones personalizadas”).
+
+Etiquetas alt en imágenes con descripciones concisas.
+
+Uso de headings (H1, H2, H3) para mejorar la indexación en buscadores.
+
+---
 
 #### 3.1.2.4. Searching Systems
 
+Búsqueda interna intuitiva, con autocompletado y sugerencias rápidas.
+
+Posibilidad de filtrar resultados (ejemplo: artículos, psicólogos, recursos, ejercicios).
+
+Optimización para resultados relevantes según la necesidad del usuario.
+
+---
+
 #### 3.1.2.5. Navigation Systems
+
+Menú principal: siempre visible, con las secciones clave (Inicio, Autoevaluación, Recomendaciones, Comunidad, Contacto).
+
+Breadcrumbs para indicar dónde se encuentra el usuario.
+
+CTA (Call To Action) claros y visibles, guiando al usuario hacia las acciones más importantes (hacer test, contactar especialista, unirse a un grupo).
+
+Compatibilidad responsive, manteniendo la navegación fluida en móviles y escritorio.
+
+---
 
 ### 3.1.3. Landing Page UI Design
 
+El diseño de la interfaz de usuario para la landing page de NeuroZen será un elemento clave, ya que representará la primera impresión que recibirán los usuarios sobre la aplicación. Su objetivo es ofrecer una experiencia visual atractiva y fácil de usar que despierte el interés de los visitantes y los motive a conocer más sobre las funciones de la plataforma.
+
+---
+
 #### 3.1.3.1. Landing Page Wireframe
+
+Los Wireframes de la página son una versión simplificada de la manera en la que se organizará la información. Se hace una organización de la estructura visual de todos los componentes previo a centrarse en la parte visual de la página. Gracias a esto, podemos observar que cosas se necesitan cambiar si fuera necesario, agilizando el tiempo de organizar los datos.
+
+<div>
+  <p align="center"><img src="assets/images/cap3/landing/wireframe/wireframe1.png" alt="Home page wireframe" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/images/cap3/landing/wireframe/wireframe2.png" alt="Sign Up wireframe" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/images/cap3/landing/wireframe/wireframe3.png" alt="Log In wireframe" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/images/cap3/landing/wireframe/wireframe4.png" alt="Stress test wireframe" width="700px" /></p>
+</div>
+
+---
 
 #### 3.1.3.2. Landing Page Mock-up
 
+Un mockup es una representación visual de un producto que muestra cómo lucirá, a diferencia de un wireframe, que se enfoca en la estructura. Aunque no es interactivo, puede ser de media o alta fidelidad y ayuda a tomar decisiones finales sobre aspectos como esquemas de colores, estilo visual y tipografía. Es una herramienta valiosa en el proceso de diseño para alinear expectativas y obtener retroalimentación antes de la implementación.
+
+<div>
+  <p align="center"><img src="assets/images/cap3/landing/mockup/mockup1.png" alt="Home page mockup" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/images/cap3/landing/mockup/mockup2.png" alt="Sign Up mockup" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/images/cap3/landing/mockup/mockup3.png" alt="Log In mockup" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/images/cap3/landing/mockup/mockup4.png" alt="Stress test mockup" width="700px" /></p>
+</div>
+
+Nuestro Landing Page:
+
+## [● Link: [https://neurozen-home.netlify.app](https://neurozen-home.netlify.app)]
+
 ### 3.1.4. Mobile Applications UX/UI Design
+
+El diseño de experiencia de usuario (UX) y de interfaz de usuario (UI) busca ofrecer una interacción digital clara, sencilla y motivadora. La UX se enfoca en entender las necesidades de las personas que buscan manejar su estrés y en crear flujos que les permitan registrar sus datos, evaluar su estado y recibir recomendaciones de forma rápida. La UI complementa esta experiencia con un diseño visual relajante y ordenado, usando colores, íconos y botones que transmiten calma y profesionalismo. Al combinar funcionalidad intuitiva con una estética agradable, se logra que el usuario se sienta acompañado y en control de su bienestar.
+
+[Inserte cosas]
 
 #### 3.1.4.1. Mobile Applications Wireframes
 
+Los wireframes representan la estructura básica de las pantallas clave de la aplicación web, evidenciando la aplicación de principios de simplicidad, consistencia visual y accesibilidad.
+
+[Inserte cosas]
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+Los wireflows ilustran cómo se enlazan los wireframes a través de interacciones típicas de los usuarios (User Goals).
+
+[Inserte cosas]
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
+Los mock-ups muestran la versión visual detallada de las pantallas, aplicando la identidad visual de NeuroZen (colores, tipografías y estilos inclusivos). Aquí se evidencian las decisiones finales de diseño.
+
+[Inserte cosas]
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
+Los **User Flow Diagrams** representan los caminos que siguen los usuarios dentro de la aplicación para cumplir sus objetivos.  
+Estos flujos integran los **mock-ups** y los **wireflows**, mostrando tanto la ruta esperada (**happy path**) como las rutas alternativas en caso de error (**unhappy path**).
+
+A continuación, presentamos los principales **User Goals** identificados y sus respectivos flujos:
+
+[Inserte cosas]
+
+---
+
 #### 3.1.4.5. Mobile Applications Prototyping
+
+##### Introducción
+
+En esta sección se presentan los prototipos interactivos de la aplicación **NeuroZen**.  
+Estos prototipos simulan la navegación y los principales flujos de interacción, basados en los **User Flow Diagrams** previamente definidos.
+
+[Inserte cosas]
 
 ---
 
 # Capítulo IV: Product Implementation & Validation
 
+En esta sección se mencionan las decisiones y convenciones las cuales permitirán mantener una consistencia durante el desarrollo del proyecto.
+
 ## 4.1. Software Configuration Management
 
 ### 4.1.1. Software Development Environment Configuration
 
+**Project Management:**
+
+La gestión de los proyectos tiene como objetivo mejorar los procesos y su entorno para alcanzar los resultados esperados.
+
+- **Trello:** Es una herramienta visual que permite gestionar cualquier tipo de proyecto y el flujo de trabajo que el equipo desarrollador seguirá para implementar correctamente las tareas de código para el Landing Page y el web Application.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://trello.com/es </td>
+        </tr>
+    </tbody>
+</table>
+
+**Requirements Management:**
+
+Es el proceso de garantizar que una organización documente verifique y satisfaga las necesidades, expectativas de sus clientes con las partes interesadas internas o externas.
+
+- **Pivotal Tracker:** Esta herramienta se define como una plataforma en la que se realiza la gestión de user stories, agrupándolos en epics y clasificando su presencia en el programa, por puntaje. Se usó porque permite que cada miembro del equipo comparta la misma vista en tiempo real de lo que está sucediendo con cada proyecto, ya sea aportando con diferentes secciones o corrigiendo el flujo del proyecto.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://www.pivotaltracker.com/  </td>
+        </tr>
+    </tbody>
+</table>
+
+**Product UX/UI Design:**
+
+Nos permite desarrollar el modelo en nuestro producto de manera digital y forme parte de la vida del consumidor. En este caso realizar un modelo de sitio web para computadoras y celulares.
+
+- **Uxpressia:** es una herramienta en línea para el mapeo de la trayectoria del cliente que crea mapas de impacto y personas. Sus herramientas nos permitieron establecer las bases del modelado de User Persona, Empathy Map y Journey Map
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://uxpressia.com/ </td>
+        </tr>
+    </tbody>
+</table>
+
+- **MIRO:** es una pizarra digital colaborativa en línea, que puede ser usada para la investigación, la ideación, la creación de lluvias de ideas, mapas mentales y una variedad de otras actividades colaborativas.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://www.miro.com/</td>
+        </tr>
+    </tbody>
+</table>
+
+- **Figma:** es una herramienta de prototipo web y editor de gráficos vectorial, que, a diferencia de las otras herramientas, se aloja en la web, permitiendo establecer los modelos para versión en Web Browser y Landing Page.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://www.figma.com/ </td>
+        </tr>
+    </tbody>
+</table>
+
+- **LucidChart:** es una herramienta de diagramación basada en la web, que permite a los usuarios colaborar y trabajar juntos en tiempo real, creando diseños UML, mapas mentales, prototipos de software y muchos otros tipos de diagrama.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://www.lucidchart.com </td>
+        </tr>
+    </tbody>
+</table>
+
+- **Structurizr:** es una herramienta de diseño que soporta el modelo C4, para visualizar la arquitectura de software de nuestra solución.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://structurizr.com/ </td>
+        </tr>
+    </tbody>
+</table>
+
+**Software Development:**
+
+Es una estructura aplicada al desarrollo de un producto de software. Se utiliza para el establecimiento de un proceso para el desarrollo de software, cada uno de los cuales describe un enfoque diferente para diferentes actividades que tienen lugar durante el proceso.
+
+- **Github:** Es un repositorio comunitario cuya función es almacenar los avances de un proyecto elaborado por un grupo de personas.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td> https://github.com/  </td>
+        </tr>
+    </tbody>
+</table>
+
+- **WebStorm:** Es un entorno de JetBrains, empresa desarrolladora de Software. Este nos ofrece facilidad en probar nuestro entorno web en navegadores web. Para el proyecto se implementará la ayuda de los lenguajes HTML, CSS y TypeScript.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td> https://www.jetbrains.com/webstorm/ 
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+- **HTML:** Es un lenguaje que sirve como desarrollador de plataformas web que trabaja con hipertextos, que enlace a otros documentos. Este lenguaje ofrece herramientas para el diseño del sitio web.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td> https://www.jetbrains.com/help/webstorm/editing-html-files.html 
+             </td>
+        </tr>
+    </tbody>
+</table>
+
+- **CSS:** Es un lenguaje de diseño para el entorno web. Permite elaborar el interfaz de usuario diseñada anteriormente, agregando colores, tamaños entre otros elementos.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td> https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion 
+             </td>
+        </tr>
+    </tbody>
+</table>
+
+- **TypeScript:** Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td> https://www.typescriptlang.org/ 
+             </td>
+        </tr>
+    </tbody>
+</table>
+
+- **Astro:** Es un marco web de JavaScript optimizado para crear sitios web rápidos y centrados en el contenido.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td> https://astro.build  </td>
+        </tr>
+    </tbody>
+</table>
+
+**Software Testing:**
+
+Es el acto de examinar los artefactos y el comportamiento del software bajo prueba mediante validación y verificación.
+
+- **Lenguaje Gherkins:** Es un DSL o Lenguaje Específico de Dominio (Domain-Specific Language), es decir, un lenguaje que está creado para resolver un problema. Además de ser interpretado en código, se puede agregar los users stories del programa con sus respectivas partes: Feature, Scenario, Example, Scenario Outline, Given, When, Then y And.
+
+**Software Development:**
+
+- **Github pages:** Servicio de Github que nos permitió alojar nuestra landing page y nos permitirá alojar nuestro web applications.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td> https://pages.github.com/ </td>
+        </tr>
+    </tbody>
+</table>
+
 ### 4.1.2. Source Code Management
 
-### 4.1.3. Source Code Style Guide & Conventions
+En esta sección se presenta la gestión de código fuente o como es conocido por sus siglas en inglés SCM (Source Code Management). Su función principal es realizar un seguimiento de las modificaciones que el equipo realizará a lo largo del desarrollo de sus proyectos en los repositorios de código fuente. Se emplea como un sistema de control de versiones que permite dar seguimiento a los cambios que cada integrante o desarrollador realice en el proyecto. Asimismo, cabe resaltar que para el sistema de control de versiones emplearemos GitHub.
 
-### 4.1.4. Software Deployment Configuration
+**GitFlow**
+
+Es el modelo alternativo de creación de ramas en Git que en los últimos años se ha vuelto una herramienta indispensable para muchos desarrolladores. Este flujo de trabajo de control de versiones utiliza ramas y fue publicado y popularizado por Vincent Driessen. Su principal función es ayudar en la organización de la versión de un código, permitiendo la creación de nuevos Features y Hotfixes de manera organizada.
+
+**Main Branches:**
+
+- **main:** es la rama principal, a partir de ella se recorrerán todas las ramas y contendrá la última versión y las anteriores creadas por los desarrolladores.
+
+- **Develop:** Esta rama puede ser creada a partir de la rama main(master) y contará con todos los Features estables. Esto significa que a través de esta rama el equipo podrá integrar las funciones.
+
+**Support Branches:**
+
+- **Feature:** se ramifica de developer y al finalizar debe fusionarse de nuevo en develop. Se emplea para desarrollar nuevas funciones que se integrarán en versiones posteriores.
+
+- **Release:** también se ramifica de develop, es la rama que admite la preparación de una nueva versión de producción.
+
+- **Hotfix:** también está destinado a una nueva versión de producción, pero esta se ramifica de main. Su función es reparar rápidamente las publicaciones de producción.
+
+**Conventional Commits:**
+
+Son una convención para nombrar mensajes de commit en Git de forma estructurada, clara y semántica.
+
+- feat: Se añade una nueva funcionalidad.
+- fix: Se corrige un error.
+- docs: Cambios en la documentación.
+- style: Cambios de formato o estilo de código (sin impacto en la lógica).
+- refactor: Mejoras en el código que no añaden nuevas funcionalidades ni corrigen errores.
+- test: Añadir o modificar tests.
+- chore: Cambios menores sin impacto en el código de producción (actualización de dependencias, configuración, etc.).
+
+### 4.1.3. Software Deployment Configuration
+
+Como se mencionó previamente, la gestión de nuestro código fuente se realizará a través de GitHub. Asimismo, se utilizará GitHub Pages para la publicación y despliegue de la página.
+
+Para el desarrollo del Landing Page de NeuroZen se han usado las siguientes herramientas:
+
+- HTML: lenguaje con el cual está estructurado nuestro landing page.
+
+- CSS: diseño y formato para el html desarrollado.
+
+El despliegue de nuestro landing page es posible gracias a la herramienta de Github Pages. El cual es un servicio que nos permite alojar nuestro landing directamente desde el
+repositorio de GitHub.
+
+Para lograr el despliegue seguimos lo siguientes pasos:
+
+1. Dirigirnos al repositorio de la página y entrar en la sección de configuración.
+
+2. Ir a la opción de “Pages”, donde se encontrarán todas las opciones de publicación de página.
+
+3. Se debe seleccionar la rama la cual se va a publicar en el vínculo. También se debe seleccionar la carpeta donde se localizara la publicación.
+
+4. Finalmente, el link vínculo de nuestra página aparecerá en la parte superior.
+
+---
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
 ### 4.2.1. Sprint 1
+
+El primer sprint es un hito importante en nuestro proceso de desarrollo ágil. Durante este período, nos enfocamos en la implementación de las características y funcionalidades prioritarias identificadas en la planificación inicial. Esto implica traducir los requisitos y especificaciones en código funcional, desarrollando las bases de nuestro producto de manera iterativa.
 
 #### 4.2.1.1. Sprint Planning 1
 
@@ -2310,15 +2750,287 @@ Tabla simple para almacenar el histórico de notificaciones (`id`, `recipient_id
 
 ### 4.3.1. Diseño de Entrevistas
 
+**Segmento 1: Personas activas en el ámbito laboral con jornadas extendidas**
+
+Para evaluar la efectividad del landing page de NeuroZen, hemos formulado preguntas para
+comprender cómo los residentes perciben la aplicación y si sienten que el diseño y contenido
+de la página reflejan adecuadamente su objetivo que es apaciguar el estrés de las personas.
+Además queremos saber si la página motiva a los usuarios a registrarse y a confiar en
+Neurozen como una ayuda a su estrés.
+
+Introducción:  
+Buenos días soy [Tu Nombre], estudiante de la UPC, y junto a mi equipo estamos
+desarrollando Neurozen, una aplicación para ayudar a las personas a reducir el estrés.
+Nos gustaría hacerle algunas preguntas sobre la página web y aplicación móvil del proyecto,
+y le agradecemos su tiempo para ayudarnos con esta entrevista.
+
+Preguntas:
+
+- ¿Qué te hizo sentir o pensar la página cuando la viste por primera vez?
+- ¿Entendiste fácilmente para qué sirve la aplicación? ¿Qué crees que hace?
+- ¿Qué te parece la parte donde puedes registrarte o iniciar sesión? ¿Te queda claro cómo hacerlo?
+- ¿La página te da confianza sobre la seguridad de tus datos o privacidad? ¿Por qué?
+- ¿Te parece que el diseño (colores, botones, distribución) es fácil de usar y moverse?
+- ¿Qué cambiarías o mejorarías en esta página?
+- ¿Qué opinas de las nuevas funciones de la aplicación como ver perfil, herramientas contra el estrés y suscripciones?
+
+---
+
+**Segmento 2: Adultos entre 20 y 50 años con trabajo informal o sin horarios definidos**
+
+Para evaluar la efectividad del landing page de NeuroZen, hemos formulado preguntas
+dirigidas a usuarios pertenecientes al segmento objetivo: adultos entre 20 y 50 años con
+trabajo informal o sin horarios definidos. A continuación, presentamos una entrevista
+realizada a Cristofer, uno de nuestros usuarios de prueba.
+
+Introducción:  
+Buenos días soy [Tu Nombre], estudiante de la UPC, y junto a mi equipo estamos
+desarrollando Neurozen, una aplicación para ayudar a las personas a reducir el estrés.
+Nos gustaría hacerle algunas preguntas sobre la página web y aplicación móvil del proyecto,
+y le agradecemos su tiempo para ayudarnos con esta entrevista.
+
+Preguntas:
+
+- ¿La estética de la página (colores, imágenes, diseño) te resulta atractiva o te causa alguna impresión en particular?
+- ¿Te resultó fácil navegar por el menú y encontrar las secciones como “Beneficios” o “Ejercicios”?
+- ¿Sentiste que el contenido se adapta a alguien como tú, con horarios poco estructurados o sin un trabajo fijo?
+- ¿Qué opinas de la sección de “Ejercicios contra el estrés”? ¿Te llama la atención probarlos?
+- ¿Te quedó claro que la plataforma también ofrece contacto con profesionales? ¿Te parecería útil esa opción?
+- ¿Cambiarías algo del diseño o contenido para que sea más útil o claro para ti?
+- ¿Qué opinas de las nuevas funciones de login, ver perfil y suscripciones dentro de la aplicación?
+
+---
+
 ### 4.3.2. Registro de Entrevistas
 
+**Segmento 1: Personas activas en el ámbito laboral con jornadas extendidas**
+
+**Entrevista 1 – Segmento 1**
+
+- Nombre: Milenio Bonifacio Vila Lujan.
+
+- Sexo: Masculino.
+
+- Edad: 27 años.
+
+- Estado Civil: Viudo.
+
+- Labor: Vendedor de helados.
+
+Detalles de la entrevista:
+
+- Duración: 5:41 minutos.
+
+Link : [https://drive.google.com/file/d/18UtH0VYeeHezwYrqdNocy89Uj14yxmNK/view?usp=sharing](https://drive.google.com/file/d/18UtH0VYeeHezwYrqdNocy89Uj14yxmNK/view?usp=sharing)
+
+Resumen de los puntos clave en la entrevista:
+
+Milenio Bonifacio, un vendedor de helados de 27 años, comentó durante la entrevista que la landing page de NeuroZen le generó una impresión tranquila y clara, entendiendo rápidamente que la aplicación está orientada a reducir el estrés. Consideró intuitiva la sección de registro y percibió confianza en el diseño, aunque sugirió incluir más información sobre privacidad. Señaló que la distribución y los colores facilitan la navegación, y recomendó añadir ejemplos visuales del funcionamiento. Sobre las nuevas funciones, opinó que son útiles y coherentes con el propósito de la app.
+
+**Entrevista 2 – Segmento 1**
+
+- Nombre: Alejandro Cárdenas López
+
+- Sexo: Masculino.
+
+- Edad: 24 años.
+
+- Estado Civil: Soltero.
+
+- Labor: Operador de almacén con turnos extendidos
+
+Detalles de la entrevista:
+
+- Duración: Mas o menos 10 minutos aproximadamente.
+
+Link : [https://drive.google.com/drive/folders/1TXbnV7_IFn77mdGEWyPfuNRUqZb9FTb0?usp=sharing](https://drive.google.com/drive/folders/1TXbnV7_IFn77mdGEWyPfuNRUqZb9FTb0?usp=sharing)
+
+Resumen de los puntos clave en la entrevista:
+
+Alejandro comentó que la landing page de NeuroZen le transmitió una sensación profesional y tranquila gracias a los colores y la distribución equilibrada. Entendió inmediatamente que la app se enfocaba en la reducción del estrés.
+Dijo que la sección de registro le pareció clara, aunque sugirió incluir un pequeño texto explicando qué beneficios gana el usuario al registrarse.
+Notó que el diseño era moderno y sencillo de navegar, aunque para personas con poco tiempo sería útil incluir botones más visibles.
+Sugirió agregar una sección con testimonios o casos reales para aumentar la confianza.
+En cuanto a las nuevas funciones, opinó que las herramientas contra el estrés serían ideales para personas con jornadas extendidas y que la opción de perfil y suscripciones podría ser útil si ofrece recomendaciones personalizadas.
+
+**Entrevista 3 – Segmento 1**
+
+- Nombre: Cristian Rivera Mendoza
+
+- Sexo: Masculino.
+
+- Edad: 26 años.
+
+- Estado Civil: Soltero.
+
+- Labor: Técnico de mantenimiento con jornadas largas
+
+Detalles de la entrevista:
+
+- Duración: Mas o menos 10 minutos aproximadamente.
+
+Link : [https://drive.google.com/drive/folders/1cDqIQDhljWPuGd-m5QhuJUAyu_L4FfaG?usp=sharing](https://drive.google.com/drive/folders/1cDqIQDhljWPuGd-m5QhuJUAyu_L4FfaG?usp=sharing)
+
+Resumen de los puntos clave en la entrevista:
+
+Cristian dijo que al ingresar a la landing page sintió que la aplicación era seria y confiable. La información le pareció clara y entendió desde el inicio el propósito de combatir el estrés.
+Consideró muy intuitiva la sección de registro, aunque recomendó añadir una breve guía visual para usuarios nuevos.
+El diseño le pareció limpio y fácil de navegar. Sin embargo, sugirió hacer que los títulos sean un poco más grandes para facilitar la lectura.
+Respecto a privacidad, le transmitió confianza, aunque le gustaría ver un apartado que explique qué datos se almacenan.
+Comentó que las nuevas funciones como herramientas de estrés, perfil y suscripciones le parecen coherentes con el propósito de la aplicación y que serían útiles en momentos de mucha carga laboral.
+
+---
+
+**Segmento 2: Adultos entre 20 y 50 años con trabajo informal o sin horarios definidos**
+
+**Entrevista 4 – Segmento 2**
+
+- Nombre: Valeria
+
+- Sexo: Femenino
+
+- Edad: 21años
+
+- Estado Civil: Soltera
+
+- Labor: Trabaja como diseñadora freelance, con horarios flexibles y proyectos por encargo
+
+Detalles de la entrevista:
+
+- Duración: 11:25
+
+- Link: [https://drive.google.com/file/d/1-Puz7VD-DfS2ttLd_Ns95JO7wk_mcqA8/view?usp=sharing](https://drive.google.com/file/d/1-Puz7VD-DfS2ttLd_Ns95JO7wk_mcqA8/view?usp=sharing)
+
+Resumen de los puntos clave en la entrevista:
+
+- Valeria considera que el diseño es visualmente atractivo y transmite calma, lo cual está alineado con el propósito de la app.
+- Navegar por el menú fue sencillo, aunque sugiere que los íconos podrían tener etiquetas más claras.
+- El contenido le pareció adecuado para personas con rutinas variables como ella.
+- La sección de ejercicios le pareció interesante y estaría dispuesta a probarlos.
+- Le gustó que se ofrezca contacto con profesionales, aunque recomienda que se explique mejor cómo funciona esa opción.
+- Sugiere incluir una guía rápida para nuevos usuarios en la landing page.
+- Las funciones de login, perfil y suscripciones le parecieron útiles, especialmente si se integran con recordatorios personalizados.
+
+**Entrevista 5 – Segmento 2**
+
+- Nombre: Joaquín Herrera Tamayo
+
+- Sexo: Masculino
+
+- Edad: 23 años
+
+- Estado Civil: Soltero
+
+- Labor: Repartidor independiente con horarios variables
+
+Detalles de la entrevista:
+
+- Duración: Mas o menos 10 minutos aproximadamente.
+
+- Link: [https://drive.google.com/drive/folders/1cw2cbsHjGYblujk0frozfOtwaCB3JUPY?usp=sharing](https://drive.google.com/drive/folders/1cw2cbsHjGYblujk0frozfOtwaCB3JUPY?usp=sharing)
+
+Resumen de los puntos clave en la entrevista:
+
+Joaquín mencionó que la estética de la página le pareció relajante y adecuada para alguien que trabaja en la calle y necesita momentos de descanso.
+Comentó que navegar por el menú fue sencillo, pero sugirió que algunos íconos incluyan texto porque no todos son intuitivos.
+Sintió que el contenido se adapta bien a personas con horarios irregulares.
+Sobre la sección de ejercicios contra el estrés, dijo que le llamó bastante la atención porque suele tener días muy cargados.
+La idea de contactar profesionales le pareció útil, pero recomendó que se explique mejor si es por chat, videollamada o mensajes.
+Sugirió añadir un pequeño tutorial para nuevos usuarios.
+Sobre las funciones de login, perfil y suscripciones, opinó que serían útiles si incluyen beneficios como recordatorios o rutinas rápidas.
+
+**Entrevista 6 – Segmento 2**
+
+- Nombre: Mateo Alarcón Palacios
+
+- Sexo: Masculino
+
+- Edad: 25 años
+
+- Estado Civil: Soltero
+
+- Labor: Freelancer de edición de video con horarios flexibles
+
+Detalles de la entrevista:
+
+- Duración: Mas o menos 10 minutos aproximadamente.
+
+- Link: [https://drive.google.com/drive/folders/1Agr3NAavTSWaCIPs1MlKkhshXdCUGAB7?usp=drive_link](https://drive.google.com/drive/folders/1Agr3NAavTSWaCIPs1MlKkhshXdCUGAB7?usp=drive_link)
+
+Resumen de los puntos clave en la entrevista:
+
+Mateo comentó que el diseño de la landing page le pareció atractivo, especialmente por los colores suaves que transmiten serenidad.
+Navegar por la página le fue fácil, aunque sugirió añadir una vista previa de los ejercicios para que los usuarios sepan qué esperar.
+Indicó que el contenido se adapta bien a personas que no siguen un horario fijo.
+La sección de ejercicios contra el estrés le pareció muy interesante y dijo que sí los probaría.
+Sobre el contacto con profesionales, le gustó la idea, pero sugirió aclarar si se trata de psicólogos, coaches o especialistas en bienestar.
+Propuso incluir una sección de “primeros pasos” al ingresar.
+Vio útiles las funciones de login, perfil y suscripciones, sobre todo si pueden personalizarse según la rutina del usuario.
+
+---
+
 ### 4.3.3. Evaluaciones según heurísticas
+
+**Evaluación heurística de la aplicación NeuroZen**
+
+Este análisis se basa en principios de usabilidad para evaluar la experiencia del usuario en la aplicación NeuroZen. Se identifican fortalezas, debilidades y recomendaciones de mejora.
+
+| **Heurística**                      | **Severidad** | **Descripción**                                                                                                                                      | **Recomendación**                                                                                                        |
+| ----------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Visibilidad del estado del sistema  | 2             | La aplicación cuenta con una sección de “Tests” donde el usuario puede realizar un test dentro de la misma página web para ver su nivel de estrés.   | La sección de test debe mejorar un poco el diseño en mostrar las preguntas más interactivas para el usuario.             |
+| Control y libertad del usuario      | 1             | El usuario puede eliminar, cancelar o rehacer cualquier actividad que esté haciendo en la aplicación, porque siempre tiene una opción para cancelar. | En esta sección no hay mejoras, ya que siempre se encuentra esta heurística.                                             |
+| Diseño estético y minimalista       | 1             | El diseño es limpio y tranquilo, lo cual va en línea con el objetivo del proyecto. No hay sobrecarga de información.                                 | Mantener el estilo actual. Podría beneficiarse de sutiles animaciones o íconos explicativos para aumentar el atractivo.  |
+| Reconocimiento en lugar de recuerdo | 3             | La aplicación aún presenta algunos fallos en cuanto a guardar información cotidiana de la actividad del usuario.                                     | Se debe mejorar el análisis de la información que el usuario mantiene cotidianamente para disminuir la carga de memoria. |
+
+---
 
 ---
 
 # Conclusiones
 
-## Conclusiones y recomendaciones
+## Conclusiones
+
+1. **Relevancia social**  
+   NeuroZen responde a una necesidad real: el cuidado de la salud mental en entornos digitales, cada vez más demandado en la sociedad actual.
+
+2. **Enfoque integral**  
+   Combina autoevaluación (tests) con acceso a especialistas, siendo más completo que soluciones que solo abordan una de estas partes.
+
+3. **Seguridad y confianza**  
+   La inclusión de autenticación en dos pasos transmite seriedad y compromiso con la protección de los datos personales.
+
+4. **Escalabilidad**  
+   El proyecto tiene el potencial de evolucionar hacia un ecosistema más robusto con nuevas funcionalidades, manteniendo su base sencilla en HTML y CSS.
+
+5. **Potencial de impacto**  
+   NeuroZen puede crecer como una plataforma de apoyo integral, integrando tecnologías emergentes como inteligencia artificial, chatbots y seguimiento personalizado.
+
+---
+
+## Recomendaciones
+
+1. **Mejora de la experiencia de usuario (UX/UI)**
+   - Implementar un diseño minimalista y calmante (paleta de colores suaves, tipografía clara).
+   - Incluir dashboards visuales para mostrar la evolución del usuario en sus niveles de estrés.
+
+2. **Nuevas funcionalidades sugeridas**
+   - Chatbot de acompañamiento con ejercicios de relajación y consejos inmediatos.
+   - Gamificación: logros y recompensas por completar actividades de autocuidado.
+   - Agenda virtual para agendar citas con psicólogos desde la plataforma.
+
+3. **Escalabilidad técnica**
+   - Evolucionar a frameworks como React, Vue o Angular para mayor dinamismo.
+   - Incorporar bases de datos seguras (ej. MongoDB, PostgreSQL) para gestión de perfiles, tests y citas.
+
+4. **Alianzas estratégicas**
+   - Colaborar con psicólogos colegiados para dar mayor respaldo profesional.
+   - Establecer convenios con universidades o centros de bienestar para ganar credibilidad.
+
+5. **Sostenibilidad y monetización**
+   - Ofrecer una versión gratuita con funciones básicas y una premium con servicios avanzados (consultas online, planes personalizados).
+   - Incluir publicidad ética y no invasiva relacionada con bienestar.
+
+---
 
 ## Video App Validation
 
@@ -2361,3 +3073,27 @@ Stickdorn, M., Hormess, M. E., Lawrence, A., & Schneider, J. (2018). _This is se
 Yin, R. K. (2018). _Case study research and applications: Design and methods_ (6th ed.). SAGE Publications. https://us.sagepub.com/en-us/nam/case-study-research-and-applications/book250150
 
 # Anexos
+
+## Anexo A. Formato para Evaluación de User Experience según Heurísticas
+
+Durante la validación del prototipo se aplicaron heurísticas de usabilidad, arquitectura de información y diseño inclusivo.
+
+**Tareas evaluadas:**
+
+1. Registro de un usuario nuevo.
+2. Inicio de sesión y recuperación de contraseña.
+3. Realización de test de estrés.
+4. Visualización de psicólogos disponibles.
+5. Acceso a recomendaciones y actividades de relajación.
+6. Uso de agenda para contacto con psicólogos.
+7. Realización de pagos de suscripción.
+
+## Anexo B. Integrantes del Equipo
+
+| Foto                                                    | Nombres y Apellidos               | Carrera                | Descripción                                                                                                                                                                                                                                                 |
+| ------------------------------------------------------- | --------------------------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Joao](assets/images/cap1/members/joao-castro.jpeg)    | Manuel Fernando Joao Castro Picón | Ingeniería de Software | Tengo 19 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. Me gusta entrenar calistenia, escuchar música y jugar fútbol. Me considero responsable, adaptable al trabajo en equipo y con metas claras para ser un gran profesional. |
+| ![Valentino](assets/images/cap1/members/trevor.jpeg)    | Santiago Valentino Solis Chang    | Ingeniería de Software | Tengo 20 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. En mi tiempo libre disfruto jugar videojuegos, practicar tenis y aprender sobre programación web. Soy responsable, comprometido y capaz de trabajar en equipo.          |
+| ![Miguel](assets/images/cap1/members/miguel-vila.jpeg)  | Miguel Angel Vila Guillen         | Ingeniería de Software | Tengo 21 años y estudio el 6to ciclo en la Universidad Peruana de Ciencias Aplicadas. Me gusta jugar videojuegos, tocar la guitarra y el fútbol. Me considero capaz de trabajar en equipo y aspiro a ser un profesional competente.                         |
+| ![Diego](assets/images/cap1/members/diego-requena.jpeg) | Diego Gabriel Requena Gutiérrez   | Ingeniería de Software | Tengo 19 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida con mis objetivos, busco optimizar mi rendimiento y mantener un equilibrio entre la excelencia y una vida saludable.                       |
+| ![JeanPool](assets/images/cap1/members/jeanpool.jpg)    | Huaman De La Cruz Jean Pool       | Ingeniería de Software | Tengo 23 años; Estoy cursando la carrera de ingeniería de software en quinto ciclo. Soy una persona orientada a objetivos y con una meta clara, quiero poder crear soluciones disruptivas que revolucionen el mercado.                                      |
