@@ -1,7 +1,7 @@
 # Informe del Trabajo Parcial
 
 <div>
-  <p align="center"><img src="assets/md-images/upc-logo.png" alt="Logo UPC" width="150px" /></p>
+  <p align="center"><img src="assets/images/upc-logo.png" alt="Logo UPC" width="150px" /></p>
   <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
   <p align="center">Facultad de Ingeniería</p>
   <p align="center">Carrera: Ingeniería de Software</p>
@@ -173,7 +173,7 @@ A continuación, se presentan las evidencias de participación y colaboración d
 - La evidencia gráfica incluye la vista de contribuciones, así como el historial de actividad donde se observa el detalle de commits y cambios en el repositorio.
 
 <div>
-  <p align="center"><img src="assets/md-images/Github/commits.png" alt="Team members stats" width="700px" /></p>
+  <p align="center"><img src="assets/images/Github/commits.png" alt="Team members stats" width="700px" /></p>
 </div>
 
 ### Contribuciones por integrante
@@ -553,13 +553,13 @@ diversas actividades para complementar el tratamiento contra el estrés.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Foto                                        | Nombres y Apellidos               | Carrera                | Descripción                                                                                                                                                                                                                                                 |
-| ------------------------------------------- | --------------------------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Joao](assets/members/joao-castro.jpeg)    | Manuel Fernando Joao Castro Picón | Ingeniería de Software | Tengo 19 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. Me gusta entrenar calistenia, escuchar música y jugar fútbol. Me considero responsable, adaptable al trabajo en equipo y con metas claras para ser un gran profesional. |
-| ![Valentino](assets/members/trevor.jpeg)    | Santiago Valentino Solis Chang    | Ingeniería de Software | Tengo 20 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. En mi tiempo libre disfruto jugar videojuegos, practicar tenis y aprender sobre programación web. Soy responsable, comprometido y capaz de trabajar en equipo.          |
-| ![Miguel](assets/members/miguel-vila.jpeg)  | Miguel Angel Vila Guillen         | Ingeniería de Software | Tengo 21 años y estudio el 6to ciclo en la Universidad Peruana de Ciencias Aplicadas. Me gusta jugar videojuegos, tocar la guitarra y el fútbol. Me considero capaz de trabajar en equipo y aspiro a ser un profesional competente.                         |
-| ![Diego](assets/members/diego-requena.jpeg) | Diego Gabriel Requena Gutiérrez   | Ingeniería de Software | Tengo 19 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida con mis objetivos, busco optimizar mi rendimiento y mantener un equilibrio entre la excelencia y una vida saludable.                       |
-| ![JuanCarlos](assets/members/jeanpool.jpg)  | Huaman De La Cruz Jean Pool       | Ingeniería de Software | Tengo 23 años; Estoy cursando la carrera de ingeniería de software en quinto ciclo. Soy una persona orientada a objetivos y con una meta clara, quiero poder crear soluciones disrruptivas que revolucionen el mercado.                                     |
+| Foto                                                    | Nombres y Apellidos               | Carrera                | Descripción                                                                                                                                                                                                                                                 |
+| ------------------------------------------------------- | --------------------------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Joao](assets/images/cap1/members/joao-castro.jpeg)    | Manuel Fernando Joao Castro Picón | Ingeniería de Software | Tengo 19 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. Me gusta entrenar calistenia, escuchar música y jugar fútbol. Me considero responsable, adaptable al trabajo en equipo y con metas claras para ser un gran profesional. |
+| ![Valentino](assets/images/cap1/members/trevor.jpeg)    | Santiago Valentino Solis Chang    | Ingeniería de Software | Tengo 20 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. En mi tiempo libre disfruto jugar videojuegos, practicar tenis y aprender sobre programación web. Soy responsable, comprometido y capaz de trabajar en equipo.          |
+| ![Miguel](assets/images/cap1/members/miguel-vila.jpeg)  | Miguel Angel Vila Guillen         | Ingeniería de Software | Tengo 21 años y estudio el 6to ciclo en la Universidad Peruana de Ciencias Aplicadas. Me gusta jugar videojuegos, tocar la guitarra y el fútbol. Me considero capaz de trabajar en equipo y aspiro a ser un profesional competente.                         |
+| ![Diego](assets/images/cap1/members/diego-requena.jpeg) | Diego Gabriel Requena Gutiérrez   | Ingeniería de Software | Tengo 19 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida con mis objetivos, busco optimizar mi rendimiento y mantener un equilibrio entre la excelencia y una vida saludable.                       |
+| ![JeanPool](assets/images/cap1/members/jeanpool.jpg)    | Huaman De La Cruz Jean Pool       | Ingeniería de Software | Tengo 23 años; Estoy cursando la carrera de ingeniería de software en quinto ciclo. Soy una persona orientada a objetivos y con una meta clara, quiero poder crear soluciones disrruptivas que revolucionen el mercado.                                     |
 
 ## 1.2. Solution Profile
 
@@ -679,7 +679,7 @@ consciencia y manejo proactivo del estrés en el entorno laboral.
 Lean UX Canvas es una de las herramientas que hemos utilizado para comprender a nuestros posibles usuarios y sus necesidades. Esta es usada en el campo del diseño centrado en el usuario y la metodología Lean con la intención de desarrollar productos de forma eficientes y práctica para los usuarios. A su vez, esta puede ser utilizada por equipos multidisciplinarios para que colaboración de forma ordenada dentro un marco estructurado.
 
 <div>
-  <p align="center"><img src="assets/md-images/ux_canvas.png" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap1/diagrams/ux_canvas.png" alt="Canvas" width="700px" /></p>
 </div>
 
 ## 1.3. Segmentos objetivo
@@ -1099,9 +1099,9 @@ Empathy Mapping y As-Is Scenario Mapping.
 
 ### 2.3.1. User Personas
 
-<img src="assets/md-images/user-persona/andres.png" alt="User Persona Andres"><br>
+<img src="assets/images/cap2/user-persona/andres.png" alt="User Persona Andres"><br>
 
-<img src="assets/md-images/user-persona/laura.png" alt="User Persona Laura"><br>
+<img src="assets/images/cap2/user-persona/laura.png" alt="User Persona Laura"><br>
 
 ### 2.3.2. User Task Matrix
 
@@ -1116,34 +1116,34 @@ Empathy Mapping y As-Is Scenario Mapping.
 ### 2.3.3. User Journey Mapping
 
 <div>
-  <p align="center"><img src="assets/md-images/journey-map/Journey-1.png" alt="Journey mapping part 1" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/journey-map/Journey-1.png" alt="Journey mapping part 1" width="700px" /></p>
 </div>
 <div>
-  <p align="center"><img src="assets/md-images/journey-map/Journey-2.png" alt="Journey mapping part 2" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/journey-map/Journey-2.png" alt="Journey mapping part 2" width="700px" /></p>
 </div>
 <div>
-  <p align="center"><img src="assets/md-images/journey-map/Journey-3.png" alt="Journey mapping part 3" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/journey-map/Journey-3.png" alt="Journey mapping part 3" width="700px" /></p>
 </div>
 <div>
-  <p align="center"><img src="assets/md-images/journey-map/Journey-4.png" alt="Journey mapping part 4" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/journey-map/Journey-4.png" alt="Journey mapping part 4" width="700px" /></p>
 </div>
 
 ### 2.3.4. Empathy Mapping
 
 <div>
-  <p align="center"><img src="assets/md-images/empathy-map/Empathy-1.png" alt="Empathy mapping part 1" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/empathy-map/Empathy-1.png" alt="Empathy mapping part 1" width="700px" /></p>
 </div>
 
 <div>
-  <p align="center"><img src="assets/md-images/empathy-map/Empathy-2.png" alt="Empathy mapping part 2" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/empathy-map/Empathy-2.png" alt="Empathy mapping part 2" width="700px" /></p>
 </div>
 
 <div>
-  <p align="center"><img src="assets/md-images/empathy-map/Empathy-3.png" alt="Empathy mapping part 3" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/empathy-map/Empathy-3.png" alt="Empathy mapping part 3" width="700px" /></p>
 </div>
 
 <div>
-  <p align="center"><img src="assets/md-images/empathy-map/Empathy-4.png" alt="Empathy mapping part 4" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/empathy-map/Empathy-4.png" alt="Empathy mapping part 4" width="700px" /></p>
 </div>
 
 ### 2.3.5. Big Picture EventStorming
@@ -1233,13 +1233,13 @@ Este glosario define los términos clave que usamos en el proyecto para mantener
 Impact Mapping - Segmento 1
 
 <div>
-  <p align="center"><img src="assets/md-images/impact_mapping/ImpactMapping_s1.png" alt="Impact mapping segmento 1" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/impact-map/ImpactMapping_s1.png" alt="Impact mapping segmento 1" width="700px" /></p>
 </div>
 
 Impact Mapping - Segmento 2
 
 <div>
-  <p align="center"><img src="assets/md-images/impact_mapping/ImpactMapping_s2.png" alt="Impact mapping segmento 2" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/impact-map/ImpactMapping_s2.png" alt="Impact mapping segmento 2" width="700px" /></p>
 </div>
 
 ---
@@ -1658,7 +1658,7 @@ Usuario Trabajador (Actor)
 
 **Objetivo:** Establecer las relaciones de integración y el flujo de información entre los distintos Bounded Contexts de NeuroZen, definiendo los patrones de integración estratégicos para asegurar la coherencia del sistema.
 
-<p align="center"><img src="assets/md-images/context-mapping.jpeg" alt="Context Mapping" width="700px" /></p>
+<p align="center"><img src="assets/images/cap2/context-map.jpeg" alt="Context Mapping" width="700px" /></p>
 
 #### IAM – Perfiles (ACL)
 
@@ -1699,7 +1699,7 @@ En el flujo inverso, cuando se completa una consulta o se publica una reseña pr
 En esta sección se presenta el diagrama de contexto del sistema NeuroZen, el cual permite visualizar de manera general la interacción entre la plataforma y los diferentes actores externos que participan en su funcionamiento. Este tipo de diagrama es fundamental dentro de la arquitectura de software, ya que delimita el alcance del sistema y muestra sus relaciones con usuarios y servicios externos, sin entrar en detalles internos de implementación.
 
 El sistema NeuroZen se representa como un único bloque central, actuando como una plataforma digital enfocada en la detección temprana, monitoreo continuo y gestión del estrés laboral. A través de la integración de tecnologías de análisis biométrico, evaluaciones psicológicas y herramientas de bienestar, el sistema busca mejorar la calidad de vida de los usuarios en entornos laborales exigentes.
-<img src="assets/md-images/software-architecture/SoftwareArchitectureContextLevelDiagrams.png" alt="Software Architecture Context Level Diagram" style="width:100%;">
+<img src="assets/images/cap2/software-architecture/SoftwareArchitectureContextLevelDiagrams.png" alt="Software Architecture Context Level Diagram" style="width:100%;">
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
@@ -1709,7 +1709,7 @@ A diferencia del diagrama de contexto, este nivel permite identificar los conten
 
 El sistema se compone de una aplicación móvil como cliente principal, un backend que centraliza la lógica de negocio, y servicios externos encargados del análisis biométrico, notificaciones, pagos y almacenamiento de datos.
 
-<img src="assets/md-images/software-architecture/SoftwareArchitectureContainerLevelDiagrams.png" alt="Software Architecture Container Level Diagram" style="width:100%;">
+<img src="assets/images/cap2/software-architecture/SoftwareArchitectureContainerLevelDiagrams.png" alt="Software Architecture Container Level Diagram" style="width:100%;">
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
@@ -1720,37 +1720,37 @@ En esta sección se detallan los diagramas de despliegue y componentes que espec
 ##### Identity & Access Management (IAM) Context
 
 Para la seguridad, roles y cuentas de usuario.
-<img src="assets/md-images/software-architecture/1-IAM.png" alt="IAM Diagram" style="width:100%;">
+<img src="assets/images/cap2/software-architecture/1-IAM.png" alt="IAM Diagram" style="width:100%;">
 
 ##### Assessments Context
 
 Para los tests psicológicos y cuestionarios.
-<img src="assets/md-images/software-architecture/2-AssessmentsContext.png" alt="Assessments Diagram" style="width:100%;">
+<img src="assets/images/cap2/software-architecture/2-AssessmentsContext.png" alt="Assessments Diagram" style="width:100%;">
 
 ##### Recommendations & Activities Context
 
 Para las pausas activas y ejercicios de respiración.
-<img src="assets/md-images/software-architecture/3-Recommendations.png" alt="Recommendations Diagram" style="width:100%;">
+<img src="assets/images/cap2/software-architecture/3-Recommendations.png" alt="Recommendations Diagram" style="width:100%;">
 
 ##### Health Tracking & Dashboard Context
 
 Para el historial, estadísticas y reportes.
-<img src="assets/md-images/software-architecture/4-Health Tracking.png" alt="Health Tracking Diagram" style="width:100%;">
+<img src="assets/images/cap2/software-architecture/4-Health Tracking.png" alt="Health Tracking Diagram" style="width:100%;">
 
 ##### Professionals & Appointments Context
 
 Para el directorio de psicólogos y gestión de citas.
-<img src="assets/md-images/software-architecture/5-Professionals.png" alt="Professionals Diagram" style="width:100%;">
+<img src="assets/images/cap2/software-architecture/5-Professionals.png" alt="Professionals Diagram" style="width:100%;">
 
 ##### Community & Resources Context
 
 Para los foros de apoyo y artículos de bienestar.
-<img src="assets/md-images/software-architecture/6-Community.png" alt="Community Diagram" style="width:100%;">
+<img src="assets/images/cap2/software-architecture/6-Community.png" alt="Community Diagram" style="width:100%;">
 
 ##### Notification Context
 
 Para las alertas, recordatorios y correos.
-<img src="assets/md-images/software-architecture/7-Notification.png" alt="Notification Diagram" style="width:100%;">
+<img src="assets/images/cap2/software-architecture/7-Notification.png" alt="Notification Diagram" style="width:100%;">
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
@@ -1801,7 +1801,7 @@ _Descripción:_
 El diagrama de componentes de IAM ilustrará la interacción entre el `Auth REST API Component`, el `IAM Command Processing Component` y el `Security & Persistence Component`. Mostrará cómo las peticiones de login ingresan, se validan, acceden a la base de datos y retornan un JWT.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/IAM/level_diagrams.jpeg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/contexts/IAM/level_diagrams.jpeg" alt="Canvas" width="700px" /></p>
 </div>
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1812,7 +1812,7 @@ _Descripción:_
 Presentará la clase `UserAccount`, su relación estricta con el Enum `Role`, y las interfaces `UserAccountCommandService` y `UserAccountRepository`.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/IAM/class_diagrams.jpeg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/IAM/class_diagrams.jpeg" alt="Canvas" width="700px" /></p>
 </div>
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
@@ -1821,7 +1821,7 @@ _Descripción:_
 Mostrará la tabla `user_accounts` con sus campos `id`, `email`, `password_hash`, `role` y `created_at`, destacando el `id` como Primary Key.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/IAM/db_diagrams.jpeg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/IAM/db_diagrams.jpeg" alt="Canvas" width="700px" /></p>
 </div>
 
 ---
@@ -1861,7 +1861,7 @@ _Descripción:_
 Este diagrama mostrará cómo el `Assessments API` recibe las respuestas, las pasa al `Scoring Component` (Application Layer) para calcular el nivel de estrés, lo persiste, y se comunica mediante eventos hacia el contexto de Health Tracking.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Assessments/level_diagrams.jpeg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Assessments/level_diagrams.jpeg" alt="Canvas" width="700px" /></p>
 </div>
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1872,7 +1872,7 @@ _Descripción:_
 Mostrará la relación One-to-Many entre `Assessment` y `Answer`, y las dependencias de los servicios de dominio encargados del cálculo de puntajes.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Assessments/class_diagrams.jpeg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Assessments/class_diagrams.jpeg" alt="Canvas" width="700px" /></p>
 </div>
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
@@ -1881,7 +1881,7 @@ _Descripción:_
 Diagrama relacional conectando `assessments` con `answers`, donde cada respuesta está vinculada al test correspondiente y al usuario.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Assessments/db_diagrams.jpeg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Assessments/db_diagrams.jpeg" alt="Canvas" width="700px" /></p>
 </div>
 
 ---
@@ -1920,7 +1920,7 @@ _Descripción:_
 Representará el flujo donde el motor de recomendaciones recibe el perfil del usuario, consulta el catálogo de actividades en la base de datos y genera un plan estructurado, exponiéndolo mediante el API REST.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Activities/level_diagrams.jpeg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Activities/level_diagrams.jpeg" alt="Canvas" width="700px" /></p>
 </div>
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1931,7 +1931,7 @@ _Descripción:_
 Diagrama UML destacando `ActivityPlan`, la lista asociada de `Activity`, y el servicio de dominio generador de planes.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Activities/class_diagrams.jpeg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Activities/class_diagrams.jpeg" alt="Canvas" width="700px" /></p>
 </div>
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
@@ -1940,7 +1940,7 @@ _Descripción:_
 Modelado de las tablas catálogo contra las tablas transaccionales de planes de usuario.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Activities/db_diagrams.jpeg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Activities/db_diagrams.jpeg" alt="Canvas" width="700px" /></p>
 </div>
 
 ---
@@ -1980,7 +1980,7 @@ _Descripción:_
 Mostrará la arquitectura orientada a eventos de este contexto: cómo sus `Event Listeners` reaccionan a los mensajes de la plataforma, actualizan la base de datos de métricas y cómo el `Dashboard Query Component` sirve los datos al móvil.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Health/level_diagrams.jpeg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Health/level_diagrams.jpeg" alt="Canvas" width="700px" /></p>
 </div>
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1991,7 +1991,7 @@ _Descripción:_
 Estructura de `HealthRecord` agrupando métricas de estrés, síntomas reportados manualmente y tendencias.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Health/class_diagrams.jpeg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Health/class_diagrams.jpeg" alt="Canvas" width="700px" /></p>
 </div>
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
@@ -2000,7 +2000,7 @@ _Descripción:_
 Esquema de base de datos optimizado para consultas de series de tiempo (Time-Series) del estrés diario del usuario.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Health/db_diagrams.jpeg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Health/db_diagrams.jpeg" alt="Canvas" width="700px" /></p>
 </div>
 
 ---
@@ -2040,7 +2040,7 @@ _Descripción:_
 Ilustrará cómo interactúan el componente de reservas con el catálogo de especialistas, validando disponibilidades antes de persistir la cita y emitiendo el evento hacia el Notification Context.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Appointments/level_diagrams.png" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Appointments/level_diagrams.png" alt="Canvas" width="700px" /></p>
 </div>
 
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
@@ -2051,7 +2051,7 @@ _Descripción:_
 Mostrará la relación entre `Appointment`, `SpecialistProfile` y el paciente (identificado por su ID de IAM).
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Appointments/class_diagrams.jpg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Appointments/class_diagrams.jpg" alt="Canvas" width="700px" /></p>
 </div>
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
@@ -2060,7 +2060,7 @@ _Descripción:_
 Esquema de reservas con sus respectivas llaves foráneas apuntando a la tabla de perfiles de especialistas y estado de la cita.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Appointments/db_diagrams.jpg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Appointments/db_diagrams.jpg" alt="Canvas" width="700px" /></p>
 </div>
 
 ---
@@ -2097,7 +2097,7 @@ _Descripción:_
 Representará el subsistema de entrega de contenido (Content Delivery Component) y el motor de foros, mostrando cómo se sirve información estática e interactiva al usuario.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Resources/level_diagrams.jpg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Resources/level_diagrams.jpg" alt="Canvas" width="700px" /></p>
 </div>
 
 #### 2.6.6.6. Bounded Context Software Architecture Code Level Diagrams
@@ -2108,7 +2108,7 @@ _Descripción:_
 UML simple de las clases de recursos educativos y foros comunitarios.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Resources/class_diagrams.jpg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Resources/class_diagrams.jpg" alt="Canvas" width="700px" /></p>
 </div>
 
 ##### 2.6.6.6.2. Bounded Context Database Design Diagram
@@ -2117,7 +2117,7 @@ _Descripción:_
 Tablas relacionales de grupos, mensajes y catálogo de recursos de bienestar.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Resources/db_diagrams.jpg" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Resources/db_diagrams.jpg" alt="Canvas" width="700px" /></p>
 </div>
 
 ---
@@ -2155,7 +2155,7 @@ _Descripción:_
 Mostrará un Event Bus conectando el Notification Context con los demás contextos. Ilustrará cómo los adaptadores externos (FCM, SMTP) envían los mensajes físicos al dispositivo del usuario.
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Notification/level_diagrams.png" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Notification/level_diagrams.png" alt="Canvas" width="700px" /></p>
 </div>
 
 #### 2.6.7.6. Bounded Context Software Architecture Code Level Diagrams
@@ -2166,7 +2166,7 @@ _Descripción:_
 Modelará la clase `Notification` y las interfaces de los adaptadores de mensajería (Ports).
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Notification/class_diagrams.png" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Notification/class_diagrams.png" alt="Canvas" width="700px" /></p>
 </div>
 
 ##### 2.6.7.6.2. Bounded Context Database Design Diagram
@@ -2175,7 +2175,7 @@ _Descripción:_
 Tabla simple para almacenar el histórico de notificaciones (`id`, `recipient_id`, `message`, `is_read`, `created_at`).
 
 <div>
-  <p align="center"><img src="assets/md-images/contexts/Notification/db_diagrams.png" alt="Canvas" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap2/contexts/Notification/db_diagrams.png" alt="Canvas" width="700px" /></p>
 </div>
 
 ---
