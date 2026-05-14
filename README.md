@@ -2711,7 +2711,7 @@ El sprint planning es una reunión en la metodología ágil donde el equipo plan
 		</tr>
          <tr>
 			<td colspan="1">Sprint 1 – 1 Review Summary </td>
-            <td colspan="1">Se alcanzaron los objetivos del producto como la realización de todos los capítulos, el despliegue completo de la Landing Page, nuestro backend y app móvil, así como la mayoría de información necesaria dentro del reporte, sin embargo, una de las tareas/objetivos más importantes que se debía alcanzar fue la presentación de un informa en formato pdf y word.</td>
+            <td colspan="1">Se alcanzaron los objetivos del producto como la realización de todos los capítulos, el despliegue completo de la Landing Page, parte de nuestro backend y app móvil, así como la mayoría de información necesaria dentro del reporte, sin embargo, una de las tareas/objetivos más importantes que se debía alcanzar fue la presentación de un informa en formato pdf y word.</td>
 		</tr>
          <tr>
 			<td colspan="1">Sprint 1 – 1 Retrospective Summary </td>
@@ -2740,17 +2740,217 @@ El sprint planning es una reunión en la metodología ágil donde el equipo plan
 En este primer sprint, nos enfocamos en la implementación de las funcionalidades básicas de la Landing Page, incluyendo la estructura general, el diseño visual y la navegación básica, también se ha creado un reporte que muestra el ciclo de vida de todo nuestro proyecto de software. Estas características son fundamentales para establecer las bases de nuestro producto y proporcionar una experiencia de usuario sólida y coherente.
 A continuación el sprint backlog 1:
 
+<table>
+	<tbody>
+		<tr>
+			<td>Sprint #</td>
+			<td colspan="7">Sprint 1</td>
+		</tr>
+		<tr>
+			<td colspan="2">User Story</td>
+			<td colspan="6">Work - Item / Task</td>
+		</tr>
+		<tr>
+			<td>Id</td>
+			<td>Title</td>
+			<td>Id</td>
+			<td>Title</td>
+			<td>Description</td>
+			<td>Estimation (Hours)</td>
+			<td>Assigned To</td>
+			<td>Status (To-do / In-Process / To-Review / Done)</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>TSK001</td>
+			<td>Remote environment creation for Report and Landing Page</td>
+			<td>Organization, repositories and branch creation in GitHub</td>
+			<td>0</td>
+			<td>All team members</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>TSK002</td>
+			<td>Conclude Chapter01</td>
+			<td>Finish all section and add the respective information in chapter01</td>
+			<td>5</td>
+			<td>All team members</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>TSK003</td>
+			<td>Conclude Chapter02</td>
+			<td>Finish all section and add the respective information in chapter02</td>
+			<td>3</td>
+			<td>All team members</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>TSK004</td>
+			<td>Conclude Chapter03</td>
+			<td>Finish all section and add the respective information in chapter03</td>
+			<td>5</td>
+			<td>All team members</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>TSK005</td>
+			<td>Conclude Chapter04</td>
+			<td>Finish all section and add the respective information in chapter04</td>
+			<td>19</td>
+			<td>All team members</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>TSK006</td>
+			<td>Conclude Chapter05</td>
+			<td>Finish all section and add the respective information in chapter05</td>
+			<td>3</td>
+			<td>All team members</td>
+			<td>Done</td>
+		</tr>
+    <tbody>
+</table>
+
 #### 4.2.1.3. Development Evidence for Sprint Review
 
-#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing Page, Mobile App, Mobile Services.
+
+Primero, se mostrarán los commits más importantes para el Reporte, los cuales muestran el ciclo de vida del proyecto, y toda la información que se usó, usa y usará para el desarrollo del proyecto:
+
+| Repository | Branch  | Commit Message                                        | Commit ID |
+| ---------- | ------- | ----------------------------------------------------- | --------- |
+| /Report    | develop | feat: add solution profile and detailed stress        | 6866e2b   |
+| /Report    | develop | feat: add startup profile                             | dea56f1   |
+| /Landing   | master  | feat: Add rounded class to iframe in Video component  | 37c4401   |
+| /Landing   | master  | Change layout class for AboutUs section               | 31ee647   |
+| /Landing   | master  | fix: swap video sources for team and product sections | 55ffdb7   |
+
+---
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
+En esta entrega, el equipo de desarrolladores de NeuroZen ha completado con éxito la implementación y el lanzamiento de la página de la Landing Page. Esta página presenta diferentes secciones que brindan información detallada sobre nuestro producto.
+
+<div>
+  <p align="center"><img src="assets/images/cap3/landing/mockup/mockup1.png" alt="Home page mockup" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/images/cap3/landing/mockup/mockup2.png" alt="Sign Up mockup" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/images/cap3/landing/mockup/mockup3.png" alt="Log In mockup" width="700px" /></p>
+</div>
+
+<div>
+  <p align="center"><img src="assets/images/cap3/landing/mockup/mockup4.png" alt="Stress test mockup" width="700px" /></p>
+</div>
+
+Nuestro Landing Page:
+
+[● Link: https://neurozen-org.github.io/NeuroZen-landing](https://neurozen-org.github.io/NeuroZen-landing)
+
+---
+
+Además completamos con éxito la implementación de nuestro backend.
+
+<div>
+  <p align="center"><img src="assets/images/cap4/swagger/swagger1.jpg" alt="Swagger 1" width="700px" /></p>
+</div>
+<div>
+  <p align="center"><img src="assets/images/cap4/swagger/swagger2.jpg" alt="Swagger 2" width="700px" /></p>
+</div>
+<div>
+  <p align="center"><img src="assets/images/cap4/swagger/swagger3.jpg" alt="Swagger 3" width="700px" /></p>
+</div>
+
+---
+
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante este **Sprint 1**, la documentación de servicios se centró en la **definición, estandarización y ampliación de los servicios del backend de NeuroZen**, desarrollados bajo **Spring Boot** y aplicando principios de **Domain-Driven Design (DDD)** dentro de los bounded contexts implementados.  
+Se registraron los siguientes entregables técnicos:
+
+- **Documentación formal de la arquitectura del backend**: descripción de la estructura hexagonal, capas del dominio, aplicación e infraestructura, incluyendo los bounded contexts de _ResourceLibrary_, _Appointments_, _Subscriptions_, _Professionals_, y _Triggers_.
+
+- **Documentación generada automáticamente en Swagger**:  
+  Todos los endpoints REST desarrollados fueron expuestos y documentados mediante Swagger UI, permitiendo visualizar:
+  - Rutas disponibles
+  - Métodos HTTP
+  - Parámetros
+  - Códigos de respuesta
+  - Modelos utilizados en los requests y responses
+
+- **Documentación técnica en GitHub**:  
+  Se registraron commits que evidencian:
+  - Creación de interfaces de servicios
+  - Implementación de context-facades
+  - Implementación de repositorios
+  - Definición del `AppointmentStatus` enum
+  - Ensamblaje y validación de recursos mediante records
+  - Incorporación de reglas de negocio para entidades del dominio
+
+  Todo este trabajo se llevó a cabo mediante ramas, PRs y merges que reflejan el flujo de trabajo colaborativo del equipo.
+
+- **Modelos y Value Objects documentados**:  
+  Se dejaron especificaciones técnicas para agregados clave como _ResourceLibrary_, _Subscriptions_, _Professional_, _Triggers_ y _Appointment_, junto con sus valores inmutables y reglas de negocio respecto a su ciclo de vida.
+
+Esta documentación garantiza la **escalabilidad del backend**, y establece una base sólida para la incorporación de nuevos servicios, integraciones externas y ampliación de los bounded contexts en próximos sprints.
+
+---
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
+Para este **Sprint 1**, el despliegue y ejecución del **backend de NeuroZen** se realizó utilizando herramientas de control de versiones, entornos de desarrollo colaborativo y utilidades propias del ecosistema de **Spring Boot**:
+
+- **Git**: utilizado para el control de versiones, permitiendo registrar la evolución del backend, manejar los cambios de código entre módulos y mantener un historial claro de commits.
+
+- **GitHub**: empleado como repositorio central para almacenar el código del backend, gestionar ramas de desarrollo, crear _pull requests_ y revisar integraciones entre los diferentes bounded contexts como _Profiles_, _Appointments_, _Patients_, _Professionals_ y _Reports_.
+
+- **Spring Boot & Maven**: herramientas principales para la construcción, empaquetado y despliegue del backend.  
+  Se emplearon comandos como `mvn spring-boot:run` y `mvn clean install` para validar el correcto funcionamiento del proyecto.
+
+- **Swagger UI**: utilizado para desplegar y documentar automáticamente los servicios desarrollados. Permitió verificar los endpoints REST expuestos y probar interacciones del backend desde la ruta:  
+  `http://localhost:8081/swagger-ui/index.html`
+
+Estas herramientas y procesos permitieron mantener un flujo de trabajo coordinado durante el desarrollo del backend, facilitando la integración de nuevos servicios, la validación de reglas de dominio y la consolidación de la arquitectura basada en DDD.
+
+---
+
 #### 4.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el **Sprint 1**, la colaboración del equipo se centró en el **desarrollo del backend de NeuroZen**, **de nuestra Landing Page** y sobretodo, **de nuestra aplicación móvil**, y en la coordinación continua mediante **GitHub**, asegurando un flujo de trabajo estructurado y alineado con los principios de _Domain-Driven Design (DDD)_:
+
+- Cada integrante trabajó en **ramas individuales** asociadas a los bounded contexts del backend, incluyendo _Subscriptions_, _Triggers_, _ResourceLibrary_, _Professionals_, _Appointments_ y _Reports_.
+
+- Se mantuvo un flujo constante de **pull requests, revisiones y merges**, garantizando la calidad del código y la correcta integración de los servicios de dominio, repositorios, agregados y controladores REST.
+
+- La gestión de commits permitió documentar de manera clara el avance colectivo del equipo, evidenciando la creación de interfaces de comando y consulta, assemblers, repositorios, validaciones, enums y controladores.
+
+- Las reuniones virtuales breves (stand-ups) y la comunicación continua mediante Discord facilitaron la resolución inmediata de dudas técnicas, sincronización entre miembros y reparto efectivo de responsabilidades.
+
+- El repositorio de GitHub operó como la **fuente única de verdad del backend**, centralizando:
+  - Código fuente actualizado
+  - Documentación técnica de los servicios
+  - Estructura de la arquitectura del dominio
+  - Historial de PRs, problemas detectados y decisiones de diseño
+
+Esta metodología colaborativa permitió integrar de manera exitosa los servicios principales del backend y consolidar la arquitectura fundamental del sistema, estableciendo una base sólida para los próximos sprints.
+
+---
 
 ### 4.2.2. Sprint 2
 
@@ -2787,24 +2987,6 @@ A continuación el sprint backlog 1:
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
-
-### 4.2.4. Sprint 4
-
-#### 4.2.4.1. Sprint Planning 4
-
-#### 4.2.4.2. Sprint Backlog 4
-
-#### 4.2.4.3. Development Evidence for Sprint Review
-
-#### 4.2.4.4. Testing Suite Evidence for Sprint Review
-
-#### 4.2.4.5. Execution Evidence for Sprint Review
-
-#### 4.2.4.6. Services Documentation Evidence for Sprint Review
-
-#### 4.2.4.7. Software Deployment Evidence for Sprint Review
-
-#### 4.2.4.8. Team Collaboration Insights during Sprint
 
 ## 4.3. Validation Interviews
 
