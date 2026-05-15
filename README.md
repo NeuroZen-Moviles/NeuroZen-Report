@@ -2193,7 +2193,7 @@ NeuroDraw, dedicado a la detección rápida y manejo del estrés laboral, transm
 Logo: El logo de NeuroZen fusiona elementos neurológicos y serenidad en un diseño significativo. La silueta de perfil humano en Verde Bosque muestra circuitos cerebrales que simbolizan cómo nuestra plataforma conecta ciencia y bienestar mental.
 
 <div>
-  <p align="center"><img src="assets/images/cap3/neurozen-logos/logoneurozen.png" alt="Neurozen's main logo" width="250px" /></p>
+  <p align="center"><img src="assets/images/cap3/neurozen-logos/logo.png" alt="Neurozen's main logo" width="250px" /></p>
 </div>
 
 Tipografía:
