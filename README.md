@@ -2383,9 +2383,9 @@ El diseño de experiencia de usuario (UX) y de interfaz de usuario (UI) busca of
 
 Los wireframes representan la estructura básica de las pantallas clave de la aplicación web, evidenciando la aplicación de principios de simplicidad, consistencia visual y accesibilidad.
 
-Login / Registro
+**Boarding**
 
-![](assets/images/mockup/boarding.png)
+![](assets/images/mockup/boarding.png) 
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
