@@ -2407,7 +2407,9 @@ Los wireframes representan la estructura básica de las pantallas clave de la ap
 
 ![](assets/images/mockup/profilie.png)
 
+**Product Detail**
 
+![](assets/images/mockup/productoDetail.png)
 
 
 
