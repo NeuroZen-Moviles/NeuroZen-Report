@@ -2387,6 +2387,11 @@ Los wireframes representan la estructura básica de las pantallas clave de la ap
 
 ![](assets/images/mockup/boarding.png) 
 
+**Login / Registro**
+
+![](assets/images/mockup/login.png)
+
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
 Los wireflows ilustran cómo se enlazan los wireframes a través de interacciones típicas de los usuarios (User Goals).
