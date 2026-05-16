@@ -65,100 +65,24 @@
 
 ## Registro de Versiones del Informe
 
-El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto.
 
-<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Versión</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Fecha</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Autores</td>
-    <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripción</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">AV1</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">22/04/2026</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul>
-        <li>Castro Picón, Manuel Fernando Joao</li>
-      </ul>
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">            
-      <ul>
-        <li>Capítulo II: Punto 2.6.3 Bounded Context: Recommendations & Activities</li>
-        <li>Capítulo II: Punto 2.6.3.1 Domain Layer</li>
-        <li>Capítulo II: Punto 2.6.3.2 Interface Layer</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">AV1</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">22/04/2026</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul>
-        <li>Requena Gutiérrez, Diego Gabriel</li>
-      </ul>
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">            
-      <ul>
-        <li>Capítulo II: Punto 2.1 Competidores</li>
-        <li>Capítulo II: Punto 2.2 Entrevistas</li>
-        <li>Capítulo II: Punto 2.6.1 Bounded Context: IAM</li>
-        <li>Capítulo II: Punto 2.6.2 Bounded Context: Assessments</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">AV1</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">22/04/2026</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul>
-        <li>Huaman De La Cruz, Jean Pool</li>
-      </ul>
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">            
-      <ul>
-        <li>Capítulo II: Punto 2.3 Needfinding</li>
-        <li>Capítulo II: Punto 2.3.4 Empathy Mapping</li>
-        <li>Capítulo II: Punto 2.6.7 Bounded Context: Notifications</li>
-        <li>Capítulo II: Punto 2.6.7.2 Interface Layer</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">AV1</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">22/04/2026</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul>
-        <li>Solis Chang, Santiago Valentino</li>
-      </ul>
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">            
-      <ul>
-        <li>Capítulo II: Punto 2.5.3 Software Architecture</li>
-        <li>Capítulo II: Punto 2.6.4 Bounded Context: Health Tracking & Dashboard</li>
-        <li>Capítulo II: Punto 2.6.4.1 Domain Layer</li>
-        <li>Capítulo II: Punto 2.6.4.2 Interface Layer</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px;">AV1</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">22/04/2026</td>
-    <td style="border: 1px solid #ddd; padding: 8px;">
-      <ul>
-        <li>Vila Guillen, Miguel Angel</li>
-      </ul>
-    </td>
-    <td style="border: 1px solid #ddd; padding: 8px;">            
-      <ul>
-        <li>Capítulo II: Punto 2.6.5 Bounded Context: Professionals & Appointments</li>
-        <li>Capítulo II: Punto 2.6.6 Bounded Context: Community & Resources</li>
-        <li>Capítulo II: Punto 2.6.6.1 Domain Layer</li>
-        <li>Capítulo II: Punto 2.6.6.2 Interface Layer</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+| Versión | Fecha | Autores | Descripción |
+|---------|-------|---------|-------------|
+| AV1 | 22/04/2026 | Castro Picón, Manuel Fernando Joao | **Capítulo II:** Punto 2.6.3 Bounded Context: Recommendations & Activities<br>**Capítulo II:** Punto 2.6.3.1 Domain Layer<br>**Capítulo II:** Punto 2.6.3.2 Interface Layer |
+| AV1 | 22/04/2026 | Requena Gutiérrez, Diego Gabriel | **Capítulo II:** Punto 2.1 Competidores<br>**Capítulo II:** Punto 2.2 Entrevistas<br>**Capítulo II:** Punto 2.6.1 Bounded Context: IAM<br>**Capítulo II:** Punto 2.6.2 Bounded Context: Assessments |
+| AV1 | 22/04/2026 | Huaman De La Cruz, Jean Pool | **Capítulo II:** Punto 2.3 Needfinding<br>**Capítulo II:** Punto 2.3.4 Empathy Mapping<br>**Capítulo II:** Punto 2.6.7 Bounded Context: Notifications<br>**Capítulo II:** Punto 2.6.7.2 Interface Layer |
+| AV1 | 22/04/2026 | Solis Chang, Santiago Valentino | **Capítulo II:** Punto 2.5.3 Software Architecture<br>**Capítulo II:** Punto 2.6.4 Bounded Context: Health Tracking & Dashboard<br>**Capítulo II:** Punto 2.6.4.1 Domain Layer<br>**Capítulo II:** Punto 2.6.4.2 Interface Layer |
+| AV1 | 22/04/2026 | Vila Guillen, Miguel Angel | **Capítulo II:** Punto 2.6.5 Bounded Context: Professionals & Appointments<br>**Capítulo II:** Punto 2.6.6 Bounded Context: Community & Resources<br>**Capítulo II:** Punto 2.6.6.1 Domain Layer<br>**Capítulo II:** Punto 2.6.6.2 Interface Layer |
+| TB1 | 30/05/2026 | Castro Picón, Manuel Fernando Joao | **Capítulo III:** Punto 3.1 Product design<br>**Capítulo III:** Punto 3.1.1 Style Guidelines<br>**Capítulo III:** Punto 3.1.1.1 General Style Guidelines<br>**Capítulo III:** Punto 3.1.2 Information Architecture |
+| TB1 | 30/05/2026 | Requena Gutiérrez, Diego Gabriel | **Capítulo III:** Punto 3.1.2.1 Organization Systems<br>**Capítulo III:** Punto 3.1.2.2 Labelling Systems<br>**Capítulo III:** Punto 3.1.2.3 SEO Tags and Meta Tags<br>**Capítulo III:** Punto 3.1.2.4 Searching Systems |
+| TB1 | 30/05/2026 | Huaman De La Cruz, Jean Pool | **Capítulo III:** Punto 3.1.2.5 Navigation Systems<br>**Capítulo III:** Punto 3.1.3 Landing Page UI Design<br>**Capítulo III:** Punto 3.1.3.1 Landing Page Wireframe<br>**Capítulo III:** Punto 3.1.3.2 Landing Page Mock-up |
+| TB1 | 30/05/2026 | Solis Chang, Santiago Valentino | **Capítulo III:** Punto 3.1.4 Mobile Applications UX/UI Design<br>**Capítulo III:** Punto 3.1.4.1 Mobile Applications Wireframes<br>**Capítulo III:** Punto 3.1.4.2 Mobile Applications Workflow Diagrams<br>**Capítulo III:** Punto 3.1.4.3 Mobile Applications Mock-ups |
+| TB1 | 30/05/2026 | Vila Guillen, Miguel Angel | **Capítulo III:** Punto 3.1.4.4 Mobile Applications User Flow Diagrams<br>**Capítulo III:** Punto 3.1.4.5 Mobile Applications Prototyping<br>**Capítulo IV:** Punto 4 Product Implementation & Validation<br>**Capítulo IV:** Punto 4.1 Software Configuration Management |
+| TB1 | 30/05/2026 | Castro Picón, Manuel Fernando Joao | **Capítulo IV:** Punto 4.1.1 Software Development Environment Configuration<br>**Capítulo IV:** Punto 4.1.2 Source Code Management<br>**Capítulo IV:** Punto 4.1.3 Source Code Style Guide & Conventions<br>**Capítulo IV:** Punto 4.1.4 Software Deployment Configuration |
+| TB1 | 30/05/2026 | Requena Gutiérrez, Diego Gabriel | **Capítulo IV:** Punto 4.2 Landing Page & Mobile Application Implementation<br>**Capítulo IV:** Punto 4.2.1 Sprint n<br>**Capítulo IV:** Punto 4.2.1.1 Sprint Planning n<br>**Capítulo IV:** Punto 4.2.1.2 Sprint Backlog n |
+| TB1 | 30/05/2026 | Huaman De La Cruz, Jean Pool | **Capítulo IV:** Punto 4.2.1.3 Development Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.1.4 Testing Suite Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.1.5 Execution Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.1.6 Services Documentation Evidence for Sprint Review |
+| TB1 | 30/05/2026 | Solis Chang, Santiago Valentino | **Capítulo IV:** Punto 4.2.1.7 Software Deployment Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.1.8 Team Collaboration Insights during Sprint<br>**Capítulo IV:** Punto 4.3 Validation Interviews<br>**Capítulo IV:** Punto 4.3.1 Diseño de Entrevistas |
+| TB1 | 30/05/2026 | Vila Guillen, Miguel Angel | **Capítulo IV:** Punto 4.3.2 Registro de Entrevistas<br>**Capítulo IV:** Punto 4.3.3 Evaluaciones según heurísticas |
 
 ## Project Report Collaboration Insights
 
