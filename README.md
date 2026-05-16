@@ -2907,7 +2907,7 @@ Además completamos con éxito la implementación de nuestro backend.
   <p align="center"><img src="assets/images/cap4/swagger/swagger2.jpg" alt="Swagger 2" width="700px" /></p>
 </div>
 <div>
-  <p align="center"><img src="assets/images/cap4/swagger/swagger3.jpg" alt="Swagger 3" width="700px" /></p>
+  <p align="center"><img src="assets/images/cap4/swagger/swagger3.png" alt="Swagger 3" width="700px" /></p>
 </div>
 
 ---
