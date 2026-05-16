@@ -1701,13 +1701,11 @@ En esta sección se presenta el diagrama de contexto del sistema NeuroZen, el cu
 El sistema NeuroZen se representa como un único bloque central, actuando como una plataforma digital enfocada en la detección temprana, monitoreo continuo y gestión del estrés laboral. A través de la integración de tecnologías de análisis biométrico, evaluaciones psicológicas y herramientas de bienestar, el sistema busca mejorar la calidad de vida de los usuarios en entornos laborales exigentes.
 <img src="assets/images/cap2/software-architecture/SoftwareArchitectureContextLevelDiagrams.png" alt="Software Architecture Context Level Diagram" style="width:100%;">
 
-#### 2.5.3.2. Software Architecture Container Level Diagrams
+2.5.3.2. Software Architecture Container Level Diagrams
 
-En esta sección se presenta el diagrama de contenedores del sistema NeuroZen, el cual describe la estructura interna de la plataforma y la distribución de responsabilidades entre sus principales componentes.
+El diagrama de contenedores de NeuroZen muestra los principales bloques tecnológicos de la plataforma. Incluye una Landing Page (React) como punto de entrada informativo, una aplicación móvil (Flutter) como cliente principal, un backend único (Spring Boot/Node.js) que centraliza toda la lógica de negocio, una base de datos PostgreSQL y cuatro sistemas externos: Payment Gateway, Cloud Storage, Biometric API y Notification Provider.
 
-A diferencia del diagrama de contexto, este nivel permite identificar los contenedores que conforman el sistema, así como las tecnologías utilizadas y la forma en que se comunican entre sí. En este caso, la arquitectura de NeuroZen está orientada principalmente a un entorno mobile-first, donde la interacción del usuario se realiza a través de una aplicación móvil.
-
-El sistema se compone de una aplicación móvil como cliente principal, un backend que centraliza la lógica de negocio, y servicios externos encargados del análisis biométrico, notificaciones, pagos y almacenamiento de datos.
+La comunicación se da así: los actores acceden a la Landing Page y a la app móvil; la Landing Page redirige a la app; la app se comunica por HTTPS/REST con el backend; y el backend interactúa con la base de datos y con los cuatro sistemas externos para pagos, archivos, biometría y notificaciones.
 
 <img src="assets/images/cap2/software-architecture/SoftwareArchitectureContainerLevelDiagrams.png" alt="Software Architecture Container Level Diagram" style="width:100%;">
 
