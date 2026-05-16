@@ -1711,8 +1711,6 @@ La comunicación se da así: los actores acceden a la Landing Page y a la app m�
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
-#### 2.5.3.3. Software Architecture Deployment Diagrams
-
 En esta sección se detallan los diagramas de despliegue y componentes que especifican la distribución física y lógica de los servicios que componen el ecosistema de NeuroZen.
 
 ##### Identity & Access Management (IAM) Context
