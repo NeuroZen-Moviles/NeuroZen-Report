@@ -2894,7 +2894,7 @@ En esta entrega, el equipo de desarrolladores de NeuroZen ha completado con éxi
 
 Nuestro Landing Page:
 
-[● Link: https://neurozen-org.github.io/NeuroZen-landing](https://neurozen-org.github.io/NeuroZen-landing)
+## [● Link: [https://neurozen-home.netlify.app](https://neurozen-home.netlify.app)]
 
 ---
 
