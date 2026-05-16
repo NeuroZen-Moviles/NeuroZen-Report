@@ -163,7 +163,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 ## Project Report Collaboration Insights
 
 El equipo ha trabajado de manera colaborativa en el repositorio de GitHub, registrando avances constantes en la construcción del informe.  
-Repositorio del informe:
+Repositorio del informe: https://github.com/NeuroZen-Moviles/NeuroZen-Report 
 
 A continuación, se presentan las evidencias de participación y colaboración de los integrantes:
 
