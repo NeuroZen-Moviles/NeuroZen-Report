@@ -1683,6 +1683,32 @@ Para los foros de apoyo y artículos de bienestar.
 Para las alertas, recordatorios y correos.
 <img src="assets/images/cap2/software-architecture/7-Notification.png" alt="Notification Diagram" style="width:100%;">
 
+### Spike Stories
+
+Para mitigar riesgos técnicos y validar decisiones de arquitectura, se ejecutaron los siguientes spikes:
+
+- **Spike: Integración con Biometric API**  
+  *Objetivo:* Verificar disponibilidad, latencia y formato de datos de la API externa de procesamiento biométrico.  
+  *Resultado:* Se implementó un cliente de prueba con latencia media de 300 ms.  
+  *Decisión:* Se usará comunicación asíncrona mediante cola de mensajes (RabbitMQ).
+
+- **Spike: Rendimiento del backend único**  
+  *Objetivo:* Evaluar si un único backend (Spring Boot/Node.js) soporta 1000 usuarios concurrentes.  
+  *Resultado:* Pruebas con JMeter dieron 180 ms de respuesta promedio bajo carga normal.  
+  *Decisión:* El backend único es suficiente inicialmente, con capacidad de escalado horizontal mediante réplicas.
+
+- **Spike: Autenticación con JWT**  
+  *Objetivo:* Definir flujo de emisión, validación y renovación de tokens.  
+  *Resultado:* Prototipo con Spring Security y JWT; expiración 24h + refresh token con validez de 7 días.  
+  *Decisión:* Se implementará JWT con almacenamiento de refresh tokens en base de datos.
+
+- **Spike: Notificaciones push**  
+  *Objetivo:* Comparar Firebase Cloud Messaging (FCM) y OneSignal para envío de notificaciones a la app móvil.  
+  *Resultado:* FCM tiene mejor integración con Flutter y menor costo.  
+  *Decisión:* Se elige Firebase Cloud Messaging como proveedor de notificaciones.
+
+
+
 ## 2.6. Tactical-Level Domain-Driven Design
 
 ### 2.6.1. Bounded Context: IAM
