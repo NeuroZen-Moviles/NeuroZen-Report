@@ -2910,6 +2910,18 @@ Además completamos con éxito la implementación de nuestro backend.
   <p align="center"><img src="assets/images/cap4/swagger/swagger3.png" alt="Swagger 3" width="700px" /></p>
 </div>
 
+Nuestro Backend:
+
+## [● Link: [https://neurozen-api-f7hghnh7h2fcfbhc.mexicocentral-01.azurewebsites.net/swagger/index.html]
+
+Repositorio del Frontend:
+
+## [● Link: [https://github.com/NeuroZen-Moviles/Neurozen-front-app]
+
+Repositorio del Backend:
+
+## [● Link: [https://github.com/NeuroZen-Moviles/neurozen_backend_mobile.git]
+
 ---
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
@@ -3372,3 +3384,19 @@ Durante la validación del prototipo se aplicaron heurísticas de usabilidad, ar
 | ![Miguel](assets/images/cap1/members/miguel-vila.jpeg)  | Miguel Angel Vila Guillen         | Ingeniería de Software | Tengo 21 años y estudio el 6to ciclo en la Universidad Peruana de Ciencias Aplicadas. Me gusta jugar videojuegos, tocar la guitarra y el fútbol. Me considero capaz de trabajar en equipo y aspiro a ser un profesional competente.                         |
 | ![Diego](assets/images/cap1/members/diego-requena.jpeg) | Diego Gabriel Requena Gutiérrez   | Ingeniería de Software | Tengo 19 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida con mis objetivos, busco optimizar mi rendimiento y mantener un equilibrio entre la excelencia y una vida saludable.                       |
 | ![JeanPool](assets/images/cap1/members/jeanpool.jpg)    | Huaman De La Cruz Jean Pool       | Ingeniería de Software | Tengo 23 años; Estoy cursando la carrera de ingeniería de software en quinto ciclo. Soy una persona orientada a objetivos y con una meta clara, quiero poder crear soluciones disruptivas que revolucionen el mercado.                                      |
+
+Nuestro Landing Page:
+
+## [● Link: [https://neurozen-home.netlify.app](https://neurozen-home.netlify.app)]
+
+Nuestro Backend:
+
+## [● Link: [https://neurozen-api-f7hghnh7h2fcfbhc.mexicocentral-01.azurewebsites.net/swagger/index.html]
+
+Repositorio del Frontend:
+
+## [● Link: [https://github.com/NeuroZen-Moviles/Neurozen-front-app]
+
+Repositorio del Backend:
+
+## [● Link: [https://github.com/NeuroZen-Moviles/neurozen_backend_mobile.git]
