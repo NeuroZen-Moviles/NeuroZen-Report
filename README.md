@@ -1719,38 +1719,6 @@ El siguiente diagrama muestra la estructura interna del contenedor único **Back
 
 <img src="assets/images/cap2/software-architecture/ComponentDiagramBackendInternal.png" alt="Component Diagram Backend Internal" style="width:100%;">
 
-##### Domain Flow Message Modeling
-
-El diagrama de secuencia a continuación ilustra el flujo de mensajes entre componentes del backend para el caso de uso **"Registro de cita"**. Se muestra cómo la solicitud viaja desde la Mobile App hasta el componente Appointment, cómo se interactúa con la base de datos y con el componente de Notification, y finalmente cómo se envía una notificación externa.
-
-<img src="assets/images/cap2/software-architecture/DomainFlowMessageModeling.png" alt="Domain Flow Message Modeling" style="width:100%;">
-
-##### Spike Stories
-
-Para mitigar riesgos técnicos y validar decisiones de arquitectura, se ejecutaron los siguientes spikes:
-
-- **Spike: Integración con Biometric API**  
-  *Objetivo:* Verificar disponibilidad, latencia y formato de datos.  
-  *Resultado:* Se implementó un cliente de prueba con latencia media de 300 ms.  
-  *Decisión:* Se usará comunicación asíncrona mediante cola de mensajes (RabbitMQ).
-
-- **Spike: Rendimiento del backend único**  
-  *Objetivo:* Evaluar si un único backend soporta 1000 usuarios concurrentes.  
-  *Resultado:* Pruebas con JMeter dieron 180 ms de respuesta promedio.  
-  *Decisión:* El backend único es suficiente inicialmente, con capacidad de escalado horizontal.
-
-- **Spike: Autenticación con JWT**  
-  *Objetivo:* Definir flujo de emisión y renovación de tokens.  
-  *Resultado:* Prototipo con Spring Security y JWT; expiración 24h + refresh token.  
-  *Decisión:* Se implementará JWT con refresh tokens en BD.
-
-- **Spike: Notificaciones push**  
-  *Objetivo:* Comparar FCM vs OneSignal.  
-  *Resultado:* FCM tiene mejor integración con Flutter y menor costo.  
-  *Decisión:* Se elige Firebase Cloud Messaging.
-
-##### Domain Contexts (Internal Components)
-
 A continuación se presentan los diagramas de cada contexto de dominio que opera dentro del backend, mostrando sus relaciones específicas con la base de datos y servicios externos.
 
 
