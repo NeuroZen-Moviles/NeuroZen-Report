@@ -1169,7 +1169,7 @@ Este glosario define los términos clave que usamos en el proyecto para mantener
 | **Desencadenante de estrés**       | Evento o situación registrada por el usuario que provoca incremento de su estrés (ej. exceso de trabajo, conflictos, tráfico). |
 | **Informe de progreso**            | Documento generado con evolución de estrés y hábitos del usuario, que puede compartirse con un psicólogo.                      |
 | **Especialista en salud mental**   | Psicólogo disponible en la plataforma para consultas y tratamiento profesional.                                                |
-| **Cita**                           | Agendamiento de una sesión con un especialista, virtual o presencial.                                                          |
+| **Cita**                           | Programación de una sesión con un especialista, virtual o presencial.                                                      |
 | **Grupo de apoyo**                 | Comunidad virtual de usuarios que comparten experiencias y consejos sobre el manejo del estrés.                                |
 | **Biblioteca de recursos**         | Colección digital de artículos, videos o guías relacionadas al bienestar laboral y manejo del estrés.                          |
 
@@ -1183,7 +1183,7 @@ Este glosario define los términos clave que usamos en el proyecto para mantener
 | EP02        | Detección y Evaluación del Estrés          | Como usuario, quiero evaluar mi nivel de estrés mediante autoevaluaciones, análisis biométricos y registro de síntomas, para obtener un diagnóstico completo de mi estado actual.                                |
 | EP03        | Recomendaciones y Gestión del Estrés       | Como usuario diagnosticado con estrés, quiero recibir recomendaciones personalizadas, acceder a ejercicios de respiración y programar pausas activas, para reducir mis niveles de estrés y mejorar mi bienestar. |
 | EP04        | Seguimiento y Análisis del Progreso        | Como usuario, quiero visualizar un dashboard personal, generar informes de progreso y registrar desencadenantes de estrés, para dar seguimiento a mi evolución y entender mis patrones de estrés.                |
-| EP05        | Conexión con Especialistas en Salud Mental | Como usuario con necesidad de apoyo profesional, quiero buscar psicólogos, agendar citas y compartir informes, para recibir tratamiento especializado dentro de la plataforma.                                   |
+| EP05        | Conexión con Especialistas en Salud Mental | Como usuario con necesidad de apoyo profesional, quiero buscar psicólogos, programar citas y compartir informes, para recibir tratamiento especializado dentro de la plataforma.                                   |
 | EP06        | Comunidad y Soporte Social                 | Como usuario, quiero participar en grupos de apoyo, acceder a una biblioteca de recursos y unirme a desafíos antiestrés, para sentir acompañamiento social y mantener la motivación en la gestión de mi estrés.  |
 | EP07        | Integración con Entorno Laboral            | Como trabajador, quiero analizar mi carga laboral y recibir recordatorios de ergonomía, para prevenir sobrecarga y mejorar mi productividad sin comprometer mi bienestar.                                        |
 
@@ -1214,7 +1214,7 @@ Este glosario define los términos clave que usamos en el proyecto para mantener
 | ID Épica | Épica                      | ID HU | Título HU                            | Descripción HU                                                                | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                  |
 | -------- | -------------------------- | ----- | ------------------------------------ | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | EP05     | Conexión con Especialistas | US13  | Buscar psicólogos especializados     | Como usuario, quiero buscar psicólogos según especialidad para recibir apoyo. | **Escenario 1: Búsqueda exitosa**<br>Dado que el usuario accede a la búsqueda,<br>Cuando ingresa criterios,<br>Entonces el sistema muestra psicólogos disponibles.<br><br>**Escenario 2: Sin resultados**<br>Dado que no hay coincidencias,<br>Cuando busca,<br>Entonces el sistema muestra mensaje indicando que no hay psicólogos.     |
-| EP05     | Conexión con Especialistas | US14  | Agendar cita con psicólogo           | Como usuario, quiero agendar una cita en línea con un psicólogo.              | **Escenario 1: Cita agendada**<br>Dado que el usuario selecciona especialista y horario,<br>Cuando confirma,<br>Entonces el sistema guarda la cita.<br><br>**Escenario 2: Conflicto de horario**<br>Dado que ya existe una cita en ese horario,<br>Cuando intenta reservar,<br>Entonces el sistema muestra error y solicita otra opción. |
+| EP05     | Conexión con Especialistas | US14  | Reservar cita con psicólogo           | Como usuario, quiero reservar una cita en línea con un psicólogo.              | **Escenario 1:  Cita programada**<br>Dado que el usuario selecciona especialista y horario,<br>Cuando confirma,<br>Entonces el sistema guarda la cita.<br><br>**Escenario 2: Conflicto de horario**<br>Dado que ya existe una cita en ese horario,<br>Cuando intenta reservar,<br>Entonces el sistema muestra error y solicita otra opción. |
 | EP05     | Conexión con Especialistas | US15  | Compartir informes con especialistas | Como usuario, quiero compartir mis informes de progreso con un psicólogo.     | **Escenario 1: Informe compartido**<br>Dado que el usuario selecciona un informe,<br>Cuando lo envía,<br>Entonces el especialista recibe acceso.<br><br>**Escenario 2: Error de envío**<br>Dado que ocurre una falla,<br>Cuando intenta compartir,<br>Entonces el sistema muestra mensaje de error.                                      |
 
 | ID Épica | Épica                      | ID HU | Título HU                         | Descripción HU                                                               | Criterios de Aceptación                                                                                                                                                                                                                                                                                                   |
@@ -1265,7 +1265,7 @@ _Orden de User Stories y Technical Stories_
 | 11    | US11 | Generar informes de progreso               | 5            | Reports         |
 | 12    | US12 | Registrar desencadenantes de estrés        | 3            | Health Tracking |
 | 13    | US13 | Buscar psicólogos especializados           | 3            | Professionals   |
-| 14    | US14 | Agendar cita con psicólogo                 | 5            | Appointments    |
+| 14    | US14 | Programar cita con psicólogo               | 5            | Appointments    |
 | 15    | US15 | Compartir informes con especialistas       | 3            | Reports         |
 | 16    | US16 | Participar en grupos de apoyo              | 3            | Community       |
 | 17    | US17 | Acceder a biblioteca de recursos           | 2            | Resources       |
@@ -1305,7 +1305,7 @@ Se organizó el timeline del proceso en pasos secuenciales y lógicos:
 - **Evaluación:** Usuario realiza tests de autoevaluación o es escaneado para detectar señales físicas de estrés.
 - **Intervención:** El sistema procesa los datos y entrega recomendaciones; el usuario ejecuta actividades para reducir la tensión.
 - **Seguimiento:** El usuario revisa su historial, registra desencadenantes y visualiza su progreso.
-- **Asistencia Profesional:** Si es necesario, el usuario busca un especialista, agenda una cita y comparte sus informes.
+- **Asistencia Profesional:** Si es necesario, el usuario busca un especialista, programa una cita y comparte sus informes.
 
 Este enfoque permitió agrupar eventos en bloques naturales de negocio.
 
@@ -1360,7 +1360,7 @@ Estos eventos sirvieron como puntos de corte naturales para separar contextos.
 **6. Professionals & Appointments Context**
 
 - **Propósito:** Facilitar la conexión con profesionales de la salud mental.
-- **Responsabilidades:** Búsqueda de psicólogos por especialidad, agendamiento de citas, control de disponibilidad, compartición de reportes clínicos.
+- **Responsabilidades:** Búsqueda de psicólogos por especialidad, reserva de citas, control de disponibilidad, compartición de reportes clínicos.
 - **Vocabulario:** Especialista, Psicólogo, Cita, Horario, Especialidad, Paciente.
 - **Justificación:** Brinda soporte humano avanzado cuando las herramientas de autogestión no son suficientes.
 
@@ -1529,11 +1529,11 @@ Estos eventos sirvieron como puntos de corte naturales para separar contextos.
 | Elemento                | Descripción                                                                                                                                                                                                                                                                    |
 | :---------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nombre**              | Professionals & Appointments Context                                                                                                                                                                                                                                           |
-| **Propósito**           | Facilitar la conexión segura y el agendamiento entre usuarios y especialistas en salud mental.                                                                                                                                                                                 |
+| **Propósito**           | Facilitar la conexión segura y la programación entre usuarios y especialistas en salud mental.                                                                                                                                                                                 |
 | **Descripción**         | Directorio de psicólogos que permite búsquedas filtradas, gestión de calendarios, reserva de citas y enlace de historiales clínicos.                                                                                                                                           |
 | **Actores Principales** | Usuario Trabajador, Especialista (Psicólogo).                                                                                                                                                                                                                                  |
-| **Eventos Principales** | EspecialistaBuscado, CitaAgendada, CitaConfirmada, CitaCancelada, InformeClinicoVinculado.                                                                                                                                                                                     |
-| **Comandos**            | BuscarEspecialistas, AgendarCita, ConfirmarDisponibilidad, CancelarCita, CompartirHistorial.                                                                                                                                                                                   |
+| **Eventos Principales** | EspecialistaBuscado, CitaProgramada, CitaConfirmada, CitaCancelada, InformeClinicoVinculado.                                                                                                                                                                                     |
+| **Comandos**            | BuscarEspecialistas, ProgramarCita, ConfirmarDisponibilidad, CancelarCita, CompartirHistorial.                                                                                                                                                                                   |
 | **Reglas de Negocio**   | • Las cancelaciones por parte del usuario deben realizarse con al menos 12 horas de anticipación.<br>• Las citas no pueden superponerse en el calendario del especialista.<br>• Los especialistas deben estar verificados por el administrador antes de aparecer en búsquedas. |
 | **Capacidades**         | • Motor de búsqueda por especialidad y rating.<br>• Gestión de calendario y disponibilidad (slots de tiempo).<br>• Lógica de reservas y cancelaciones.<br>• Puente de acceso temporal a reportes de salud compartidos.                                                         |
 | **Dependencias**        | ← IAM Context (perfiles de psicólogos).<br>← Health Tracking & Dashboard Context (obtener el PDF/Reporte).<br>→ Notification Context (confirmaciones).                                                                                                                         |
@@ -1606,11 +1606,11 @@ Para ofrecer recomendaciones efectivas, el contexto de **Pausas Activas e Interv
 
 #### Seguimiento de Salud y Dashboard – Directorio de Psicólogos y Citas (Customer-Supplier)
 
-Cuando los niveles de estrés detectados requieren apoyo externo, se habilita la conexión profesional. **Seguimiento de Salud y Dashboard** es Upstream (Supplier) al proveer la alerta de necesidad de apoyo basada en datos. **Directorio de Psicólogos y Citas** es Downstream (Customer), consumiendo esta información para sugerir especialistas adecuados y facilitar el agendamiento.
+Cuando los niveles de estrés detectados requieren apoyo externo, se habilita la conexión profesional. **Seguimiento de Salud y Dashboard** es Upstream (Supplier) al proveer la alerta de necesidad de apoyo basada en datos. **Directorio de Psicólogos y Citas** es Downstream (Customer), consumiendo esta información para sugerir especialistas adecuados y facilitar la programación.
 
 #### Directorio de Psicólogos y Citas – Suscripciones (Customer-Supplier)
 
-Para acceder a los servicios de agendamiento con especialistas, el sistema debe validar el estado de pago del usuario. El contexto de **Suscripciones** es Upstream (Supplier), validando la vigencia del plan. **Directorio de Psicólogos y Citas** es Downstream (Customer), pues consume esta validación para permitir o restringir el acceso a las funciones de consulta profesional.
+Para acceder a los servicios de programación con especialistas, el sistema debe validar el estado de pago del usuario. El contexto de **Suscripciones** es Upstream (Supplier), validando la vigencia del plan. **Directorio de Psicólogos y Citas** es Downstream (Customer), pues consume esta validación para permitir o restringir el acceso a las funciones de consulta profesional.
 
 #### Varios Contextos – Notificaciones y Comunicación (Conformist)
 
@@ -3291,7 +3291,7 @@ Este análisis se basa en principios de usabilidad para evaluar la experiencia d
 2. **Nuevas funcionalidades sugeridas**
    - Chatbot de acompañamiento con ejercicios de relajación y consejos inmediatos.
    - Gamificación: logros y recompensas por completar actividades de autocuidado.
-   - Agenda virtual para agendar citas con psicólogos desde la plataforma.
+   - Agenda virtual para reservar citas con psicólogos desde la plataforma.
 
 3. **Escalabilidad técnica**
    - Evolucionar a frameworks como React, Vue o Angular para mayor dinamismo.
