@@ -567,14 +567,7 @@ diversas actividades para complementar el tratamiento contra el estrés.
 
 ### 1.2.1. Antecedentes y problemática
 
-El proyecto Neuro Zen consiste en desarrollar un sistema de identificación y gestión del estrés laboral
-dirigido específicamente a adultos entre 20 y 50 años, mediante la observación y registro de señales
-corporales visibles como postura corporal, tensión muscular facial, cambios en la respiración,
-sudoración visible, temblores, rojeces en la piel y otros indicadores físicos detectables a simple vista,
-integrando estos datos en una aplicación que permita a los usuarios auto-evaluar sus niveles de estrés
-en el entorno laboral, recibir recomendaciones personalizadas y estrategias prácticas para la gestión
-del estrés, mejorando así el bienestar de los trabajadores y la productividad organizacional, mientras
-se previenen problemas de salud asociados al estrés crónico en la población económicamente activa.
+El estrés laboral constituye una problemática de salud pública de alcance global que afecta de manera directa a la población económicamente activa. Se estima que el 15% de los adultos en edad de trabajar padece algún trastorno mental, siendo el entorno laboral uno de sus principales determinantes (OMS, 2024), mientras que anualmente se pierden alrededor de 12,000 millones de días de trabajo a causa de la depresión y la ansiedad, con un costo aproximado de un billón de dólares para la economía mundial (OIT, 2022). Frente a este escenario, el proyecto Neuro Zen propone un sistema de identificación y gestión del estrés laboral dirigido a adultos de entre 20 y 50 años, mediante el registro de señales corporales visibles —como postura, tensión muscular facial, cambios respiratorios, sudoración, temblores y rojeces en la piel— integradas en una aplicación móvil que permite al usuario autoevaluar su nivel de estrés, recibir recomendaciones personalizadas y acceder a estrategias prácticas, con el fin de mejorar el bienestar del trabajador, prevenir el estrés crónico y fortalecer la productividad organizacional.
 
 ### 1.2.2. Lean UX Process
 
@@ -3358,6 +3351,10 @@ Richardson, C. (2018). _Microservices patterns: With examples in Java_. Manning.
 Stickdorn, M., Hormess, M. E., Lawrence, A., & Schneider, J. (2018). _This is service design doing: Applying service design thinking in the real world_. O’Reilly Media. https://www.thisisservicedesigndoing.com/
 
 Yin, R. K. (2018). _Case study research and applications: Design and methods_ (6th ed.). SAGE Publications. https://us.sagepub.com/en-us/nam/case-study-research-and-applications/book250150
+
+Organización Internacional del Trabajo. (2022). La OMS y la OIT piden nuevas medidas para abordar los problemas de salud mental en el trabajo. https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_856931/lang--es/index.htm
+
+Organización Mundial de la Salud. (2024). La salud mental en el trabajo. https://www.who.int/es/news-room/fact-sheets/detail/mental-health-at-work
 
 # Anexos
 
