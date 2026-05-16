@@ -1376,125 +1376,51 @@ Estos eventos sirvieron como puntos de corte naturales para separar contextos.
 - **Vocabulario:** Notificación, Recordatorio, Alerta, Ergonomía.
 - **Justificación:** Asegura la adopción de micro-hábitos saludables durante la jornada laboral del usuario.
 
+
 #### 2.5.1.2. Domain Message Flows Modeling
 
 **Objetivo:** Visualizar cómo colaboran los bounded contexts para resolver los casos de negocio de NeuroZen, asegurando trazabilidad en el flujo de información y claridad en las responsabilidades.
 
-**Técnica Aplicada:** Se utilizó Domain Storytelling para modelar las interacciones entre actores, contextos y eventos principales. Esta técnica permite describir narrativamente cómo fluye la información entre contextos y qué eventos desencadenan acciones en otros dominios.
+**Técnica Aplicada:** Se utilizó Domain Storytelling para modelar las interacciones entre actores, contextos y eventos principales. A continuación se presentan los diagramas de secuencia correspondientes a cada flujo.
 
-**Flujos de Mensajes Modelados:**
-
-```text
 **1. Flujo: Usuario se Registra y Configura su Perfil Inicial**
 
-Usuario Trabajador (Actor)
-     ↓
-[Identity & Access Management Context] - Recibe comando "RegistrarUsuario"
-     ├─ Valida credenciales y crea cuenta
-     └─ Genera evento "UsuarioRegistrado"
-          ↓
-[Assessments Context]
-     ├─ Solicita completar cuestionario de salud
-     ├─ Recibe respuestas base
-     └─ Genera evento "CuestionarioInicialCompletado"
-          ↓
-[Biometrics & Analysis Context]
-     ├─ Solicita configuración de datos biométricos
-     ├─ Calibra señales físicas base (rostro, postura)
-     └─ Genera evento "PerfilBiometricoConfigurado"
-```
+![Registro y configuración de perfil inicial](assets/images/cap2/Domain-message/Registra-Configura.png)
 
 **Responsabilidades:**
-
 - **Identity & Access Management Context:** Creación y seguridad de la cuenta.
 - **Assessments Context:** Recopilación de información de salud inicial.
 - **Biometrics & Analysis Context:** Establecimiento de la línea base física del usuario.
 
----
 
 **2. Flujo: Detección de Estrés y Generación de Recomendaciones**
 
-```text
-Usuario Trabajador (Actor)
-     ↓
-[Biometrics & Analysis Context] / [Assessments Context]
-     ├─ Recibe comando "AnalizarSeñales" o "RealizarTest"
-     ├─ Procesa datos físicos y respuestas subjetivas
-     ├─ Calcula el nivel de estrés actual
-     └─ Genera evento "NivelEstresCalculado"
-          ↓
-[Recommendations & Activities Context]
-     ├─ Recibe el nivel de estrés
-     ├─ Selecciona ejercicios y pausas activas adecuadas
-     └─ Genera evento "RecomendacionesGeneradas"
-          ↓
-[Notification Context] y [Health Tracking & Dashboard Context]
-     ├─ [Notification] Envía alerta/sugerencia al usuario
-     └─ [Health Tracking] Registra el evento de estrés en el historial
-```
+![Detección de estrés y generación de recomendaciones](assets/images/cap2/Domain-message/DetecciónEstrésGeneración.png)
 
 **Responsabilidades:**
-
 - **Biometrics & Analysis / Assessments Context:** Diagnóstico preciso del estado del usuario.
 - **Recommendations & Activities Context:** Selección de intervenciones personalizadas.
 - **Notification Context:** Comunicación oportuna para la acción preventiva.
 - **Health Tracking & Dashboard Context:** Almacenamiento de la métrica para el historial.
 
----
-
 **3. Flujo: Ejecución de Pausa Activa y Actualización de Progreso**
 
-```text
-Usuario Trabajador (Actor)
-     ↓
-[Recommendations & Activities Context]
-     ├─ Inicia ejercicio guiado o pausa activa
-     ├─ Finaliza la actividad
-     └─ Genera evento "ActividadCompletada"
-          ↓
-[Health Tracking & Dashboard Context]
-     ├─ Recibe confirmación de actividad
-     ├─ Actualiza métricas de adherencia y reducción de estrés
-     ├─ Recalcula estadísticas del dashboard
-     └─ Genera evento "DashboardActualizado"
-          ↓
-[Notification Context] (Opcional)
-     └─ Envía refuerzo positivo o programa próximo recordatorio
-```
+![Ejecución de pausa activa y actualización de progreso](assets/images/cap2/Domain-message/PausaActivaActualización.png)
 
 **Responsabilidades:**
-
 - **Recommendations & Activities Context:** Gestión y ejecución de la intervención.
 - **Health Tracking & Dashboard Context:** Reflejo del esfuerzo en las métricas de progreso a largo plazo.
 - **Notification Context:** Refuerzo de hábitos saludables.
 
----
-
 **4. Flujo: Reserva de Cita y Compartición de Informes con Especialista**
 
-```text
-Usuario Trabajador (Actor)
-     ↓
-[Professionals & Appointments Context]
-     ├─ Recibe comando "BuscarPsicologo" y "AgendarCita"
-     ├─ Muestra disponibilidad y confirma reserva
-     └─ Genera evento "CitaAgendada"
-          ↓
-[Health Tracking & Dashboard Context]
-     ├─ Recibe autorización del usuario
-     ├─ Empaqueta el reporte de progreso y métricas de estrés
-     └─ Genera evento "InformeCompartido"
-          ↓
-[Notification Context]
-     ├─ Notifica al Especialista (Psicólogo) sobre la nueva cita y el informe
-     └─ Envía confirmación al Usuario Trabajador
-```
+![Reserva de cita y compartición de informes](assets/images/cap2/Domain-message/ReservaCitaCompartición.png)
 
 **Responsabilidades:**
-
 - **Professionals & Appointments Context:** Coordinación de agendas y enlace clínico.
 - **Health Tracking & Dashboard Context:** Proveer contexto médico/emocional basado en datos al especialista.
 - **Notification Context:** Confirmaciones y recordatorios a ambas partes.
+
 
 #### 2.5.1.3. Bounded Context Canvases
 
