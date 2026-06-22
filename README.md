@@ -3389,6 +3389,98 @@ Este endpoint permite obtener el historial de pagos realizados por un usuario. U
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 2, el equipo trabajó de manera coordinada en tres frentes principales: el repositorio de documentación del informe, el backend y el frontend de la aplicación móvil. La colaboración se gestionó a través de GitHub, utilizando ramas individuales para cada funcionalidad y commits para la integración de código.
+
+A continuación, se presentan los analíticos de commits por repositorio, evidenciando la participación activa de todos los miembros del equipo durante el período del Sprint 2.
+
+Repositorio: NeuroZen-Report (Documentación del Informe)
+
+En el repositorio de documentación, se realizaron commits para actualizar el README con la evidencia de ejecución del Sprint 2, documentar los endpoints del backend y agregar capturas de pantalla de la aplicación.
+
+Commits realizados en el repositorio de documentación:
+- Update README with Sprint 2 execution evidence (cf261f3)
+- docs(readme): document Backend endpoints and Swagger integration (19bfff1)
+- docs(readme): add execution evidence section for Sprint 2 (be06a32)
+- docs(img): add Sprint 2 application screenshots (7531502)
+- Create img (a3f7033)
+
+Repositorio: neurozen_front_flutter (Aplicación Móvil - Flutter)
+
+En el repositorio de la aplicación móvil, se realizaron commits para la refactorización de la estructura de la aplicación, la unificación del modelo de sesiones y la implementación de la navegación principal.
+
+Imagen: ![GitHub Insights - Flutter](assets/images/EvidenceSprint2/neurozen_front_flutter.png)
+
+Commits realizados en el repositorio de Flutter:
+- Add MainShell widget with navigation and session management (9820612)
+- Refactor HomeScreen to use unified Session model and update layout (8b95232)
+- Refactor mock sessions to use unified Session model and update duration property (126ff52)
+- Refactor MeditationSession to Session and unify duration property (0f41421)
+- Refactor session model usage to unify session type and update duration display (a5b3abe)
+- Add NeurozenApp and theme definition for initial app structure (8f87844)
+
+Repositorio: NeuroZen-Backend (Backend - ASP.NET Core)
+
+En el repositorio del backend, se realizaron commits para la implementación de endpoints de suscripciones, la configuración del Dockerfile para despliegue y la limpieza de código.
+
+Imagen: ![GitHub Insights - Backend](assets/images/EvidenceSprint2/neurozen_backend_mobile.png)
+
+Commits realizados en el repositorio del backend:
+- chore: Dockerfile para despliegue en render (475f82a)
+- delete: archivos sin utilizar (3fe97d7)
+- add: endpoint PUT para cancelar suscripciones (55f700f)
+- chore: elimine campos innecesarios en el metodo post de suscripciones (3e9b9c4)
+- Add: configuration's Subscription on AppDbContext (e86e2d4)
+
+Repositorio: NeuroZen-Frontend (Frontend Web - Angular)
+
+En el repositorio del frontend web, se realizaron commits para la actualización de modelos de API y la refactorización del manejo de citas.
+
+Imagen: ![GitHub Insights - Frontend](assets/images/EvidenceSprint2/Neurozen-front-app.png)
+
+Commits realizados en el repositorio del frontend:
+- Update API models for UUID/Int consistency and refactor appointment handling (384b5ee)
+- Merge branch 'using-db-instead-of-hardcoded-data' (d574cdf)
+
+Interpretación de los analíticos:
+
+Como se observa en las gráficas, todos los miembros del equipo contribuyeron activamente durante el Sprint 2, con una distribución equilibrada de commits en los diferentes repositorios:
+
+- Documentación: Se realizaron 5 commits para documentar la evidencia de ejecución del Sprint 2 y actualizar el README.
+- Backend: Se realizaron 5 commits para la implementación de endpoints de suscripciones, configuración de Dockerfile y limpieza de código.
+- Aplicación Móvil (Flutter): Se realizaron 6 commits para la refactorización de la estructura y la implementación de sesiones de meditación.
+- Frontend Web (Angular): Se realizaron 2 commits para la actualización de modelos y la refactorización del manejo de citas.
+
+Esta distribución refleja una buena colaboración y la división efectiva de responsabilidades entre los miembros del equipo para cumplir con los objetivos del sprint.
+
+Resumen de Commits por Repositorio
+
+Repository: NeuroZen-Report
+Branch: develop
+Commits: cf261f3, 19bfff1, be06a32, 7531502, a3f7033
+Commit Messages: Update README with Sprint 2 execution evidence, docs(readme): document Backend endpoints and Swagger integration, docs(readme): add execution evidence section for Sprint 2, docs(img): add Sprint 2 application screenshots, Create img
+Committed on: 21/06/2026
+
+Repository: neurozen_front_flutter
+Branch: main
+Commits: 9820612, 8b95232, 126ff52, 0f41421, a5b3abe, 8f87844
+Commit Messages: Add MainShell widget with navigation and session management, Refactor HomeScreen to use unified Session model and update layout, Refactor mock sessions to use unified Session model and update duration property, Refactor MeditationSession to Session and unify duration property, Refactor session model usage to unify session type and update duration display, Add NeurozenApp and theme definition for initial app structure
+Committed on: 21/06/2026
+
+Repository: NeuroZen-Backend
+Branch: main
+Commits: 475f82a, 3fe97d7, 55f700f, 3e9b9c4, e86e2d4
+Commit Messages: chore: Dockerfile para despliegue en render, delete: archivos sin utilizar, add: endpoint PUT para cancelar suscripciones, chore: elimine campos innecesarios en el metodo post de suscripciones, Add: configuration's Subscription on AppDbContext
+Committed on: 21/06/2026
+
+Repository: NeuroZen-Frontend
+Branch: main
+Commits: 384b5ee, d574cdf
+Commit Messages: Update API models for UUID/Int consistency and refactor appointment handling, Merge branch 'using-db-instead-of-hardcoded-data'
+Committed on: 20/06/2026, 09/06/2026
+
+La colaboración durante el Sprint 2 fue efectiva y coordinada, con una distribución clara de responsabilidades entre los miembros del equipo. Cada integrante contribuyó activamente en su área de especialización, y el uso de GitHub para el control de versiones permitió cumplir con los objetivos del sprint de manera exitosa.
+
+
 ### 4.2.3. Sprint 3
 
 #### 4.2.3.1. Sprint Planning 3
