@@ -3050,6 +3050,342 @@ Se implementó la pantalla de selección de planes, permitiendo al usuario elegi
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 
+### Sprint 2 - Evidencias de Endpoints Implementados
+
+Durante el Sprint 2, se implementaron y documentaron nuevos endpoints para la gestión de autenticación, profesionales, citas, suscripciones y pagos. A continuación, se presentan las evidencias de los endpoints desarrollados, con ejemplos de peticiones y respuestas obtenidas desde el cliente API.
+
+
+### Autenticación
+
+### Endpoint 1: POST /api/v1/authentication/sign-up
+
+### Descripción funcional
+
+Este endpoint permite registrar un nuevo usuario en la plataforma. Recibe el nombre de usuario, correo electrónico y contraseña, valida que no exista previamente y crea una cuenta nueva. Es el primer paso para que un nuevo usuario pueda acceder a la aplicación.
+
+**Método:** `POST`
+**Código de respuesta exitoso:** `200 OK`
+
+### Cuerpo de la petición (ejemplo)
+
+```json
+{
+  "username": "Miguel",
+  "password": "Admin.123#",
+  "email": "miguel@gmail.com"
+}
+```
+
+### Respuesta exitosa (ejemplo)
+
+```json
+{
+  "message": "User created successfully"
+}
+```
+
+
+### Endpoint 2: POST /api/v1/authentication/sign-in
+
+### Descripción funcional
+
+Este endpoint permite a un usuario registrado iniciar sesión en la plataforma. Recibe las credenciales (nombre de usuario y contraseña), las valida y, si son correctas, genera y devuelve un token JWT que el usuario deberá usar para autenticar sus peticiones posteriores.
+
+**Método:** `POST`
+**Código de respuesta exitoso:** `200 OK`
+
+### Cuerpo de la petición (ejemplo)
+
+```json
+{
+  "username": "Miguel",
+  "password": "Admin_123#"
+}
+```
+
+### Respuesta exitosa (ejemplo)
+
+```json
+{
+  "id": "602f058f-2892-47a8-9334-7f8df8ef73b4",
+  "username": "Miguel",
+  "email": "miguel@gmail.com",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+}
+```
+
+---
+
+### Profesionales
+
+### Endpoint 3: POST /api/v1/professionals
+
+### Descripción funcional
+
+Este endpoint permite crear un nuevo perfil de profesional (psicólogo) en la plataforma. Se utiliza para agregar especialistas al directorio, con información como nombre, especialidad, experiencia, calificación, precio y disponibilidad. Es utilizado por administradores o el propio profesional para darse de alta.
+
+**Método:** `POST`
+**Código de respuesta exitoso:** `201 Created`
+
+### Respuesta exitosa (ejemplo)
+
+```json
+{
+  "id": "97b437da-1334-44b5-b8ce-414fc7470e90",
+  "name": "Dr. Enzo Alatrista",
+  "specialty": "Neurociencia",
+  "experience": "3 años",
+  "rating": 4,
+  "yearsOfExperience": 5,
+  "reviews": 15,
+  "price": 40,
+  "availability": "Lun. a Vier. | 8:00am - 6:00 pm",
+  "bio": "Soy especialista en tratar personas estresadas y mejorar su calidad de vida.",
+  "image": "example.png"
+}
+```
+
+
+
+### Endpoint 4: GET /api/v1/professionals
+
+### Descripción funcional
+
+Este endpoint permite obtener la lista completa de todos los profesionales (psicólogos) registrados en la plataforma. Es utilizado por los usuarios para explorar y buscar especialistas disponibles, mostrando información relevante como especialidad, calificación y disponibilidad.
+
+**Método:** `GET`
+**Código de respuesta exitoso:** `200 OK`
+
+### Respuesta exitosa (ejemplo)
+
+```json
+[
+  {
+    "id": "97b437da-1334-44b5-b8ce-414fc7470e90",
+    "name": "Dr. Enzo Alatrista",
+    "specialty": "Neurociencia",
+    "experience": "3 años",
+    "rating": 4,
+    "yearsOfExperience": 5,
+    "reviews": 15,
+    "price": 40,
+    "availability": "Lun. a Vier. | 8:00am - 6:00 pm",
+    "bio": "Soy especialista en tratar personas estresadas y mejorar su calidad de vida.",
+    "image": "example.png"
+  }
+]
+```
+
+
+
+### Citas
+
+### Endpoint 5: POST /api/v1/appointments
+
+### Descripción funcional
+
+Este endpoint permite a un usuario agendar una nueva cita con un profesional (psicólogo). Recibe el ID del paciente, el ID del profesional, la fecha y hora de la cita, el tipo de cita y notas adicionales. Verifica la disponibilidad y crea la cita en el sistema.
+
+**Método:** `POST`
+**Código de respuesta exitoso:** `201 Created`
+
+### Cuerpo de la petición (ejemplo)
+
+```json
+{
+  "patientId": "602f058f-2892-47a8-9334-7f8df8ef73b4",
+  "professionalId": "97b437da-1334-44b5-b8ce-414fc7470e90",
+  "appointmentDateTime": "2026-06-22T02:42:46.899Z",
+  "appointmentType": 1,
+  "notasAdicionales": "Cita preliminar/diagnóstico"
+}
+```
+
+### Respuesta exitosa (ejemplo)
+
+```json
+{
+  "id": "e8893a37-4451-4fc5-ba7c-81b21a5f7a0d",
+  "patientId": "602f058f-2892-47a8-9334-7f8df8ef73b4",
+  "professionalId": "97b437da-1334-44b5-b8ce-414fc7470e90",
+  "appointmentDateTime": "2026-06-22T02:42:46.899Z",
+  "appointmentType": 1,
+  "notasAdicionales": "Cita preliminar/diagnóstico"
+}
+```
+
+
+### Endpoint 6: GET /api/v1/appointments/appointments/{patientId}
+
+### Descripción funcional
+
+Este endpoint permite obtener todas las citas agendadas de un paciente específico. Utiliza el ID del paciente como parámetro en la ruta y devuelve el listado completo de sus citas, con detalles como profesional, fecha, hora y estado.
+
+**Método:** `GET`
+**Código de respuesta exitoso:** `200 OK`
+
+### Respuesta exitosa (ejemplo)
+
+```json
+[
+  {
+    "id": "e8893a37-4451-4fc5-ba7c-81b1d5f7a0d",
+    "patientId": "602f058f-2892-47a8-9334-7f8df8ef73b4",
+    "professionalId": "97b437da-1334-44b5-b8ce-414fc7470e90",
+    "appointmentDateTime": "2026-06-22T02:42:46.899",
+    "appointmentType": 1,
+    "notasAdicionales": "Cita preliminar/diagnóstico"
+  }
+]
+```
+
+
+### Suscripciones
+
+### Endpoint 7: POST /api/v1/subscriptions
+
+### Descripción funcional
+
+Este endpoint permite crear una nueva suscripción para un usuario. Almacena la información del plan seleccionado y activa la suscripción para que el usuario pueda acceder a los beneficios del plan elegido.
+
+**Método:** `POST`
+**Código de respuesta exitoso:** `201 Created`
+
+### Respuesta exitosa (ejemplo)
+
+```json
+{
+  "userId": "602f058f-2892-47a8-9334-7f8df8ef73b4",
+  "planId": 1,
+  "nameUser": "Miguel",
+  "lastNameUser": "Vila",
+  "emailUser": "miguel@gmail.com",
+  "numberCard": "7717884599355672",
+  "expirationDate": "03/28",
+  "cvv": "442",
+  "isActive": true
+}
+```
+
+
+
+### Endpoint 8: GET /api/v1/subscriptions/user/{userId}
+
+### Descripción funcional
+
+Este endpoint permite obtener la suscripción activa de un usuario específico. Utiliza el ID del usuario como parámetro en la ruta y devuelve los detalles de su suscripción, incluyendo el plan y el estado de la misma.
+
+**Método:** `GET`
+**Código de respuesta exitoso:** `200 OK`
+
+### Respuesta exitosa (ejemplo)
+
+```json
+{
+  "userId": "602f058f-2892-47a8-9334-7f8df8ef73b4",
+  "planId": 1,
+  "nameUser": "Miguel",
+  "lastNameUser": "Vila",
+  "emailUser": "miguel@gmail.com",
+  "numberCard": "7717884599355672",
+  "expirationDate": "03/28",
+  "cvv": "442",
+  "isActive": false
+}
+```
+
+
+
+### Endpoint 9: PUT /api/v1/subscriptions/cancel
+
+### Descripción funcional
+
+Este endpoint permite cancelar la suscripción activa de un usuario. Cambia el estado de la suscripción a inactiva (`isActive = false`), lo que implica que el usuario perderá los beneficios del plan contratado.
+
+**Método:** `PUT`
+**Código de respuesta exitoso:** `200 OK`
+
+### Respuesta exitosa (ejemplo)
+
+```json
+{
+  "userId": "602f058f-2892-47a8-9334-7f8df8ef73b4",
+  "planId": 1,
+  "nameUser": "Miguel",
+  "lastNameUser": "Vila",
+  "emailUser": "miguel@gmail.com",
+  "numberCard": "7717884599355672",
+  "expirationDate": "03/28",
+  "cvv": "442",
+  "isActive": false
+}
+```
+
+
+
+### Pagos
+
+### Endpoint 10: GET /api/v1/payment/user/{userId}
+
+### Descripción funcional
+
+Este endpoint permite obtener el historial de pagos realizados por un usuario. Utiliza el ID del usuario como parámetro en la ruta y devuelve las transacciones asociadas a sus suscripciones.
+
+**Método:** `GET`
+**Código de respuesta exitoso:** `200 OK`
+
+### Respuesta exitosa (ejemplo)
+
+```json
+{
+  "id": "709976aa-8daf-427a-8dca-c855240d36e5",
+  "userId": "602f058f-2892-47a8-9334-7f8df8ef73b4",
+  "subscriptionId": "2dae8113-d321-4644-a3d7-c1aff84d9610",
+  "planId": 1,
+  "amount": 19.9,
+  "currency": "PEN",
+  "status": "exitoso",
+  "cardLast4": "5672",
+  "cardBrand": null,
+  "createdAt": "2026-06-22T02:46:31+00:00"
+}
+```
+
+
+### Resumen de Endpoints Implementados
+
+| Método | Endpoint                                        | Descripción                | Código |
+| ------ | ----------------------------------------------- | -------------------------- | ------ |
+| POST   | `/api/v1/authentication/sign-up`                | Registro de usuario        | 200    |
+| POST   | `/api/v1/authentication/sign-in`                | Inicio de sesión           | 200    |
+| POST   | `/api/v1/professionals`                         | Crear profesional          | 201    |
+| GET    | `/api/v1/professionals`                         | Listar profesionales       | 200    |
+| POST   | `/api/v1/appointments`                          | Agendar cita               | 201    |
+| GET    | `/api/v1/appointments/appointments/{patientId}` | Obtener citas del paciente | 200    |
+| POST   | `/api/v1/subscriptions`                         | Crear suscripción          | 201    |
+| GET    | `/api/v1/subscriptions/user/{userId}`           | Obtener suscripción        | 200    |
+| PUT    | `/api/v1/subscriptions/cancel`                  | Cancelar suscripción       | 200    |
+| GET    | `/api/v1/payment/user/{userId}`                 | Obtener historial de pagos | 200    |
+
+
+
+### Enlaces de Documentación
+
+* Swagger UI: https://neurozen-backend-mobile.onrender.com/swagger/index.html
+* Repositorio Backend: https://github.com/NeuroZen-Moviles/neurozen_backend_mobile.git
+
+### Commits Relacionados con la Documentación
+
+| Repository       | Branch | Commit Id | Commit Message                                                      | Fecha      |
+| ---------------- | ------ | --------- | ------------------------------------------------------------------- | ---------- |
+| NeuroZen-Backend | main   | 55f700f   | add : endpoint PUT para cancelar suscripciones                      | 21/06/2026 |
+| NeuroZen-Backend | main   | 3cd1399   | add : endpoint Payments and method Post for GetAllPaymentsForUserId | 21/06/2026 |
+| NeuroZen-Backend | main   | d3dbd46   | fix : Payment Id = newGuid and add Payments Services to Program.cs  | 21/06/2026 |
+| NeuroZen-Backend | main   | e86e2d4   | Add : configuration's Subscription on AppDbContext                  | 21/06/2026 |
+| NeuroZen-Backend | main   | f82d5ba   | fix : arreglar la tabla de usuarios al momento de crear un usuario  | 20/06/2026 |
+| NeuroZen-Backend | main   | cdc16d1   | fix : la api devuelve el id del usuario creado en la base de datos  | 20/06/2026 |
+
+
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
