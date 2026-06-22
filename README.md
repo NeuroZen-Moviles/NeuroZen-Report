@@ -2367,8 +2367,6 @@ A continuación, presentamos los principales **User Goals** identificados y sus 
 En esta sección se presentan los prototipos interactivos de la aplicación **NeuroZen**.  
 Estos prototipos simulan la navegación y los principales flujos de interacción, basados en los **User Flow Diagrams** previamente definidos.
 
-[Inserte cosas]
-
 ---
 
 # Capítulo IV: Product Implementation & Validation
@@ -3771,11 +3769,15 @@ Nuestro Landing Page:
 
 Nuestro Backend:
 
-## [● Link: [https://neurozen-api-f7hghnh7h2fcfbhc.mexicocentral-01.azurewebsites.net/swagger/index.html]
+## [● Link: [https://neurozen-backend-mobile.onrender.com/swagger/index.html]
 
-Repositorio del Frontend:
+Repositorio del Frontend (Android):
 
 ## [● Link: [https://github.com/NeuroZen-Moviles/Neurozen-front-app]
+
+Repositorio del Frontend (Flutter):
+
+## [● Link: [https://github.com/NeuroZen-Moviles/neurozen_front_flutter]
 
 Repositorio del Backend:
 
