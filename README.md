@@ -2958,6 +2958,98 @@ Este commit evidencia avances en la aplicación móvil mediante la refactorizaci
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
+Durante el Sprint 2, el equipo realizó pruebas exhaustivas de los endpoints implementados en el backend para garantizar el correcto funcionamiento de las funcionalidades de autenticación, profesionales, citas, suscripciones y pagos. Las pruebas se realizaron de manera manual utilizando Swagger UI y Postman, verificando que cada endpoint respondiera correctamente con los códigos de estado esperados y que los datos devueltos fueran los correctos.
+
+A continuación, se presentan las evidencias de las pruebas realizadas para cada endpoint.
+
+Pruebas de API realizadas
+
+Endpoint 1: POST /api/v1/authentication/sign-up - Registro de Usuario
+Esta prueba valida que un nuevo usuario pueda registrarse correctamente en la plataforma. El endpoint devuelve un código 200 OK con el mensaje "User created successfully".
+
+Imagen: ![Registro de Usuario](assets/images/backend/UsuarioCreado.jpeg)
+
+Endpoint 2: POST /api/v1/authentication/sign-in - Inicio de Sesion
+Esta prueba valida que un usuario registrado pueda iniciar sesion correctamente. El endpoint devuelve un código 200 OK junto con el token JWT y los datos del usuario.
+
+Imagen: ![Inicio de Sesion](assets/images/backend/usuarioIniciado.jpeg)
+
+Endpoint 3: POST /api/v1/professionals - Crear Profesional
+Esta prueba valida que se pueda crear un nuevo perfil de profesional en el sistema. El endpoint devuelve un código 201 Created con los datos del profesional registrado.
+
+Imagen: ![Crear Profesional](assets/images/backend/crearpsicologo.jpeg)
+
+Endpoint 4: GET /api/v1/professionals - Listar Profesionales
+Esta prueba valida que el sistema devuelva correctamente la lista de todos los profesionales disponibles. El endpoint devuelve un código 200 OK con los datos de los profesionales.
+
+Imagen: ![Listar Profesionales](assets/images/backend/obtenerTodosProfesionales.jpeg)
+
+Endpoint 5: POST /api/v1/appointments - Agendar Cita
+Esta prueba valida que un usuario pueda agendar una cita con un profesional. El endpoint devuelve un código 201 Created con los datos de la cita.
+
+Imagen: ![Agendar Cita](assets/images/backend/agendarCita.jpeg)
+
+Endpoint 6: GET /api/v1/appointments/appointments/{patientId} - Listar Citas de Paciente
+Esta prueba valida que el sistema devuelva correctamente todas las citas de un paciente especifico. El endpoint devuelve un código 200 OK con los datos de las citas.
+
+Imagen: ![Lista de Citas](assets/images/backend/ListadePacientes.jpeg)
+
+Endpoint 7: POST /api/v1/subscriptions - Crear Suscripcion
+Esta prueba valida que un usuario pueda crear una suscripcion correctamente. El endpoint devuelve un código 201 Created con los datos de la suscripcion.
+
+Imagen: ![Crear Suscripcion](assets/images/backend/usuarioSuscrito.jpeg)
+
+Endpoint 8: GET /api/v1/subscriptions/user/{userId} - Obtener Suscripcion de Usuario
+Esta prueba valida que el sistema devuelva correctamente la suscripcion activa de un usuario. El endpoint devuelve un código 200 OK con los datos de la suscripcion.
+
+Imagen: ![Obtener Suscripcion](assets/images/backend/obtenersuscriociondeusuario.jpeg)
+
+Endpoint 9: PUT /api/v1/subscriptions/cancel - Cancelar Suscripcion
+Esta prueba valida que un usuario pueda cancelar su suscripcion activa. El endpoint devuelve un código 200 OK con los datos actualizados de la suscripcion.
+
+Imagen: ![Cancelar Suscripcion](assets/images/backend/cancelarsuscripcion.jpeg)
+
+Endpoint 10: GET /api/v1/payment/user/{userId} - Historial de Pagos de Usuario
+Esta prueba valida que el sistema devuelva correctamente el historial de pagos de un usuario. El endpoint devuelve un código 200 OK con los datos de los pagos.
+
+Imagen: ![Historial de Pagos](assets/images/backend/todolosSuscritos.jpeg)
+
+Resumen de Pruebas Realizadas
+
+| Endpoint | Metodo | Descripcion | Codigo | Estado |
+| :--- | :--- | :--- | :--- | :--- |
+| /api/v1/authentication/sign-up | POST | Registro de usuario | 200 | OK |
+| /api/v1/authentication/sign-in | POST | Inicio de sesion | 200 | OK |
+| /api/v1/professionals | POST | Crear profesional | 201 | OK |
+| /api/v1/professionals | GET | Listar profesionales | 200 | OK |
+| /api/v1/appointments | POST | Agendar cita | 201 | OK |
+| /api/v1/appointments/appointments/{patientId} | GET | Listar citas de paciente | 200 | OK |
+| /api/v1/subscriptions | POST | Crear suscripcion | 201 | OK |
+| /api/v1/subscriptions/user/{userId} | GET | Obtener suscripcion | 200 | OK |
+| /api/v1/subscriptions/cancel | PUT | Cancelar suscripcion | 200 | OK |
+| /api/v1/payment/user/{userId} | GET | Historial de pagos | 200 | OK |
+
+Pruebas de Integracion
+
+Ademas de las pruebas de API, se realizaron pruebas de integracion para validar la comunicacion entre el frontend (Angular y Flutter) y el backend. Se verifico que las funcionalidades de registro, inicio de sesion, agendar citas, gestionar suscripciones y visualizar pagos funcionaran correctamente de manera integrada.
+
+Commits Relacionados con los Endpoints Probados
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- |
+| NeuroZen-Backend | main | 55f700f | add : endpoint PUT para cancelar suscripciones | 21/06/2026 |
+| NeuroZen-Backend | main | 3cd1399 | add : endpoint Payments and method Post for GetAllPaymentsForUserId | 21/06/2026 |
+| NeuroZen-Backend | main | e86e2d4 | Add : configuration's Subscription on AppDbContext | 21/06/2026 |
+
+Plan para pruebas automatizadas en el Sprint 3
+
+El equipo ha identificado la necesidad de implementar pruebas automatizadas para garantizar la calidad del software. Para el Sprint 3, se han planificado las siguientes actividades:
+
+- Implementar pruebas unitarias para los servicios de suscripciones y pagos en el backend.
+- Implementar pruebas de integracion para los endpoints criticos.
+- Configurar pipeline de CI/CD con ejecucion automatica de pruebas.
+
+Durante el Sprint 2, se realizaron pruebas manuales exhaustivas de todos los endpoints implementados, verificando que las funcionalidades de autenticacion, profesionales, citas, suscripciones y pagos funcionaran correctamente. Todas las pruebas fueron exitosas, con los codigos de estado esperados. Se ha priorizado la implementacion de pruebas automatizadas para el Sprint 3 como parte del compromiso con la calidad del software.
 
 
 #### 4.2.1.5. Execution Evidence for Sprint Review 
