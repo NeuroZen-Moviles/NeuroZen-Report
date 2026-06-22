@@ -3825,12 +3825,12 @@ Este análisis se basa en principios de usabilidad para evaluar la experiencia d
 
 ## Video App Validation
 
-- Link: [https://drive.google.com/drive/folders/1rq9b4C3OQZZ7fHBfLWVNelDa99Bbz4iW?usp=sharing](https://drive.google.com/drive/folders/1rq9b4C3OQZZ7fHBfLWVNelDa99Bbz4iW?usp=sharing)
+- Link: https://drive.google.com/drive/folders/1rq9b4C3OQZZ7fHBfLWVNelDa99Bbz4iW?usp=sharing
 
 
 ## Video About the product
 
-- Link: [https://drive.google.com/drive/folders/1rq9b4C3OQZZ7fHBfLWVNelDa99Bbz4iW?usp=sharing](https://drive.google.com/drive/folders/1rq9b4C3OQZZ7fHBfLWVNelDa99Bbz4iW?usp=sharing)
+- Link: https://drive.google.com/drive/folders/1rq9b4C3OQZZ7fHBfLWVNelDa99Bbz4iW?usp=sharing
 
 ## Video About the team
 
