@@ -2961,6 +2961,92 @@ Este commit evidencia avances en la aplicación móvil mediante la refactorizaci
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
+#### 4.2.1.5. Execution Evidence for Sprint Review (Sprint 2)
+
+Durante el Sprint 2, el equipo implementó las funcionalidades principales de la aplicación móvil, incluyendo el flujo de autenticación, el dashboard de bienestar, la gestión de citas, el asistente virtual (ZenBot), las sesiones de meditación, el perfil de usuario, la gestión de favoritos y la selección de planes de suscripción. A continuación, se presentan capturas de pantalla que evidencian el correcto funcionamiento de estas características.
+
+##### 1. Pantalla de Bienvenida (Onboarding)
+
+La pantalla de bienvenida presenta a los usuarios el propósito de NeuroZen y ofrece dos opciones de acceso: registrarse o explorar como invitado.
+
+![Pantalla de Bienvenida](assets/images/EvidenceSprint2/bienvenido.jpeg)
+
+*Descripción:* Pantalla inicial con el logo de NeuroZen y el mensaje "Tu refugio digital para encontrar equilibrio y serenidad en cada respiración". El usuario puede comenzar el registro o explorar como invitado.
+
+##### 2. Registro de Usuario
+
+Se implementó el flujo completo de registro, permitiendo a los nuevos usuarios crear una cuenta con nombre de usuario, correo electrónico y contraseña.
+
+![Registro de Usuario](assets/images/EvidenceSprint2/registro.jpeg)
+
+*Descripción:* Pantalla de registro donde el usuario ingresa sus datos para crear una cuenta. Incluye opciones para iniciar sesión si ya tiene cuenta o ingresar como demo.
+
+##### 3. Inicio de Sesión (Login)
+
+Se implementó el flujo de autenticación, permitiendo a los usuarios registrados acceder a la aplicación con sus credenciales.
+
+![Inicio de Sesión](assets/images/EvidenceSprint2/login.jpeg)
+
+*Descripción:* Pantalla de login con campos para usuario y contraseña. Se muestra un mensaje de confirmación de registro exitoso.
+
+##### 4. Dashboard Principal (Inicio)
+
+El dashboard muestra el estado de bienestar del usuario, con una frase inspiradora, botones para registrar el estado de ánimo (Calma, Enfoque, Sueño, Energía), un medidor de "Tu equilibrio" y recomendaciones personalizadas.
+
+![Dashboard Principal](assets/images/EvidenceSprint2/dashboarde.jpeg)
+
+*Descripción:* Pantalla de inicio que muestra el saludo personalizado, el estado de ánimo del usuario, el nivel de equilibrio y la sección "Recomendado para ti".
+
+##### 5. Centro de Citas
+
+Se implementó la funcionalidad para gestionar citas con psicólogos. El usuario puede explorar especialistas y agendar citas.
+
+![Centro de Citas](assets/images/EvidenceSprint2/citas.jpeg)
+
+*Descripción:* Pantalla "Centro de Ayuda" que muestra la lista de profesionales disponibles y la opción de "Ver especialistas" para agendar una cita.
+
+##### 6. Asistente Virtual (ZenBot)
+
+Se implementó un chatbot de bienestar que interactúa con el usuario, ofreciendo consejos y técnicas para manejar el estrés.
+
+![ZenBot](assets/images/EvidenceSprint2/zenbot.jpeg)
+
+*Descripción:* Pantalla de conversación con ZenBot, el asistente virtual. El chatbot responde a las consultas del usuario, por ejemplo, explicando qué es el estrés y ofreciendo técnicas de respiración.
+
+##### 7. Sesiones de Meditación
+
+Se implementó el catálogo de sesiones de meditación y ejercicios de relajación, permitiendo al usuario explorar y seleccionar prácticas.
+
+![Sesiones de Meditación](assets/images/EvidenceSprint2/sesiones.jpeg)
+
+*Descripción:* Pantalla "Sesiones para ti" que muestra las prácticas disponibles, incluyendo detalles como duración, tipo y nivel de dificultad.
+
+##### 8. Perfil de Usuario
+
+Se implementó la pantalla de perfil donde el usuario puede ver su progreso (racha de días, minutos de práctica), acceder a sus favoritos y gestionar su plan de suscripción.
+
+![Perfil de Usuario](assets/images/EvidenceSprint2/perfil.jpeg)
+
+*Descripción:* Pantalla de perfil que muestra el nombre del usuario, racha de días, minutos de práctica, opciones para ver favoritos, gestionar el plan y cerrar sesión.
+
+##### 9. Mis Favoritos
+
+Se implementó la sección donde el usuario puede guardar y acceder rápidamente a sus prácticas preferidas.
+
+![Mis Favoritos](assets/images/EvidenceSprint2/favorito.jpeg)
+
+*Descripción:* Pantalla "Mis Favoritos" que lista las prácticas guardadas por el usuario, con opción de ver detalles.
+
+##### 10. Gestión de Planes (Suscripciones)
+
+Se implementó la pantalla de selección de planes, permitiendo al usuario elegir entre diferentes niveles de suscripción (Básico, Avanzado, Zen+) con sus respectivos beneficios.
+
+![Planes de Suscripción](assets/images/EvidenceSprint2/plan.jpeg)
+
+*Descripción:* Pantalla "Elige tu plan" que muestra las opciones de suscripción (Básico Gratis, Avanzado, Zen+) con sus características y precios.
+
+
+
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 
