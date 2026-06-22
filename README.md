@@ -2921,6 +2921,42 @@ Esta metodología colaborativa permitió integrar de manera exitosa los servicio
 #### 4.2.2.2. Sprint Backlog 2
 
 #### 4.2.2.3. Development Evidence for Sprint Review
+Durante el Sprint 2, el equipo de desarrollo se enfocó en la implementación de funcionalidades clave como la visualización del dashboard de estrés y la reserva de citas con especialistas. A continuación, se presentan los commits más relevantes de cada repositorio
+
+## Backend
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|------------|---------|-----------|----------------|---------------------|
+| NeuroZen-Backend | main | 55f700f | add: endpoint PUT para cancelar suscripciones | 21/06/2026 |
+| NeuroZen-Backend | main | 3cd1399 | add: endpoint Payments and method Post for GetAllPaymentsForUserId | 21/06/2026 |
+| NeuroZen-Backend | main | f82d5ba | fix: arreglar la tabla de usuarios al momento de crear un usuario | 20/06/2026 |
+
+**Descripción:**  
+Estos commits representan la implementación de la lógica de negocio para la gestión de suscripciones y pagos, además de correcciones en el proceso de registro de usuarios.
+
+---
+
+## Frontend Web
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|------------|---------|-----------|----------------|---------------------|
+| NeuroZen-Frontend | main | 384b5ee | Update API models for UUID/Int consistency and refactor appointment handling | 20/06/2026 |
+| NeuroZen-Frontend | main | f4f9585 | Update API models with SerializedName annotations and fix date formatting for .NET compatibility | 09/06/2026 |
+
+**Descripción:**  
+Estos commits reflejan la actualización de los modelos de la API para garantizar la compatibilidad con el backend y la refactorización del módulo de gestión de citas.
+
+---
+
+## Frontend Móvil (Flutter)
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|------------|---------|-----------|----------------|---------------------|
+| NeuroZen-Flutter | main | 8447bee | Refactor app structure and add meditation session features | 18/06/2026 |
+
+**Descripción:**  
+Este commit evidencia avances en la aplicación móvil mediante la refactorización de la estructura del proyecto y la implementación de funcionalidades relacionadas con las sesiones de meditación.
+
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
