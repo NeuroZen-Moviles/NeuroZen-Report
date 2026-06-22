@@ -3387,6 +3387,44 @@ Este endpoint permite obtener el historial de pagos realizados por un usuario. U
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 
+
+Durante el Sprint 2, el equipo realizó el despliegue de los siguientes productos digitales en entornos de producción y pre-producción, asegurando que todas las funcionalidades implementadas estén disponibles para los usuarios finales y para las pruebas de integración.
+
+Backend
+
+El backend de NeuroZen fue desplegado en la plataforma Render, con una base de datos PostgreSQL en la nube. Todos los endpoints implementados en el Sprint 2 están disponibles y documentados a través de Swagger UI.
+
+URL de Swagger UI: https://neurozen-backend-mobile.onrender.com/swagger/index.html
+
+El despliegue se realizó mediante la integración continua con GitHub, donde cada commit a la rama main activa automáticamente un nuevo despliegue en Render.
+
+Imagen: ![Swagger UI - Sprint 2](assets/images/EvidenceSprint2/swagger.png)
+
+Landing Page
+
+La Landing Page de NeuroZen fue desplegada en Netlify, permitiendo a los visitantes conocer el producto y acceder a la aplicación móvil. La página incluye secciones como beneficios, ejercicios contra el estrés, profesionales disponibles y llamados a la acción para registrarse o probar la aplicación.
+
+URL de la Landing Page: https://neurozen-home.netlify.app/
+
+Imagen: ![Landing Page - Sprint 2](assets/images/EvidenceSprint2/landingpage.png)
+
+Aplicación Móvil
+
+La aplicación móvil de NeuroZen fue distribuida a través de Firebase App Distribution, permitiendo a los miembros del equipo y a los usuarios de prueba instalar la aplicación en dispositivos Android.
+
+La aplicación cuenta con las siguientes funcionalidades implementadas durante el Sprint 2:
+- Pantalla de bienvenida y onboarding
+- Registro e inicio de sesión de usuarios
+- Dashboard principal con estado de ánimo y equilibrio
+- Centro de citas con especialistas
+- Asistente virtual ZenBot
+- Sesiones de meditación y ejercicios de respiración
+- Perfil de usuario con racha y minutos de práctica
+- Gestión de planes de suscripción (Básico, Avanzado, Zen+)
+
+Imagen: ![Aplicación Móvil - Sprint 2](assets/images/EvidenceSprint2/Inicio.jpeg)
+
+
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 2, el equipo trabajó de manera coordinada en tres frentes principales: el repositorio de documentación del informe, el backend y el frontend de la aplicación móvil. La colaboración se gestionó a través de GitHub, utilizando ramas individuales para cada funcionalidad y commits para la integración de código.
