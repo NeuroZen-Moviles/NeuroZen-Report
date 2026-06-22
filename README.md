@@ -2960,8 +2960,9 @@ Este commit evidencia avances en la aplicación móvil mediante la refactorizaci
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
-#### 4.2.2.5. Execution Evidence for Sprint Review
-#### 4.2.1.5. Execution Evidence for Sprint Review (Sprint 2)
+
+
+#### 4.2.1.5. Execution Evidence for Sprint Review 
 
 Durante el Sprint 2, el equipo implementó las funcionalidades principales de la aplicación móvil, incluyendo el flujo de autenticación, el dashboard de bienestar, la gestión de citas, el asistente virtual (ZenBot), las sesiones de meditación, el perfil de usuario, la gestión de favoritos y la selección de planes de suscripción. A continuación, se presentan capturas de pantalla que evidencian el correcto funcionamiento de estas características.
 
