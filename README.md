@@ -3606,6 +3606,22 @@ La colaboración durante el Sprint 2 fue efectiva y coordinada, con una distribu
 
 #### 4.2.3.1. Sprint Planning 3
 
+| **Sprint #** | **Sprint 3** |
+|--------------|--------------|
+| **Sprint Planning Background** | |
+| **Date** | 2026-07-10 |
+| **Time** | 10:00 AM |
+| **Location** | Microsoft Teams (reunión virtual) |
+| **Prepared By** | Castro Picón, Manuel Fernando Joao |
+| **Attendees (to planning meeting)** | Castro Picón, Manuel Fernando Joao / Requena Gutiérrez, Diego Gabriel / Huaman De La Cruz, Jean Pool / Solis Chang, Santiago Valentino / Vila Guillen, Miguel Angel |
+| **Sprint 2 Review Summary** | El Sprint 2 concluyó con la implementación exitosa de los módulos de autenticación, profesionales, citas, suscripciones y pagos, tanto en el backend como en la aplicación móvil. La app ya cuenta con dashboard, perfil, sesiones de meditación y asistente virtual. Se recibió feedback positivo en las primeras validaciones, aunque se identificaron oportunidades de mejora en la experiencia de usuario y en la integración de notificaciones. |
+| **Sprint 2 Retrospective Summary** | El equipo trabajó de forma coordinada y los sprints anteriores permitieron consolidar la arquitectura. Se sugiere mejorar la automatización de pruebas y la documentación de servicios para el sprint final. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 3 Goal** | Nuestro enfoque es completar las funcionalidades de comunidad, recursos educativos y sistema de notificaciones, además de realizar pruebas de integración final y pulir la interfaz de usuario. Creemos que esto entregará una experiencia completa y confiable a los usuarios, lo que se confirmará cuando los usuarios puedan participar en foros, acceder a la biblioteca de recursos y recibir notificaciones push en tiempo real. |
+| **Sprint 3 Velocity** | 25 Story Points |
+| **Sum of Story Points** | 25 |
+
+
 #### 4.2.3.2. Sprint Backlog 3
 
 #### 4.2.3.3. Development Evidence for Sprint Review
