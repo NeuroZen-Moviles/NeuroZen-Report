@@ -3623,6 +3623,20 @@ La colaboración durante el Sprint 2 fue efectiva y coordinada, con una distribu
 
 
 #### 4.2.3.2. Sprint Backlog 3
+En este sprint final nos enfocamos en las historias de usuario relacionadas con la comunidad (grupos de apoyo, biblioteca de recursos, desafíos), la integración de notificaciones push y la generación de reportes. También se incluyen tareas técnicas de refactorización y configuración de despliegue final.
+
+| **User Story ID** | **Título** | **Work-item / Task** | **Estimación (h)** | **Asignado** | **Estado** |
+|-------------------|------------|----------------------|-------------------:|--------------|------------|
+| US16 | Participar en grupos de apoyo | Implementar backend de grupos y mensajería | 6 | Vila Guillen, Miguel Angel | Done |
+| US16 | Participar en grupos de apoyo | Crear interfaz de grupos en Flutter | 5 | Solis Chang, Santiago Valentino | Done |
+| US17 | Acceder a biblioteca de recursos | Desarrollar CMS de recursos (backend) | 4 | Requena Gutiérrez, Diego Gabriel | Done |
+| US17 | Acceder a biblioteca de recursos | Pantalla de recursos en app móvil | 3 | Castro Picón, Manuel Fernando Joao | Done |
+| US18 | Participar en desafíos antiestrés | Lógica de gamificación y seguimiento | 5 | Huaman De La Cruz, Jean Pool | Done |
+| US19 | Analizar carga laboral | Endpoint para registrar horas y calcular carga | 4 | Requena Gutiérrez, Diego Gabriel | Done |
+| US20 | Recibir recordatorios de ergonomía | Integrar Firebase Cloud Messaging (FCM) | 4 | Vila Guillen, Miguel Angel | Done |
+| – | Refactorización general y limpieza de código | Revisión de code smells y optimización de consultas | 4 | Todos los integrantes | Done |
+| – | Configuración de despliegue en Firebase App Distribution | Subir APK firmado y gestionar tester groups | 2 | Solis Chang, Santiago Valentino | Done |
+
 
 #### 4.2.3.3. Development Evidence for Sprint Review
 
