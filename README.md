@@ -3640,6 +3640,22 @@ En este sprint final nos enfocamos en las historias de usuario relacionadas con 
 
 #### 4.2.3.3. Development Evidence for Sprint Review
 
+Durante el Sprint 3 (posterior al AV2 del 26 de junio), el equipo continuó con el desarrollo de la aplicación móvil en Flutter y el backend. Se implementaron funcionalidades relacionadas con la autenticación de usuarios, la gestión de disponibilidad de psicólogos y la programación de citas. A continuación, se listan los commits más relevantes realizados en los repositorios durante este sprint:
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|------------|--------|-----------|----------------|----------------------|
+| NeuroZen-Moviles/neurozen_backend_mobile | main | 9899b05 | Added a connection between Professionals table and Users table (UserId FK) | 2026-07-07 |
+| NeuroZen-Moviles/neurozen_front_flutter | main | 9649743 | Added Authentication for the users | 2026-07-07 |
+| NeuroZen-Moviles/neurozen_front_flutter | main | 331d664 | Remove availability and onUpdate parameters from ScheduleScreen in MainShell | 2026-06-30 |
+| NeuroZen-Moviles/neurozen_front_flutter | main | 4a5d6a5 | Add WeeklyAvailability and AvailabilityException models for scheduling | 2026-06-30 |
+| NeuroZen-Moviles/neurozen_front_flutter | main | 4936670 | Refactor ScheduleScreen to use StatefulWidget and implement weekly availability and exceptions management | 2026-06-30 |
+| NeuroZen-Moviles/neurozen_front_flutter | main | a3b58a3 | Update pubspec.yaml and pubspec.lock to include new dependencies: table_calendar and simple_gesture_detector | 2026-06-30 |
+| NeuroZen-Moviles/neurozen_front_flutter | main | dd15d7c | Update login screen title to 'NeuroZen Psicólogos' | 2026-06-30 |
+| NeuroZen-Moviles/neurozen_front_flutter | main | 95df2e4 | Add utility function to format DateTime as a string | 2026-06-30 |
+
+> **Nota:** El repositorio `NeuroZen-front-app` (frontend web) no presenta commits posteriores al 26 de junio, por lo que las funcionalidades del Sprint 3 se concentraron en el backend y la aplicación móvil.
+
+
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
 #### 4.2.3.5. Execution Evidence for Sprint Review
