@@ -3667,6 +3667,97 @@ En el Sprint 3 se desarrollaron las funcionalidades finales del proyecto, incluy
 
 #### 4.2.3.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 3, se implementó la aplicación móvil en **Flutter** para el segmento de **psicólogos** (especialistas en salud mental), permitiéndoles gestionar su perfil profesional, agenda de disponibilidad, citas con pacientes y registro de atenciones. Estas funcionalidades consumen los endpoints del backend NeuroZen previamente desarrollados.
+
+A continuación, se presentan capturas de pantalla que evidencian el correcto funcionamiento de las principales pantallas de la aplicación para psicólogos.
+
+---
+
+**1. Pantalla de Inicio de Sesión (Login)**
+
+Se implementó la pantalla de autenticación para que los psicólogos puedan acceder a la plataforma utilizando sus credenciales registradas. Esta pantalla consume el endpoint `POST /api/v1/authentication/sign-in`.
+
+![Pantalla de Login](assets/images/sprint3/loginF.jpeg)
+
+*Descripción:* Pantalla de inicio de sesión con campos para nombre de usuario y contraseña. Incluye botón de inicio de sesión y enlace a la pantalla de registro para nuevos usuarios.
+
+---
+
+**2. Pantalla de Registro de Usuario**
+
+Se implementó el formulario de registro para que nuevos psicólogos puedan crear una cuenta en la plataforma. Esta pantalla consume el endpoint `POST /api/v1/authentication/sign-up`.
+
+![Pantalla de Registro](assets/images/sprint3/registroF.jpeg)
+
+*Descripción:* Pantalla de registro con campos para nombre de usuario, correo electrónico, contraseña y confirmación de contraseña. Incluye validación de campos obligatorios y formato de correo electrónico.
+
+---
+
+**3. Pantalla Principal (Dashboard del Psicólogo)**
+
+Se implementó el panel principal del psicólogo, que muestra un resumen de su actividad diaria, citas programadas, pacientes atendidos y notificaciones relevantes.
+
+![Pantalla Principal](assets/images/sprint3/patanllaPrincipal.jpeg)
+
+*Descripción:* Dashboard del psicólogo que muestra métricas clave como número de citas del día, pacientes activos, próximas citas y acceso rápido a las principales funcionalidades (calendario, pacientes, atenciones, perfil).
+
+---
+
+**4. Pantalla de Calendario y Disponibilidad**
+
+Se implementó la gestión de calendario, permitiendo al psicólogo visualizar su agenda diaria, semanal o mensual, y configurar bloques de disponibilidad para citas. Esta funcionalidad se relaciona con el contexto de **Professionals & Appointments** y los endpoints de gestión de disponibilidad.
+
+![Calendario](assets/images/sprint3/calendarioF.jpeg)
+
+*Descripción:* Vista de calendario que muestra los días del mes con indicadores de citas programadas. El psicólogo puede seleccionar un día para ver el detalle de sus citas y gestionar su disponibilidad horaria.
+
+---
+
+**5. Pantalla de Gestión de Pacientes**
+
+Se implementó la lista de pacientes del psicólogo, mostrando información básica de cada paciente y acceso rápido a su historial de atenciones. Esta funcionalidad utiliza el contexto de **Appointments** y los endpoints de citas.
+
+![Lista de Pacientes](assets/images/sprint3/pacienteF.jpeg)
+
+*Descripción:* Pantalla que muestra la lista de pacientes asociados al psicólogo, con información como nombre, fecha de última atención y estado de la próxima cita. El psicólogo puede buscar pacientes y ver su historial completo.
+
+---
+
+**6. Pantalla de Atención a Pacientes**
+
+Se implementó la pantalla de registro de atenciones, donde el psicólogo puede registrar notas, diagnósticos y planes de seguimiento para cada paciente durante una sesión.
+
+![Atención a Paciente](assets/images/sprint3/atencionF.jpeg)
+
+*Descripción:* Pantalla de atención que muestra los datos del paciente, un área para registrar notas de la sesión, diagnóstico y recomendaciones. Incluye botones para guardar la atención y finalizar la sesión.
+
+---
+
+**7. Pantalla de Perfil del Psicólogo**
+
+Se implementó la pantalla de perfil profesional, donde el psicólogo puede visualizar y editar su información personal y profesional, incluyendo especialidad, experiencia, precios y horarios de atención. Esta pantalla consume los endpoints de `GET /api/v1/professionals/{id}` y `PUT /api/v1/professionals/{id}` (cuando esté implementado).
+
+![Perfil del Psicólogo](assets/images/sprint3/PerfilUsu.jpeg)
+
+*Descripción:* Pantalla de perfil que muestra la información del psicólogo, incluyendo foto, nombre, especialidad, experiencia, calificación, precio por sesión y disponibilidad. Incluye opción para editar los datos del perfil.
+
+---
+
+**Resumen de funcionalidades implementadas en la aplicación Flutter para psicólogos**
+
+| Pantalla | Funcionalidad | Endpoint Asociado |
+| :--- | :--- | :--- |
+| Login | Autenticación de psicólogos | `POST /api/v1/authentication/sign-in` |
+| Registro | Creación de cuenta de psicólogo | `POST /api/v1/authentication/sign-up` |
+| Dashboard | Resumen de actividad y métricas | `GET /api/v1/professionals/{id}`, `GET /api/v1/appointments/appointments/{patientId}` |
+| Calendario | Gestión de disponibilidad y agenda | Endpoints de disponibilidad (en desarrollo) |
+| Pacientes | Lista y gestión de pacientes | `GET /api/v1/appointments/appointments/{patientId}` |
+| Atención | Registro de sesiones con pacientes | `POST /api/v1/appointments` |
+| Perfil | Visualización y edición de perfil profesional | `GET /api/v1/professionals/{id}` |
+
+Adicionalmente, los nuevos endpoints de **ResourceLibraries** y **Triggers** fueron implementados en el backend y documentados en Swagger, quedando disponibles para futura integración con la aplicación móvil.
+
+
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
