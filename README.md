@@ -3966,7 +3966,7 @@ Este análisis se basa en principios de usabilidad para evaluar la experiencia d
 
 ## Video About the product
 
-- Link: https://drive.google.com/drive/folders/1rq9b4C3OQZZ7fHBfLWVNelDa99Bbz4iW?usp=sharing
+- Link: https://drive.google.com/file/d/1-_v0KUTrHYfdEqTVUWcZBBUHyfarLtC4/view?usp=sharing
 
 ## Video About the team
 
