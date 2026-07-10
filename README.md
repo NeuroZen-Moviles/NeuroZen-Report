@@ -4146,3 +4146,15 @@ Repositorio del Frontend (Flutter):
 Repositorio del Backend:
 
 ## [● Link: [https://github.com/NeuroZen-Moviles/neurozen_backend_mobile.git]
+
+Link del Frontend desplegado (Android):
+
+## [● Link: [https://appetize.io/app/android/com.example.neurozen_front?device=pixel7&osVersion=13.0&toolbar=true]
+
+Link del Frontend desplegado (Flutter):
+
+## [● Link: [https://appetize.io/app/android/com.neurozen.app.neurozen_front?device=pixel7&osVersion=13.0&toolbar=true]
+
+
+
+
