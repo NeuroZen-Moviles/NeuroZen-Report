@@ -3970,8 +3970,8 @@ Este análisis se basa en principios de usabilidad para evaluar la experiencia d
 
 ## Video About the team
 
-- Link: https://drive.google.com/drive/folders/1rq9b4C3OQZZ7fHBfLWVNelDa99Bbz4iW?usp=sharing
-
+- Link: https://drive.google.com/file/d/16jMDioUhBDkHK5oRhv3hPGo_qzby2eX6/view
+  
 ---
 
 # Bibliografía
