@@ -3640,20 +3640,27 @@ En este sprint final nos enfocamos en las historias de usuario relacionadas con 
 
 #### 4.2.3.3. Development Evidence for Sprint Review
 
-Durante el Sprint 3 (posterior al AV2 del 26 de junio), el equipo continuó con el desarrollo de la aplicación móvil en Flutter y el backend. Se implementaron funcionalidades relacionadas con la autenticación de usuarios, la gestión de disponibilidad de psicólogos y la programación de citas. A continuación, se listan los commits más relevantes realizados en los repositorios durante este sprint:
+En el Sprint 3 se desarrollaron las funcionalidades finales del proyecto, incluyendo la integración completa de autenticación, gestión de profesionales, disponibilidad de psicólogos, programación de citas, comunidad y recursos educativos. A continuación, se presentan los commits más relevantes de cada repositorio que evidencian el trabajo realizado durante este sprint.
 
 | Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
-|------------|--------|-----------|----------------|----------------------|
-| NeuroZen-Moviles/neurozen_backend_mobile | main | 9899b05 | Added a connection between Professionals table and Users table (UserId FK) | 2026-07-07 |
-| NeuroZen-Moviles/neurozen_front_flutter | main | 9649743 | Added Authentication for the users | 2026-07-07 |
-| NeuroZen-Moviles/neurozen_front_flutter | main | 331d664 | Remove availability and onUpdate parameters from ScheduleScreen in MainShell | 2026-06-30 |
-| NeuroZen-Moviles/neurozen_front_flutter | main | 4a5d6a5 | Add WeeklyAvailability and AvailabilityException models for scheduling | 2026-06-30 |
-| NeuroZen-Moviles/neurozen_front_flutter | main | 4936670 | Refactor ScheduleScreen to use StatefulWidget and implement weekly availability and exceptions management | 2026-06-30 |
-| NeuroZen-Moviles/neurozen_front_flutter | main | a3b58a3 | Update pubspec.yaml and pubspec.lock to include new dependencies: table_calendar and simple_gesture_detector | 2026-06-30 |
-| NeuroZen-Moviles/neurozen_front_flutter | main | dd15d7c | Update login screen title to 'NeuroZen Psicólogos' | 2026-06-30 |
-| NeuroZen-Moviles/neurozen_front_flutter | main | 95df2e4 | Add utility function to format DateTime as a string | 2026-06-30 |
+|------------|--------|-----------|----------------|---------------------|
+| NeuroZen-Backend | `main` | `9899b05` | Added a connection between Professionals table and Users table (UserID FK) | 2026-07-07 |
+| NeuroZen-Backend | `main` | *(varios)* | Refactor professional creation process, enhance logging, remove redundant SQL, add migrations | 2026-07-09 |
+| NeuroZen-Frontend (Android) | `main` | `ebaa125` | Refactor psychologist scheduling logic, update appointment data models, and improve offline reliability | 2026-07-09 |
+| neurozen_front_flutter | `main` | `9649743` | Added Authentication for the users | 2026-07-07 |
+| neurozen_front_flutter | `main` | `331d664` | Remove availability and onUpdate parameters from ScheduleScreen | 2026-06-30 |
+| neurozen_front_flutter | `main` | `4e5d6a5` | Add WeeklyAvailability and AvailabilityException models for scheduling | 2026-06-30 |
+| neurozen_front_flutter | `main` | `4936670` | Refactor ScheduleScreen to implement weekly availability and exceptions management | 2026-06-30 |
+| neurozen_front_flutter | `main` | `a3b58a3` | Update pubspec.yaml with new dependencies (table_calendar, simple_gesture_detector) | 2026-06-30 |
+| neurozen_front_flutter | `main` | `dd15d7c` | Update login screen title to 'NeuroZen Psicólogos' | 2026-06-30 |
 
-> **Nota:** El repositorio `NeuroZen-front-app` (frontend web) no presenta commits posteriores al 26 de junio, por lo que las funcionalidades del Sprint 3 se concentraron en el backend y la aplicación móvil.
+#### Descripción de los avances
+
+- **Backend:** Se consolidó la relación entre profesionales y usuarios, se refactorizó el proceso de creación de profesionales con mejor manejo de errores y logging, y se optimizaron las migraciones de base de datos para garantizar la integridad referencial.
+
+- **Frontend Web (Android):** Se mejoró la lógica de agendamiento de psicólogos, se actualizaron los modelos de datos de citas y se implementaron mejoras para el funcionamiento sin conexión (*offline reliability*).
+
+- **Aplicación Móvil (Flutter):** Se implementó el flujo completo de autenticación de usuarios, se añadieron modelos de disponibilidad semanal y excepciones, y se refactorizó la pantalla de horarios para gestionar la disponibilidad de los psicólogos de forma más flexible. También se actualizaron las dependencias y el título de la pantalla de inicio de sesión.
 
 
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
