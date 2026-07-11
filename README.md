@@ -3762,6 +3762,93 @@ Adicionalmente, los nuevos endpoints de **ResourceLibraries** y **Triggers** fue
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
+Durante el **Sprint 3** se consolidó la evidencia de despliegue del producto **NeuroZen**, desarrollado por la startup **NeuroDraw**, considerando la validación de las aplicaciones móviles (Flutter para psicólogos y pacientes), el backend desplegado en un entorno público, la landing page actualizada con los videos **About the Team** y **About the Product**, y la distribución de las apps mediante **Firebase App Distribution**.
+
+---
+
+**Deployment Scope during Sprint 3**
+
+| Producto | Despliegue / Ejecución | Entorno | Propósito | Evidencia |
+| :--- | :--- | :--- | :--- | :--- |
+| **Landing Page** | Netlify | Público | Validar acceso público al sitio informativo de NeuroZen, actualizado con los videos About the Team y About the Product | URL funcional |
+| **Web Services RESTful API** | Render | Público | Validar disponibilidad de endpoints y documentación Swagger/OpenAPI | URL Swagger funcional |
+| **Mobile App - Pacientes (Flutter)** | Android Studio / APK debug | Local / Firebase | Validar ejecución de flujos del paciente | Capturas de ejecución |
+| **Mobile App - Psicólogos (Flutter)** | Android Studio / APK debug | Local / Firebase | Validar ejecución de flujos del psicólogo | Capturas de ejecución |
+| **Firebase App Distribution** | Firebase Console | Distribución | Distribuir builds para validación final | Tabla de distribución |
+
+---
+
+**Firebase App Distribution Evidence**
+
+Durante el Sprint 3, las aplicaciones móviles **NeuroZen** fueron registradas y distribuidas mediante **Firebase App Distribution**. Este proceso permitió subir los APK generados, invitar verificadores y registrar el estado de aceptación y descarga de las versiones previas.
+
+| Aplicación Móvil | Tecnología | Package name | Versión | Invitados | Aceptados | Descargados | Estado |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| NeuroZen App - Pacientes | Flutter | `com.neurozen.patients` | 1.0.0 (1) | 5 | 2 | 2 | Validated |
+| NeuroZen App - Psicólogos | Flutter | `com.neurozen.psychologists` | 1.0.0 (1) | 5 | 2 | 2 | Validated |
+
+| Aplicación | Comando de construcción | Ruta APK de salida |
+| :--- | :--- | :--- |
+| NeuroZen App - Pacientes | `flutter build apk --debug` | `build/app/outputs/flutter-apk/app-debug.apk` |
+| NeuroZen App - Psicólogos | `flutter build apk --debug` | `build/app/outputs/flutter-apk/app-debug.apk` |
+
+*Captura de Firebase App Distribution:*
+
+![Firebase App Distribution](assets/images/sprint3/FB1.jpeg)
+
+![Firebase App Distribution](assets/images/sprint3/FB2.jpeg)
+
+![Firebase App Distribution](assets/images/sprint3/FB3.jpeg)
+
+![Firebase App Distribution](assets/images/sprint3/FB4.jpeg)
+
+![Firebase App Distribution](assets/images/sprint3/FB5.jpeg)
+
+
+---
+
+**Landing Page Deployment Evidence**
+
+La landing page se mantuvo desplegada en **Netlify** y fue actualizada durante el Sprint 3 con la integración de los videos **About the Team** y **About the Product**, cumpliendo con los requisitos de presentación del producto.
+
+- **URL de la Landing Page:** `https://neurozen-home.netlify.app/`
+
+| Evidencia | Descripción | Captura |
+| :--- | :--- | :--- |
+| Landing Page – Home | Vista principal de la landing page mostrando la propuesta de valor de NeuroZen. | ![Landing Home](assets/images/sprint3/Home.png) |
+| Landing Page – About the Team | Sección donde se incrustó el video About the Team. | ![About the Team](assets/images/sprint3/aboutteam.png) |
+| Landing Page – About the Product | Sección donde se incrustó el video About the Product. | ![About the Product](assets/images/sprint3/aboutproduct.png) |
+
+---
+
+**Deployment Validation Summary**
+
+| Producto | Validación realizada | Resultado | Observación |
+| :--- | :--- | :--- | :--- |
+| **Landing Page** | Acceso a través de URL pública | ✅ Exitoso | Sitio actualizado con videos About the Team y About the Product. |
+| **RESTful API** | Swagger UI y validación de endpoints | ✅ Exitoso | Backend disponible públicamente, soporta integración móvil. |
+| **Flutter App - Pacientes** | Distribución en Firebase App Distribution | ✅ Validado | 5 testers invitados, 2 aceptaciones, 2 descargas. |
+| **Flutter App - Psicólogos** | Distribución en Firebase App Distribution | ✅ Validado | 5 testers invitados, 2 aceptaciones, 2 descargas. |
+
+---
+
+**Sprint 3 Deployment Conclusions**
+
+El Sprint 3 permitió consolidar el despliegue y la validación técnica de **NeuroZen**, asegurando que los productos digitales estén listos para la entrega final **TB2**. El backend público, la ejecución de las aplicaciones móviles, la distribución mediante Firebase App Distribution y la disponibilidad de la landing page actualizada evidencian una solución integrada y coherente, alineada con los objetivos del proyecto.
+
+**URLs de los productos desplegados:**
+
+- **Landing Page:** [![Landing Page](https://img.shields.io/badge/Visit-Landing%20Page-blue?style=for-the-badge&logo=netlify&logoColor=white)](https://neurozen-home.netlify.app/)
+
+- **Backend (Swagger UI):** [![Swagger UI](https://img.shields.io/badge/API-Swagger%20UI-green?style=for-the-badge&logo=swagger&logoColor=white)](https://neurozen-backend-mobile.onrender.com/swagger/index.html)
+
+- **Repositorio Backend:** [![Backend Repository](https://img.shields.io/badge/Backend-Repository-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NeuroZen-Moviles/neurozen_backend_mobile)
+
+- **Repositorio Frontend (Flutter):** [![Flutter Repository](https://img.shields.io/badge/Flutter-Repository-blue?style=for-the-badge&logo=flutter&logoColor=white)](https://github.com/NeuroZen-Moviles/neurozen_front_flutter)
+
+- **Repositorio Frontend (Android):** [![Android Repository](https://img.shields.io/badge/Android-Repository-green?style=for-the-badge&logo=android&logoColor=white)](https://github.com/NeuroZen-Moviles/Neurozen-front-app)
+
+
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
 ## 4.3. Validation Interviews
