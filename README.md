@@ -62,6 +62,10 @@
 </div>
 
 ---
+
+<div style="page-break-after: always;"></div>
+
+
 ## Registro de Versiones del Informe
 
 | Versión | Fecha | Autores | Descripción |
@@ -271,6 +275,9 @@ A continuación, se presentan las evidencias de participación y colaboración d
   </tr>
 
 </table>
+
+<div style="page-break-after: always;"></div>
+
 
 # Contenido
 
@@ -690,6 +697,7 @@ En esta sección, cada miembro del equipo de trabajo formulará al menos dos obj
 
 ---
 
+<div style="page-break-after: always;"></div>
 
 
 # Capítulo I: Presentación
@@ -840,6 +848,9 @@ Este segmento está compuesto por personas que cumplen horarios laborales prolon
 Este segmento está compuesto por adultos que no necesariamente forman parte del empleo formal y cuyas actividades se desarrollan sin horarios fijos. A menudo, experimentan mayores niveles de estrés debido a la disponibilidad permanente que exige su trabajo, la inestabilidad económica y la dificultad para establecer límites entre la vida laboral y personal. Un estudio realizado a 250 trabajadores informales muestra que el 56% presenta un nivel medio de estrés, el 33.3% un nivel bajo y el 10.6% un nivel alto (Porcayo, 2022). Este grupo también se beneficiará de la plataforma, destacando su potencial para ampliar el alcance del producto en contextos laborales diversos y cada vez más comunes.
 
 ---
+
+<div style="page-break-after: always;"></div>
+
 
 # Capítulo II: Requirements Development and Software Solution Design
 
@@ -2284,6 +2295,8 @@ Tabla simple para almacenar el histórico de notificaciones (`id`, `recipient_id
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo III: Solution UI/UX Design
 
 ## 3.1. Product design
@@ -2596,6 +2609,9 @@ En esta sección se presentan los prototipos interactivos de la aplicación **Ne
 Estos prototipos simulan la navegación y los principales flujos de interacción, basados en los **User Flow Diagrams** previamente definidos.
 
 ---
+
+<div style="page-break-after: always;"></div>
+
 
 # Capítulo IV: Product Implementation & Validation
 
@@ -4691,6 +4707,10 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
 - **Recomendación:** Diferenciar conceptualmente los íconos. Se sugiere mantener el ícono de calendario para "Citas" (representando eventos concretos con pacientes) y utilizar un ícono de engranaje/horario (clock + gear) o un ícono de lista/agenda para "Disponibilidad" (representando la configuración de bloques de tiempo). Esto mejora el reconocimiento visual y la eficiencia en la navegación.
 
 ---
+
+<div style="page-break-after: always;"></div>
+
+
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
@@ -4916,6 +4936,10 @@ Las recomendaciones aquí presentadas constituyen un roadmap claro y accionable 
 - Link: https://drive.google.com/file/d/16jMDioUhBDkHK5oRhv3hPGo_qzby2eX6/view
   
 ---
+
+<div style="page-break-after: always;"></div>
+
+
 # Bibliografía
 
 ## Referencias
@@ -4992,6 +5016,9 @@ Durante la validación del prototipo se aplicaron heurísticas de usabilidad, ar
 5. Acceso a recomendaciones y actividades de relajación.
 6. Uso de agenda para contacto con psicólogos.
 7. Realización de pagos de suscripción.
+
+<div style="page-break-after: always;"></div>
+
 
 ## Anexo B. Integrantes del Equipo
 
