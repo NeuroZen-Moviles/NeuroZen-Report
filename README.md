@@ -455,6 +455,233 @@ A continuación, se presentan las evidencias de participación y colaboración d
 
 ---
 
+# Objetivos SMART
+
+En esta sección, cada miembro del equipo de trabajo formulará al menos dos objetivos SMART que se centren en el desarrollo profesional una vez finalizada su carrera. Estos objetivos deben ser claros, medibles y alcanzables, reflejando cómo cada integrante planea continuar con su crecimiento profesional después de la graduación.
+
+---
+
+## Miembro 1: Vila Guillen, Miguel Angel
+
+### Objetivo 1
+
+**Específico:** Consolidar competencias en desarrollo backend con .NET y C#, especializándome en la implementación de servicios RESTful con arquitectura basada en Domain-Driven Design (DDD) para aplicaciones móviles y empresariales.
+
+**Medible:**
+- Implementar al menos 3 proyectos backend completos con .NET Core / .NET 8 utilizando principios DDD.
+- Desarrollar y documentar 4 bounded contexts con sus respectivas capas (Domain, Application, Interface e Infrastructure).
+- Crear diagramas de arquitectura C4 para cada proyecto (Context, Container y Component Level).
+- Publicar los proyectos en repositorios públicos de GitHub con documentación técnica completa.
+
+**Alcanzable:** Aplicaré los conocimientos adquiridos durante las 15 semanas del proyecto NeuroZen y continuaré con cursos especializados en .NET, DDD y arquitectura de software, dedicando 8-10 horas semanales al desarrollo de proyectos personales.
+
+**Relevante:** Las habilidades en backend con .NET y DDD son fundamentales para desempeñarme como Backend Engineer o Software Architect, permitiéndome diseñar sistemas escalables, mantenibles y alineados con las necesidades del negocio.
+
+**Tiempo:** 12 meses (post-graduación).
+- Meses 1-4: Desarrollo del primer proyecto backend completo.
+- Meses 5-8: Desarrollo del segundo proyecto con integración de servicios externos.
+- Meses 9-12: Desarrollo del tercer proyecto y consolidación de un portafolio profesional.
+
+---
+
+### Objetivo 2
+
+**Específico:** Obtener una certificación internacional en desarrollo backend o arquitectura de software, como la certificación de Microsoft en .NET o AWS Certified Developer.
+
+**Medible:**
+- Completar un curso de preparación con al menos 50 horas de estudio.
+- Resolver 5 simulacros de examen con puntaje mayor o igual al 80%.
+- Aprobar 1 certificación reconocida internacionalmente y obtener el diploma correspondiente.
+
+**Alcanzable:** Dedicaré entre 6 a 8 horas semanales al estudio, combinando recursos online, cursos especializados en plataformas como Pluralsight o Microsoft Learn, y práctica en proyectos personales.
+
+**Relevante:** La certificación fortalecerá mi perfil profesional y me diferenciará frente a otros candidatos al momento de postular a empleos en empresas tecnológicas.
+
+**Tiempo:** 18 meses (post-graduación).
+- Meses 1-6: Estudio base, fundamentos y práctica guiada.
+- Meses 7-12: Simulacros y refuerzo en temas débiles.
+- Meses 13-18: Inscripción, examen oficial y obtención de la certificación.
+
+---
+
+## Miembro 2: Solis Chang, Santiago Valentino 
+
+### Objetivo 1
+
+**Específico:** Consolidar competencias en desarrollo móvil multiplataforma con Flutter, especializándome en la creación de aplicaciones con integración de servicios RESTful, manejo de estado avanzado (Riverpod/Bloc) y persistencia local.
+
+**Medible:**
+- Desarrollar y publicar al menos 2 aplicaciones móviles completas en Flutter en las tiendas de aplicaciones (Google Play y App Store).
+- Implementar en cada aplicación autenticación, consumo de APIs REST, persistencia local con SQLite/Hive y manejo de estado avanzado.
+- Alcanzar una calificación mínima de 4.0 estrellas en las tiendas de aplicaciones con al menos 50 descargas.
+- Documentar los proyectos con guías de instalación y uso.
+
+**Alcanzable:** Aplicaré los conocimientos adquiridos durante las 15 semanas del proyecto NeuroZen y continuaré con cursos especializados en Flutter, arquitectura de aplicaciones móviles y mejores prácticas, dedicando 8-10 horas semanales al desarrollo de proyectos personales.
+
+**Relevante:** Las habilidades en desarrollo móvil con Flutter son altamente demandadas en el mercado laboral actual, permitiéndome desempeñarme como Mobile Developer o Full Stack Developer con enfoque en experiencias móviles de alta calidad.
+
+**Tiempo:** 12 meses (post-graduación).
+- Meses 1-4: Desarrollo de la primera aplicación, enfocada en funcionalidades core.
+- Meses 5-8: Desarrollo de la segunda aplicación con funcionalidades avanzadas.
+- Meses 9-12: Publicación en tiendas, optimización y mejoras post-lanzamiento.
+
+---
+
+### Objetivo 2
+
+**Específico:** Desarrollar habilidades en gestión de equipos de desarrollo ágil y liderazgo técnico, preparándome para asumir roles de Tech Lead o Mobile Lead en proyectos de desarrollo móvil.
+
+**Medible:**
+- Participar como líder técnico en al menos 2 proyectos de desarrollo móvil (profesionales).
+- Implementar metodologías ágiles (Scrum/Kanban) con planificación de sprints y revisiones de código.
+- Realizar al menos 10 code reviews significativos por proyecto, documentando mejoras y aprendizajes.
+- Completar un curso de liderazgo o gestión de equipos de desarrollo.
+
+**Alcanzable:** Aprovecharé la experiencia obtenida durante las 15 semanas del proyecto NeuroZen, asumiendo roles de coordinación técnica, facilitando dinámicas colaborativas y promoviendo buenas prácticas.
+
+**Relevante:** El liderazgo técnico y la gestión de equipos son competencias clave para avanzar en la carrera profesional hacia roles de mayor responsabilidad, permitiéndome guiar equipos hacia la entrega exitosa de productos de software.
+
+**Tiempo:** 14 meses (post-graduación).
+- Meses 1-4: Formación en liderazgo y gestión ágil.
+- Meses 5-9: Asunción de roles de liderazgo en proyectos profesionales.
+- Meses 10-14: Consolidación de habilidades y aplicación en entornos complejos.
+
+---
+
+## Miembro 3: Requena Gutiérrez, Diego Gabriel
+
+### Objetivo 1
+
+**Específico:** Fortalecer competencias en desarrollo backend y arquitectura de software, profundizando en tecnologías como .NET, C#, bases de datos relacionales y despliegue en la nube, para diseñar sistemas robustos y escalables.
+
+**Medible:**
+- Desarrollar al menos 3 proyectos backend completos con .NET Core/.NET 8.
+- Implementar autenticación, autorización, pruebas unitarias e integración continua en cada proyecto.
+- Desplegar al menos 1 proyecto en un entorno cloud (Azure, AWS o Render).
+- Documentar técnicamente los proyectos con diagramas de arquitectura y guías de uso.
+
+**Alcanzable:** Aplicaré los conocimientos adquiridos durante las 15 semanas del proyecto NeuroZen y complementaré con cursos especializados en backend, bases de datos y despliegue en la nube.
+
+**Relevante:** Las habilidades en backend y arquitectura de software son fundamentales para desempeñarme como Backend Engineer o Software Architect, permitiéndome diseñar sistemas mantenibles y escalables.
+
+**Tiempo:** 14 meses (post-graduación).
+- Meses 1-5: Desarrollo del primer proyecto backend.
+- Meses 6-9: Desarrollo del segundo proyecto con integración avanzada.
+- Meses 10-14: Desarrollo del tercer proyecto y consolidación de portafolio.
+
+---
+
+### Objetivo 2
+
+**Específico:** Mejorar habilidades en documentación técnica y comunicación de soluciones de software, asegurando que la arquitectura del sistema y sus componentes sean claros, entendibles y mantenibles.
+
+**Medible:**
+- Elaborar documentación técnica completa para al menos 3 proyectos de software.
+- Crear al menos 5 diagramas de arquitectura (C4, UML, ERD) por proyecto.
+- Mantener actualizados los repositorios con estructura clara, organizada y alineada a buenas prácticas.
+- Publicar al menos 4 artículos técnicos sobre desarrollo de software en plataformas como Medium o Dev.to.
+
+**Alcanzable:** Aplicaré las habilidades adquiridas durante las 15 semanas del proyecto NeuroZen, utilizando herramientas como Markdown, GitHub, PlantUML y Structurizr, con dedicación semanal constante.
+
+**Relevante:** La documentación técnica sólida y la comunicación efectiva son competencias esenciales para el trabajo en equipo y el desarrollo profesional, especialmente en entornos colaborativos y distribuidos.
+
+**Tiempo:** 12 meses (post-graduación).
+- Meses 1-3: Estructuración y documentación del primer proyecto.
+- Meses 4-7: Documentación del segundo proyecto y elaboración de diagramas.
+- Meses 8-12: Publicación de artículos y consolidación del portafolio documental.
+
+---
+
+## Miembro 4: Huaman De La Cruz, Jean Pool
+
+### Objetivo 1
+
+**Específico:** Fortalecer competencias en documentación técnica y gestión de proyectos de software, especializándome en la organización de evidencias, reportes técnicos y comunicación efectiva de resultados en proyectos de desarrollo de software.
+
+**Medible:**
+- Elaborar documentación técnica completa para al menos 3 proyectos de software.
+- Crear y mantener repositorios de documentación con estructura clara y organizada.
+- Participar en al menos 2 proyectos como responsable de documentación y gestión de evidencias.
+- Publicar al menos 3 artículos sobre mejores prácticas en documentación de software y gestión de proyectos.
+
+**Alcanzable:** Aplicaré las habilidades adquiridas durante las 15 semanas del proyecto NeuroZen, utilizando herramientas como Markdown, GitHub, y metodologías de documentación técnica, dedicando 6-8 horas semanales al desarrollo de proyectos de documentación.
+
+**Relevante:** La documentación técnica efectiva es una competencia crítica en el desarrollo de software, permitiendo la transferencia de conocimiento, la mantenibilidad de sistemas y la comunicación con stakeholders. Estas habilidades son esenciales para roles como Technical Writer, Project Manager o Software Engineer con enfoque en calidad y comunicación.
+
+**Tiempo:** 14 meses (post-graduación).
+- Meses 1-4: Estructuración y documentación del primer proyecto.
+- Meses 5-9: Documentación del segundo proyecto con diagramas avanzados.
+- Meses 10-14: Documentación del tercer proyecto y publicación de artículos.
+
+---
+
+### Objetivo 2
+
+**Específico:** Desarrollar habilidades en comunicación y presentación de resultados técnicos, preparándome para exponer proyectos de software ante audiencias técnicas y no técnicas.
+
+**Medible:**
+- Realizar al menos 5 presentaciones técnicas (profesionales o académicas).
+- Crear materiales de presentación de alta calidad para cada proyecto (diapositivas, videos, demos).
+- Participar en al menos 2 eventos de networking o conferencias relacionadas con ingeniería de software.
+- Recopilar feedback positivo de al menos 3 audiencias sobre la claridad y efectividad de las presentaciones.
+
+**Alcanzable:** Participaré activamente en presentaciones profesionales, eventos de la industria y reuniones de equipo, practicando la comunicación de soluciones técnicas de manera clara y efectiva.
+
+**Relevante:** La comunicación efectiva de resultados técnicos es una habilidad fundamental para el desarrollo profesional, permitiendo influir en decisiones, colaborar con equipos multidisciplinarios y avanzar en roles de liderazgo.
+
+**Tiempo:** 12 meses (post-graduación).
+- Meses 1-3: Preparación y estructuración de presentaciones.
+- Meses 4-7: Ejecución de presentaciones en entornos profesionales.
+- Meses 8-12: Participación en eventos y networking.
+
+---
+
+## Miembro 5: Castro Picón, Manuel Fernando Joao
+
+### Objetivo 1
+
+**Específico:** Desarrollar competencias avanzadas en desarrollo móvil nativo con Android (Kotlin), especializándome en arquitecturas modernas (MVVM, Clean Architecture), consumo de APIs REST, manejo de datos offline y optimización de interfaces con Jetpack Compose.
+
+**Medible:**
+- Desarrollar y publicar al menos 2 aplicaciones Android completas en Google Play Store.
+- Implementar en cada aplicación arquitectura MVVM con Clean Architecture, consumo de APIs REST, persistencia con Room, y manejo de estados con StateFlow/SharedFlow.
+- Alcanzar una calificación mínima de 4.0 estrellas en Google Play Store.
+- Documentar los proyectos con guías de instalación, uso y decisiones técnicas.
+
+**Alcanzable:** Aplicaré los conocimientos adquiridos durante las 15 semanas del proyecto NeuroZen y complementaré con cursos especializados en Android, Kotlin y Jetpack Compose, dedicando 8-10 horas semanales al desarrollo de proyectos personales.
+
+**Relevante:** El desarrollo móvil nativo para Android sigue siendo altamente demandado en el mercado laboral, permitiéndome desempeñarme como Mobile Developer o Software Engineer especializado en experiencias móviles de alta calidad.
+
+**Tiempo:** 14 meses (post-graduación).
+- Meses 1-5: Desarrollo de la primera aplicación Android.
+- Meses 6-9: Desarrollo de la segunda aplicación con funcionalidades avanzadas.
+- Meses 10-14: Publicación en Google Play y mejoras post-lanzamiento.
+
+---
+
+### Objetivo 2
+
+**Específico:** Fortalecer competencias en liderazgo técnico y coordinación de equipos de desarrollo, preparándome para asumir roles de Mobile Lead o Team Lead en proyectos de desarrollo móvil.
+
+**Medible:**
+- Asumir el rol de líder técnico en al menos 2 proyectos de desarrollo móvil (profesionales).
+- Implementar flujos de trabajo colaborativos con Git (pull requests, code reviews, gestión de ramas).
+- Realizar al menos 15 code reviews significativos por proyecto.
+- Completar un curso de liderazgo o gestión de equipos de desarrollo.
+
+**Alcanzable:** Aprovecharé la experiencia obtenida durante las 15 semanas del proyecto NeuroZen, asumiendo roles de coordinación técnica, promoviendo buenas prácticas y facilitando la integración de cambios mediante flujos de trabajo con Git.
+
+**Relevante:** El liderazgo técnico y la capacidad de coordinar equipos de desarrollo son competencias clave para avanzar en la carrera profesional hacia roles de mayor responsabilidad y liderazgo en proyectos de software.
+
+**Tiempo:** 12 meses (post-graduación).
+- Meses 1-4: Formación en liderazgo y gestión de equipos.
+- Meses 5-8: Asunción de roles de liderazgo en proyectos profesionales.
+- Meses 9-12: Consolidación de habilidades y aplicación en entornos complejos.
+
+---
+
+
+
 # Capítulo I: Presentación
 
 ## 1.1. Startup Profile
