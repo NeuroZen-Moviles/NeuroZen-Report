@@ -3851,6 +3851,269 @@ El Sprint 3 permitió consolidar el despliegue y la validación técnica de **Ne
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint
 
+Durante el **Sprint 3**, el equipo trabajó de manera coordinada en cinco frentes principales: el repositorio de documentación del informe, el backend, la aplicación móvil en Flutter (para psicólogos y pacientes), la aplicación Android y la landing page. La colaboración se gestionó a través de **GitHub**, utilizando ramas individuales para cada funcionalidad y commits para la integración de código.
+
+A diferencia de Sprints anteriores, en esta etapa el trabajo se concentró en completar y ajustar funcionalidades móviles ya iniciadas, así como en la actualización de la landing page con los videos **About the Team** y **About the Product**. La colaboración no solo se refleja en la cantidad de commits, sino también en la revisión de flujos, integración de cambios, resolución de conflictos, validación con backend y consolidación de evidencias para la entrega final.
+
+---
+
+**Integrantes del equipo**
+
+| Código | Apellidos y Nombres |
+| :--- | :--- |
+| U20231G159 | Castro Picón, Manuel Fernando Joao |
+| U202321774 | Requena Gutiérrez, Diego Gabriel |
+| U20201E781 | Huaman De La Cruz, Jean Pool |
+| U20231B475 | Solis Chang, Santiago Valentino |
+| U20231G054 | Vila Guillen, Miguel Angel |
+
+---
+
+**Distribución general del trabajo durante el Sprint 3**
+
+Durante el Sprint 3, el trabajo se organizó de acuerdo con los productos móviles y los bounded contexts priorizados en el backlog. La distribución general permitió que el equipo avance en paralelo sobre distintos flujos de la aplicación, manteniendo la integración con los servicios del backend.
+
+Las principales líneas de trabajo fueron:
+
+- Desarrollo y mejora del frontend móvil en **Flutter** para psicólogos y pacientes.
+- Desarrollo y mantenimiento del frontend en **Android**.
+- Implementación de nuevos endpoints en el **backend** (ResourceLibraries, Triggers, Meditation).
+- Actualización de la **landing page** con los videos About the Team y About the Product.
+- Integración de pantallas móviles con endpoints reales del backend.
+- Ajustes en navegación, flujos de usuario y validaciones funcionales.
+- Preparación de evidencias, capturas y documentación en el repositorio **REPORT**.
+
+---
+
+**Repositorios trabajados durante el Sprint**
+
+Durante el Sprint 3, la colaboración del equipo se evidenció principalmente en los siguientes repositorios:
+
+| Repositorio | Descripción | Tecnología |
+| :--- | :--- | :--- |
+| **NeuroZen-Report** | Documentación del proyecto | Markdown |
+| **neurozen_backend_mobile** | Backend RESTful API | C# / .NET |
+| **neurozen_front_flutter** | Aplicación móvil en Flutter | Dart / Flutter |
+| **Neurozen-front-app** | Aplicación móvil en Android | Kotlin |
+| **NeuroZen-Landing** | Landing page | Astro / HTML / CSS |
+
+*Captura de los 5 repositorios del proyecto:*
+
+![Repositorios NeuroZen](assets/images/sprint3/NeuroZen-Moviles-5-repositorios.png)
+
+---
+
+**Repositorio 1: NeuroZen-Report (Documentación del Informe)**
+
+**Repositorio:** https://github.com/NeuroZen-Moviles/NeuroZen-Report
+
+**Producto:** Documentación del proyecto.
+
+**Estadísticas de actividad visible al cierre del Sprint 3:**
+- Commits: 187
+- Branches: 3 (trabajo directo sobre `develop`)
+- Último commit: 26 minutos antes de la captura
+
+En este repositorio se concentró la elaboración directa del informe, la organización de capítulos, la integración de capturas, la redacción de análisis y la consolidación de la evidencia necesaria para el Sprint Review. A diferencia de otros repositorios, el trabajo en el informe se realizó directamente sobre la rama `develop`, sin utilizar ramas adicionales para cada sección.
+
+*Captura del repositorio NeuroZen-Report:*
+
+![NeuroZen-Report](assets/images/sprint3/NeuroZen-report.png)
+
+*Captura de commits del repositorio NeuroZen-Report (Sprint 3):*
+
+![NeuroZen-Report Commits](assets/images/sprint3/NeuroZen-report-commit.png)
+
+*Captura de commits del repositorio NeuroZen-Report (Sprint 2 - TB1):*
+
+![NeuroZen-Report Commits 2](assets/images/sprint3/NeuroZen-report-commit2.png)
+
+*Captura de commits del repositorio NeuroZen-Report (AV1):*
+
+![NeuroZen-Report Commits 3](assets/images/sprint3/NeuroZen-report-commit3.png)
+
+**Interpretación:**
+Los commits en el repositorio REPORT evidencian la colaboración documental del equipo. Aunque los repositorios técnicos muestran la implementación, el reporte permite explicar el contexto de los cambios, registrar evidencias y sustentar el avance del Sprint. La actividad en REPORT refleja la integración del trabajo de todos los integrantes, consolidando las evidencias de ejecución, pruebas, despliegue y colaboración.
+
+---
+
+**Repositorio 2: neurozen_backend_mobile (Backend)**
+
+**Repositorio:** https://github.com/NeuroZen-Moviles/neurozen_backend_mobile
+
+**Producto:** Backend RESTful API.
+
+**Tecnología principal:** C# / .NET
+
+**Estadísticas de actividad visible al cierre del Sprint 3:**
+- Commits: Múltiples commits el 9 y 10 de julio
+- Branches: 1 (main)
+- Último commit: 2 horas antes de la captura
+
+*Captura del repositorio neurozen_backend_mobile:*
+
+![neurozen_backend_mobile](assets/images/sprint3/neurozen_backend_mobile.png)
+
+*Captura de commits del repositorio neurozen_backend_mobile:*
+
+![neurozen_backend_mobile Commits](assets/images/sprint3/neurozen_backend_mobile-commit.png)
+
+**Commits realizados en el repositorio del backend (9-10 de julio):**
+
+| Commit | Mensaje | Autor |
+| :--- | :--- | :--- |
+| afe9009 | Update README.md | TrevOrRrR |
+| 5b7720a | chore: refactor professional creation process to return detailed results | Ax3Unr |
+| b3c801a | chore: enhance logging for professional creation process | Ax3Unr |
+| 1287ed7 | chore: refactor migration to use conditional SQL | Ax3Unr |
+| 2ed09af | chore: remove redundant SQL commands for dropping indexes on UserId | Ax3Unr |
+| 83a4c02 | chore: remove UserId column | Ax3Unr |
+
+**Interpretación:**
+La actividad en el repositorio backend refleja el trabajo de refactorización y mejora de los servicios relacionados con profesionales. Los commits muestran una evolución hacia una mejor gestión de errores, logging y optimización de migraciones. La distribución de commits entre diferentes autores evidencia colaboración en el desarrollo del backend durante el Sprint 3.
+
+---
+
+**Repositorio 3: neurozen_front_flutter (Aplicación Móvil - Flutter)**
+
+**Repositorio:** https://github.com/NeuroZen-Moviles/neurozen_front_flutter
+
+**Producto:** Aplicación móvil para psicólogos y pacientes.
+
+**Tecnología principal:** Dart / Flutter
+
+**Estadísticas de actividad visible al cierre del Sprint 3:**
+- Commits: 7 commits el 10 de julio
+- Branches: 1 (main)
+
+*Captura del repositorio neurozen_front_flutter:*
+
+![neurozen_front_flutter](assets/images/sprint3/neurozen_front_flutter.png)
+
+*Captura de commits del repositorio neurozen_front_flutter:*
+
+![neurozen_front_flutter Commits](assets/images/sprint3/neurozen_front_flutter-commit.png)
+
+**Commits realizados en el repositorio Flutter (10 de julio):**
+
+| Commit | Mensaje | Autor |
+| :--- | :--- | :--- |
+| Qabeld5 | Changed the version of the app | TReV0rRrRr |
+| e11c6ec | Deleting the debug messages | TReV0rRrRr |
+| 6167709 | Making the "log out" button more noticeable | TReV0rRrRr |
+| b543175 | Changed the color of the "log out" button | TReV0rRrRr |
+| 077c36e | Added a way to log out when you log in with a non-existing account | TReV0rRrRr |
+| d7a56d4 | Added the internet permission for production | TReV0rRrRr |
+
+**Interpretación:**
+La actividad en el repositorio Flutter se concentró en mejoras de usabilidad y experiencia de usuario, incluyendo la gestión de cierre de sesión, manejo de errores y configuración de permisos. Estos cambios evidencian un enfoque en pulir la aplicación para la entrega final, mejorando la interacción del usuario y la robustez de la aplicación.
+
+---
+
+**Repositorio 4: Neurozen-front-app (Aplicación Móvil - Android)**
+
+**Repositorio:** https://github.com/NeuroZen-Moviles/Neurozen-front-app
+
+**Producto:** Aplicación móvil en Android.
+
+**Tecnología principal:** Kotlin
+
+**Estadísticas de actividad visible al cierre del Sprint 3:**
+- Commits: 17 commits totales
+- Branches: 2
+- Último commit: ayer (9 de julio)
+
+*Captura del repositorio Neurozen-front-app:*
+
+![Neurozen-front-app](assets/images/sprint3/Neurozen-front-app.png)
+
+*Captura de commits del repositorio Neurozen-front-app:*
+
+![Neurozen-front-app Commits](assets/images/sprint3/Neurozen-front-app-commit.png)
+
+**Commits realizados en el repositorio Android:**
+
+| Commit | Mensaje | Autor |
+| :--- | :--- | :--- |
+| ebaa125 | Refactor psychologist scheduling logic, update appointment data models, and improve offline reliability | YunyinProgram |
+| 384b5ee | Update API models for UUID/Int consistency and refactor appointment handling | YunyinProgram |
+| d574cdf | Merge branch 'using-db-instead-of-hardcoded-data' | ITEvORiRR |
+| f4f9585 | Update API models with SerializedName annotations and fix date formatting | ITEvORiRR |
+| 44efce8 | Merge pull request #1 | ITEvORiRR |
+
+**Interpretación:**
+El repositorio Android muestra un trabajo importante en la refactorización de la lógica de agendamiento de psicólogos, actualización de modelos de datos y mejora de la fiabilidad offline. La presencia de pull requests y merges evidencia un flujo de trabajo colaborativo organizado, con integración de cambios mediante revisiones.
+
+---
+
+**Repositorio 5: NeuroZen-Landing (Landing Page)**
+
+**Repositorio:** https://github.com/NeuroZen-Moviles/NeuroZen-Landing
+
+**Producto:** Landing page de NeuroZen.
+
+**Tecnología principal:** Astro / HTML / CSS
+
+**Estadísticas de actividad visible al cierre del Sprint 3:**
+- Commits: 159 commits totales
+- Branches: 1 (master)
+- Último commit: 40 minutos antes de la captura
+
+*Captura del repositorio NeuroZen-Landing:*
+
+![NeuroZen-Landing](assets/images/sprint3/NeuroZen-Landing.png)
+
+*Captura de commits del repositorio NeuroZen-Landing:*
+
+![NeuroZen-Landing Commits](assets/images/sprint3/NeuroZen-Landing-commit.png)
+
+**Commits realizados en el repositorio Landing Page (10 de julio):**
+
+| Commit | Mensaje | Autor |
+| :--- | :--- | :--- |
+| 382e823 | Enhancing the order of the videos | TfEv0RfRr |
+| 382e823 | Added the new videos for the landing page (Abt The product and Abt The Team) | TfEv0RfRr |
+| 382e823 | Added the translation for the new "About Us" titles | TfEv0RfRr |
+
+**Interpretación:**
+La actividad en el repositorio de la landing page se centró en la actualización del sitio con los videos About the Team y About the Product, así como en la mejora de la organización y traducción de los contenidos. Esto evidencia el trabajo final de preparación del producto para la presentación.
+
+---
+
+**Análisis general de la colaboración del Sprint**
+
+A partir de la evidencia disponible, el equipo interpreta la colaboración del Sprint 3 de la siguiente manera:
+
+| Aspecto | Observación |
+| :--- | :--- |
+| **Actividad técnica** | Se concentró en los repositorios backend y Flutter, con commits frecuentes y consistentes. |
+| **Organización del trabajo** | Se realizó mediante commits directos y pull requests, permitiendo integrar cambios de forma progresiva. |
+| **Documentación** | El repositorio REPORT permitió consolidar evidencias y dar trazabilidad al avance del Sprint. |
+| **Participación del equipo** | No debe interpretarse únicamente por la cantidad de commits, sino también por la revisión funcional, validación de flujos, integración con backend y preparación del entregable. |
+| **Resolución de conflictos** | La integración de cambios mediante merges permitió consolidar avances de distintos integrantes sin perder funcionalidades previas. |
+| **Separación de productos** | La división entre repositorios (backend, Flutter, Android, landing, report) ayudó a mantener diferenciados los componentes del sistema. |
+
+---
+
+**Resumen de Commits por Repositorio**
+
+| Repositorio | Commits en Sprint 3 | Contribuidores | Descripción |
+| :--- | :--- | :--- | :--- |
+| NeuroZen-Report | Múltiples (187 totales) | charlie404x, TReV0rRrR, dieboz | Documentación del proyecto, capturas, análisis |
+| neurozen_backend_mobile | 6+ | Ax3Unr, TrevOrRrR | Refactorización de profesionales, migraciones |
+| neurozen_front_flutter | 7 | TReV0rRrRr | Mejoras de usabilidad, logout, permisos |
+| Neurozen-front-app | 5+ | YunyinProgram, ITEvORiRR | Refactorización de agendamiento, modelos API |
+| NeuroZen-Landing | 3+ | TfEv0RfRr | Actualización de videos, traducciones |
+
+---
+
+**Conclusión de la colaboración del Sprint 3**
+
+Durante el Sprint 3, el equipo fortaleció su dinámica de colaboración mediante el uso de repositorios separados, commits por funcionalidad, integración de cambios y documentación de evidencias. El trabajo realizado permitió avanzar en la consolidación de las aplicaciones móviles de NeuroZen (Flutter y Android), manteniendo la separación entre pacientes y psicólogos, y actualizando la landing page para la presentación final.
+
+Aunque la actividad visible en GitHub puede variar entre repositorios e integrantes, la colaboración se reflejó en la implementación, validación, resolución de conflictos y consolidación del entregable final para el Sprint Review de la entrega **TB2**.
+
+
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
