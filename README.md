@@ -4563,21 +4563,122 @@ Propuso incluir una sección de “primeros pasos” al ingresar.
 Vio útiles las funciones de login, perfil y suscripciones, sobre todo si pueden personalizarse según la rutina del usuario.
 
 ---
-
 ### 4.3.3. Evaluaciones según heurísticas
 
-**Evaluación heurística de la aplicación NeuroZen**
+**Evaluación Heurística de Usabilidad y Diseño Inclusivo para la Aplicación: "NeuroZen"**
 
-Este análisis se basa en principios de usabilidad para evaluar la experiencia del usuario en la aplicación NeuroZen. Se identifican fortalezas, debilidades y recomendaciones de mejora.
+**UX Heuristics & Principles Evaluation**
 
-| **Heurística**                      | **Severidad** | **Descripción**                                                                                                                                      | **Recomendación**                                                                                                        |
-| ----------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Visibilidad del estado del sistema  | 2             | La aplicación cuenta con una sección de “Tests” donde el usuario puede realizar un test dentro de la misma página web para ver su nivel de estrés.   | La sección de test debe mejorar un poco el diseño en mostrar las preguntas más interactivas para el usuario.             |
-| Control y libertad del usuario      | 1             | El usuario puede eliminar, cancelar o rehacer cualquier actividad que esté haciendo en la aplicación, porque siempre tiene una opción para cancelar. | En esta sección no hay mejoras, ya que siempre se encuentra esta heurística.                                             |
-| Diseño estético y minimalista       | 1             | El diseño es limpio y tranquilo, lo cual va en línea con el objetivo del proyecto. No hay sobrecarga de información.                                 | Mantener el estilo actual. Podría beneficiarse de sutiles animaciones o íconos explicativos para aumentar el atractivo.  |
-| Reconocimiento en lugar de recuerdo | 3             | La aplicación aún presenta algunos fallos en cuanto a guardar información cotidiana de la actividad del usuario.                                     | Se debe mejorar el análisis de la información que el usuario mantiene cotidianamente para disminuir la carga de memoria. |
+| Campo | Detalle |
+| :--- | :--- |
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | 1acc0238 Aplicaciones para dispositivos móviles |
+| **SECCIÓN** | 3646 |
+| **PROFESORES** | Mayta Guillermo Jorge Luis |
+| **AUDITOR** | NeuroDraw |
+| **CLIENTES** | Castro Picón, Manuel Fernando Joao; Requena Gutiérrez, Diego Gabriel; Huaman De La Cruz, Jean Pool; Solis Chang, Santiago Valentino; Vila Guillen, Miguel Angel |
+| **SITE o APP A EVALUAR** | NeuroZen (Aplicación Móvil para Psicólogos y Pacientes) |
 
 ---
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas dentro de la aplicación móvil NeuroZen:
+
+1.  Registro e inicio de sesión de usuarios (Psicólogos y Pacientes).
+2.  Gestión de disponibilidad y programación de horarios de atención (Psicólogos).
+3.  Búsqueda y agendamiento de citas con especialistas (Pacientes).
+4.  Visualización y edición del perfil profesional (Psicólogos).
+5.  Registro de atenciones y notas de sesiones (Psicólogos).
+6.  Realización de ejercicios de respiración y meditación (Pacientes).
+7.  Visualización del dashboard de progreso y métricas.
+
+**No están incluidas en esta versión de la evaluación** las siguientes tareas:
+1.  Integración con pasarelas de pago reales en producción.
+2.  Sincronización con calendarios externos (Google Calendar, Outlook).
+3.  Módulo de comunidad y foros de apoyo (aún en fase de diseño).
+
+---
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
+
+| Nivel | Descripción |
+| :--- | :--- |
+| **1** | **Problema superficial:** Puede ser fácilmente superado por el usuario y ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | **Problema menor:** Puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| **3** | **Problema mayor:** Ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | **Problema muy grave:** Un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| :--- | :--- | :--- | :--- |
+| 1 | El formulario de creación de disponibilidad horaria permite seleccionar una hora de fin anterior a la hora de inicio, sin validación que prevenga el error antes de guardar. | 3 | **Prevención de errores (Error Prevention)** |
+| 2 | Cuando la sesión del usuario expira (token JWT inválido), la aplicación muestra un mensaje de error técnico o genérico en lugar de guiar al usuario hacia la pantalla de inicio de sesión con un mensaje claro. | 3 | **Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores (Help Users Recognize, Diagnose, and Recover from Errors)** |
+| 3 | En la pantalla de atención a pacientes, no existe un botón de "Cancelar" o "Descartar" claro que permita salir sin guardar los cambios accidentales, lo que fuerza al psicólogo a completar o perder el progreso. | 2 | **Control y libertad del usuario (User Control and Freedom)** |
+| 4 | El indicador de progreso del perfil del psicólogo (ej. "2 de 4 pasos completados") no especifica qué campos faltan por llenar, obligando al usuario a recordar o revisar manualmente cada sección. | 2 | **Reconocimiento antes que recuerdo (Recognition Rather Than Recall)** |
+| 5 | Al enviar una valoración o reseña sobre un entrenador o cancha, la interfaz no muestra un indicador de carga (spinner) ni deshabilita el botón, lo que lleva a que los usuarios hagan clic múltiples veces y generen peticiones duplicadas. | 2 | **Visibilidad del estado del sistema (Visibility of System Status)** |
+| 6 | Los íconos de navegación para "Citas" y "Horario de atención" son visualmente similares (ambos usan calendarios), lo que genera confusión inicial entre los psicólogos sobre cuál opción deben seleccionar para gestionar su agenda. | 1 | **Consistencia y estándares (Consistency and Standards) / Adecuación al mundo real (Match Between System and the Real World)** |
+
+---
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1: El formulario de creación de disponibilidad horaria permite seleccionar una hora de fin anterior a la hora de inicio, sin validación que prevenga el error antes de guardar.**
+
+- **Severidad:** 3
+- **Heurística violada:** Prevención de errores (Error Prevention)
+- **Problema:** Al momento de configurar los bloques de disponibilidad en la agenda del psicólogo (Horario de atención), los selectores de hora (inicio y fin) operan de manera independiente. Si el usuario selecciona por error una hora de fin (ej. 10:00 AM) que es cronológicamente anterior a la hora de inicio (ej. 11:00 AM), la aplicación permite guardar el bloque sin mostrar ninguna advertencia. Esto provoca inconsistencias en la lógica del calendario y puede derivar en conflictos de agenda que afecten la programación de citas.
+- **Recomendación:** Implementar una validación en tiempo real en el formulario. Se debe condicionar el estado del botón "Guardar" a que la hora de fin sea estrictamente posterior a la hora de inicio. Adicionalmente, se sugiere mostrar un mensaje de texto de ayuda (en rojo) debajo de los selectores que indique: "La hora de fin debe ser posterior a la hora de inicio".
+
+---
+
+**PROBLEMA #2: Cuando la sesión del usuario expira (token JWT inválido), la aplicación muestra un mensaje de error técnico o genérico en lugar de guiar al usuario hacia la pantalla de inicio de sesión con un mensaje claro.**
+
+- **Severidad:** 3
+- **Heurística violada:** Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores (Help Users Recognize, Diagnose, and Recover from Errors)
+- **Problema:** Cuando el token de autenticación JWT caduca (por tiempo de inactividad o seguridad), las peticiones al backend devuelven un error 401. En versiones anteriores de la aplicación, este error se atrapaba en un bloque genérico que mostraba un mensaje como "Error de conexión" o "No se pudo conectar al servidor". Aunque se mejoró con un cierre de sesión forzado, el usuario aún puede encontrar confusión al no entender por qué fue desconectado repentinamente, sin un mensaje específico que explique el motivo (ej. "Tu sesión ha expirado por seguridad. Por favor, inicia sesión nuevamente").
+- **Recomendación:** Incorporar un interceptor de red que detecte el código de estado 401 y dispare una ventana modal o un snackbar claro con un mensaje explícito ("Tu sesión ha expirado. Por favor, inicia sesión de nuevo."). A continuación, la aplicación debe limpiar el almacenamiento local y redirigir automáticamente a la pantalla de Login.
+
+---
+
+**PROBLEMA #3: En la pantalla de atención a pacientes, no existe un botón de "Cancelar" o "Descartar" claro que permita salir sin guardar los cambios accidentales.**
+
+- **Severidad:** 2
+- **Heurística violada:** Control y libertad del usuario (User Control and Freedom)
+- **Problema:** En la pantalla donde el psicólogo registra las notas, diagnósticos y recomendaciones de una sesión ("Atención a Pacientes"), solo se visualiza la opción de "Guardar". Si el psicólogo abre accidentalmente el paciente incorrecto o decide no guardar los cambios realizados, no tiene una opción clara para salir o descartar el progreso sin almacenar la información. Esto puede llevar a que se guarden datos incompletos o incorrectos.
+- **Recomendación:** Agregar un botón "Cancelar" o "Descartar" claramente visible (puede estar en la esquina superior izquierda o en un menú de opciones). Al presionarlo, se debe mostrar un diálogo de confirmación: "¿Estás seguro de que deseas salir? Los cambios no guardados se perderán." para evitar acciones accidentales.
+
+---
+
+**PROBLEMA #4: El indicador de progreso del perfil del psicólogo (ej. "2 de 4 pasos completados") no especifica qué campos faltan por llenar.**
+
+- **Severidad:** 2
+- **Heurística violada:** Reconocimiento antes que recuerdo (Recognition Rather Than Recall)
+- **Problema:** En la pantalla de perfil profesional, el sistema muestra un indicador de "Perfil incompleto" con un mensaje genérico (ej. "Completa tu información profesional") y un contador de pasos ("2 de 4 pasos completados"). Sin embargo, la interfaz no lista de manera explícita cuáles son esos "4 pasos" ni cuáles están pendientes (ej. "Falta añadir: Biografía, Experiencia, Precio por sesión"). El usuario debe forzar su memoria o navegar manualmente por el formulario de edición para descubrir qué datos le faltan.
+- **Recomendación:** Modificar el widget de progreso para que actúe como una lista de verificación (checklist). Mostrar los 4 pasos específicos (ej. "1. Datos personales", "2. Especialidad", "3. Experiencia", "4. Precios") con un ícono de "check" verde para los completados y un ícono de "pendiente" para los faltantes. Esto reduce la carga cognitiva del usuario.
+
+---
+
+**PROBLEMA #5: Al enviar una valoración o reseña sobre un entrenador o cancha, la interfaz no muestra un indicador de carga (spinner) ni deshabilita el botón.**
+
+- **Severidad:** 2
+- **Heurística violada:** Visibilidad del estado del sistema (Visibility of System Status)
+- **Problema:** Cuando un usuario finaliza una sesión y procede a valorar al psicólogo (o una cancha), el proceso de envío de la reseña implica una petición al servidor. Si la aplicación no muestra un indicador de "Enviando..." ni deshabilita el botón de "Publicar" durante el procesamiento, el usuario puede experimentar incertidumbre y presionar el botón repetidamente. Esto genera múltiples peticiones duplicadas al backend, lo que puede provocar la creación de reseñas duplicadas o lentitud en la respuesta.
+- **Recomendación:** Implementar un estado de `isLoading` en el componente de valoración. Al hacer clic en "Enviar", el botón debe deshabilitarse y cambiar su texto a "Publicando..." acompañado de un indicador de progreso circular. Una vez recibida la confirmación del servidor, el botón debe restaurarse y mostrar una notificación de éxito (Snackbar o Toast).
+
+---
+
+**PROBLEMA #6: Los íconos de navegación para "Citas" y "Horario de atención" son visualmente similares (ambos usan calendarios).**
+
+- **Severidad:** 1
+- **Heurística violada:** Consistencia y estándares (Consistency and Standards) / Adecuación al mundo real (Match Between System and the Real World)
+- **Problema:** En el menú inferior de navegación de la aplicación para psicólogos, los íconos utilizados para acceder a las "Citas" (appointments) y al "Horario de atención" (availability/schedule) son muy similares, ambos basados en íconos de calendario o reloj. Esta falta de diferenciación visual puede causar confusión inicial en los psicólogos, quienes deben leer varias veces la etiqueta textual para asegurarse de que están accediendo a la sección correcta (una para ver citas agendadas y otra para configurar su disponibilidad).
+- **Recomendación:** Diferenciar conceptualmente los íconos. Se sugiere mantener el ícono de calendario para "Citas" (representando eventos concretos con pacientes) y utilizar un ícono de engranaje/horario (clock + gear) o un ícono de lista/agenda para "Disponibilidad" (representando la configuración de bloques de tiempo). Esto mejora el reconocimiento visual y la eficiencia en la navegación.
 
 ---
 
