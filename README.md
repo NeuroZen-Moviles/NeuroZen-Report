@@ -4993,42 +4993,24 @@ Durante la validación del prototipo se aplicaron heurísticas de usabilidad, ar
 | ![Diego](assets/images/cap1/members/diego-requena.jpeg) | Diego Gabriel Requena Gutiérrez   | Ingeniería de Software | Tengo 19 años y curso el 5to ciclo en la Universidad Peruana de Ciencias Aplicadas. Soy una persona comprometida con mis objetivos, busco optimizar mi rendimiento y mantener un equilibrio entre la excelencia y una vida saludable.                       |
 | ![JeanPool](assets/images/cap1/members/jeanpool.jpg)    | Huaman De La Cruz Jean Pool       | Ingeniería de Software | Tengo 23 años; Estoy cursando la carrera de ingeniería de software en quinto ciclo. Soy una persona orientada a objetivos y con una meta clara, quiero poder crear soluciones disruptivas que revolucionen el mercado.                                      |
 
-Nuestro Landing Page:
+**URLs de los productos desplegados:**
 
-## [● Link: [https://neurozen-home.netlify.app](https://neurozen-home.netlify.app)]
+- **Landing Page:** [![Landing Page](https://img.shields.io/badge/Visit-Landing%20Page-blue?style=for-the-badge&logo=netlify&logoColor=white)](https://neurozen-home.netlify.app)
 
-Nuestro Backend:
+- **Backend (Swagger UI):** [![Swagger UI](https://img.shields.io/badge/API-Swagger%20UI-green?style=for-the-badge&logo=swagger&logoColor=white)](https://neurozen-backend-mobile.onrender.com/swagger/index.html)
 
-## [● Link: [https://neurozen-backend-mobile.onrender.com/swagger/index.html]
+- **Repositorio Backend:** [![Backend Repository](https://img.shields.io/badge/Backend-Repository-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NeuroZen-Moviles/neurozen_backend_mobile.git)
 
-Repositorio del Frontend (Android):
+- **Repositorio Frontend (Flutter):** [![Flutter Repository](https://img.shields.io/badge/Flutter-Repository-blue?style=for-the-badge&logo=flutter&logoColor=white)](https://github.com/NeuroZen-Moviles/neurozen_front_flutter)
 
-## [● Link: [https://github.com/NeuroZen-Moviles/Neurozen-front-app]
+- **Repositorio Frontend (Android):** [![Android Repository](https://img.shields.io/badge/Android-Repository-green?style=for-the-badge&logo=android&logoColor=white)](https://github.com/NeuroZen-Moviles/Neurozen-front-app)
 
-Repositorio del Frontend (Flutter):
+- **Frontend desplegado (Android):** [![Android Demo](https://img.shields.io/badge/Demo-Android-green?style=for-the-badge&logo=android&logoColor=white)](https://appetize.io/app/android/com.example.neurozen_front?device=pixel7&osVersion=13.0&toolbar=true)
 
-## [● Link: [https://github.com/NeuroZen-Moviles/neurozen_front_flutter]
+- **Frontend desplegado (Flutter):** [![Flutter Demo](https://img.shields.io/badge/Demo-Flutter-blue?style=for-the-badge&logo=flutter&logoColor=white)](https://appetize.io/app/android/com.neurozen.app.neurozen_front?device=pixel7&osVersion=13.0&toolbar=true)
 
-Repositorio del Backend:
+- **Video About The Product (Android):** [![About The Product Android](https://img.shields.io/badge/Video-About%20The%20Product-red?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1-_v0KUTrHYfdEqTVUWcZBBUHyfarLtC4/view)
 
-## [● Link: [https://github.com/NeuroZen-Moviles/neurozen_backend_mobile.git]
+- **Video About The Product (Flutter):** [![About The Product Flutter](https://img.shields.io/badge/Video-About%20The%20Product-red?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1WmfQlVR6qOvY7nmcW1z558q4jJ54ccLg/view)
 
-Link del Frontend desplegado (Android):
-
-## [● Link: [https://appetize.io/app/android/com.example.neurozen_front?device=pixel7&osVersion=13.0&toolbar=true]
-
-Link del Frontend desplegado (Flutter):
-
-## [● Link: [https://appetize.io/app/android/com.neurozen.app.neurozen_front?device=pixel7&osVersion=13.0&toolbar=true]
-
-Link del video About The Product (Android):
-
-## [● Link: [https://drive.google.com/file/d/1-_v0KUTrHYfdEqTVUWcZBBUHyfarLtC4/view]
-
-Link del video About The Product (Flutter):
-
-## [● Link: [https://drive.google.com/file/d/1WmfQlVR6qOvY7nmcW1z558q4jJ54ccLg/view]
-
-Link del video About The Team:
-
-## [● Link: [https://drive.google.com/file/d/16jMDioUhBDkHK5oRhv3hPGo_qzby2eX6/view]
+- **Video About The Team:** [![About The Team](https://img.shields.io/badge/Video-About%20The%20Team-red?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/16jMDioUhBDkHK5oRhv3hPGo_qzby2eX6/view)
