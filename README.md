@@ -62,9 +62,7 @@
 </div>
 
 ---
-
 ## Registro de Versiones del Informe
-
 
 | Versión | Fecha | Autores | Descripción |
 |---------|-------|---------|-------------|
@@ -83,6 +81,18 @@
 | TB1 | 30/05/2026 | Huaman De La Cruz, Jean Pool | **Capítulo IV:** Punto 4.2.1.3 Development Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.1.4 Testing Suite Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.1.5 Execution Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.1.6 Services Documentation Evidence for Sprint Review |
 | TB1 | 30/05/2026 | Solis Chang, Santiago Valentino | **Capítulo IV:** Punto 4.2.1.7 Software Deployment Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.1.8 Team Collaboration Insights during Sprint<br>**Capítulo IV:** Punto 4.3 Validation Interviews<br>**Capítulo IV:** Punto 4.3.1 Diseño de Entrevistas |
 | TB1 | 30/05/2026 | Vila Guillen, Miguel Angel | **Capítulo IV:** Punto 4.3.2 Registro de Entrevistas<br>**Capítulo IV:** Punto 4.3.3 Evaluaciones según heurísticas |
+| AV2 | 21/06/2026 | Castro Picón, Manuel Fernando Joao | **Capítulo IV:** Punto 4.2.2 Sprint 2<br>**Capítulo IV:** Punto 4.2.2.1 Sprint Planning 2<br>**Capítulo IV:** Punto 4.2.2.2 Sprint Backlog 2<br>**Capítulo IV:** Punto 4.2.2.6 Services Documentation Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.7 Software Deployment Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.8 Team Collaboration Insights during Sprint<br>**Capítulo IV:** Punto 4.3 Validation Interviews<br>**Capítulo IV:** Punto 4.3.1 Diseño de Entrevistas<br>**Capítulo IV:** Punto 4.3.2 Registro de Entrevistas |
+| AV2 | 21/06/2026 | Requena Gutiérrez, Diego Gabriel | **Capítulo IV:** Punto 4.2.2.3 Development Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.4 Testing Suite Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.5 Execution Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.6 Services Documentation Evidence for Sprint Review |
+| AV2 | 21/06/2026 | Huaman De La Cruz, Jean Pool | **Capítulo IV:** Punto 4.2.2.5 Execution Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.7 Software Deployment Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.8 Team Collaboration Insights during Sprint |
+| AV2 | 21/06/2026 | Solis Chang, Santiago Valentino | **Capítulo IV:** Punto 4.2.2.3 Development Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.4 Testing Suite Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.5 Execution Evidence for Sprint Review |
+| AV2 | 21/06/2026 | Vila Guillen, Miguel Angel | **Capítulo IV:** Punto 4.2.2.3 Development Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.4 Testing Suite Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.5 Execution Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.7 Software Deployment Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.2.8 Team Collaboration Insights during Sprint |
+| TB2 | 10/07/2026 | Castro Picón, Manuel Fernando Joao | **Capítulo IV:** Punto 4.2.3 Sprint 3<br>**Capítulo IV:** Punto 4.2.3.1 Sprint Planning 3<br>**Capítulo IV:** Punto 4.2.3.2 Sprint Backlog 3<br>**Capítulo IV:** Punto 4.2.3.3 Development Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.5 Execution Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.7 Software Deployment Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.8 Team Collaboration Insights during Sprint<br>**Capítulo IV:** Punto 4.3.3 Evaluaciones según heurísticas<br>**Conclusiones y Recomendaciones** (versión final) |
+| TB2 | 10/07/2026 | Requena Gutiérrez, Diego Gabriel | **Capítulo IV:** Punto 4.2.3.3 Development Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.4 Testing Suite Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.6 Services Documentation Evidence for Sprint Review<br>**Bibliografía** (actualización con papers académicos) |
+| TB2 | 10/07/2026 | Huaman De La Cruz, Jean Pool | **Capítulo IV:** Punto 4.2.3.4 Testing Suite Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.5 Execution Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.8 Team Collaboration Insights during Sprint<br>**Capítulo IV:** Punto 4.3.3 Evaluaciones según heurísticas<br>**Project Report Collaboration Insights** (actualización TB2) |
+| TB2 | 10/07/2026 | Solis Chang, Santiago Valentino | **Capítulo IV:** Punto 4.2.3.3 Development Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.5 Execution Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.7 Software Deployment Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.8 Team Collaboration Insights during Sprint<br>**Objetivos SMART** (actualización final) |
+| TB2 | 10/07/2026 | Vila Guillen, Miguel Angel | **Capítulo IV:** Punto 4.2.3.3 Development Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.4 Testing Suite Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.6 Services Documentation Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.7 Software Deployment Evidence for Sprint Review<br>**Capítulo IV:** Punto 4.2.3.8 Team Collaboration Insights during Sprint<br>**Student Outcome** (actualización TB2) |
+
+---
 
 ## Project Report Collaboration Insights
 
