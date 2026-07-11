@@ -4155,6 +4155,14 @@ Link del Frontend desplegado (Flutter):
 
 ## [● Link: [https://appetize.io/app/android/com.neurozen.app.neurozen_front?device=pixel7&osVersion=13.0&toolbar=true]
 
+Link del video About The Product (Android):
 
+## [● Link: [https://drive.google.com/file/d/1-_v0KUTrHYfdEqTVUWcZBBUHyfarLtC4/view]
 
+Link del video About The Product (Flutter):
 
+## [● Link: [https://drive.google.com/file/d/1WmfQlVR6qOvY7nmcW1z558q4jJ54ccLg/view]
+
+Link del video About The Team:
+
+## [● Link: [https://drive.google.com/file/d/16jMDioUhBDkHK5oRhv3hPGo_qzby2eX6/view]
